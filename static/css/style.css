@@ -1,0 +1,73 @@
+.transports-list,
+.station-search {
+  display: none;
+}
+
+.transports-list.show,
+.station-search.show {
+  display: block;
+  animation: slideDown 0.3s ease;
+}
+
+.transports-list .active-item {
+  background-color: #6d8ed1;
+  color: #fff;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 500px;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 500px;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+    max-height: 0;
+  }
+}
+.map-wrapper {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Контролы поверх карты */
+.map-controls {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 50%;
+  max-width: 600px;
+  text-align: center;
+}
+
+#stationSelect #stationSelect--single {
+  height: 48px !important; /* Вместо 38px */
+  padding: 10px !important;
+  font-size: 16px !important;
+}
