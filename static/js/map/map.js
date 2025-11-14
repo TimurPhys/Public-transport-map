@@ -3,14 +3,23 @@ import { createCustomIcon } from "./style/markers.js";
 import { allowed_transports } from "../transports/script.js";
 import { showPanel } from "../transports/show_labels.js";
 import { showMarkersRoute } from "./handle_marker_click.js";
-import { routes, polylines, buses, minibuses } from "../routes/routes.js";
+import { routes, buses, minibuses } from "../routes/routes.js";
 
 const map = L.map("map").setView([56.49, 21.02], 15);
 
 const tiles = createLayers().google_maps;
 tiles.addTo(map);
 
-let map_vehicles = [];
+const routeState = {
+  currentPolyline: null,
+  currentMarkers: [],
+  currentRoute: null,
+  currentNumber: null,
+  latlng: null,
+};
+const totalState = {
+  map_vehicles: [],
+};
 
 function vehicle_init(vehicle) {
   let type = null;
@@ -43,7 +52,7 @@ function updateMap(vehicles) {
       const latlng = [vehicle["long"], vehicle["lat"]];
 
       if (
-        !map_vehicles.find(
+        !totalState.map_vehicles.find(
           (map_vehicle) => map_vehicle["number"] === vehicle["number"]
         )
       ) {
@@ -58,7 +67,7 @@ function updateMap(vehicles) {
         if (allowed_transports.includes(vehicle["type"])) {
           // Рисую
           currentIds.add(vehicle["number"]);
-          map_vehicles.push(vehicle); // Добавляю в массив
+          totalState.map_vehicles.push(vehicle); // Добавляю в массив
           vehicle["marker"].addTo(map); // Добавляем маркер на карте
 
           vehicle["marker"].bindPopup(`
@@ -67,60 +76,59 @@ function updateMap(vehicles) {
                                 Маршрут: ${vehicle["route"]}
                             `); // Добавляем всплывающее окно
           vehicle["marker"].on("click", () => {
+            routeState.currentRoute = vehicle["route"];
+            routeState.currentNumber = vehicle["number"];
+            routeState.latlng = vehicle["marker"].getLatLng();
             // Привязываю обработчик нажатий
-            showMarkersRoute(vehicle);
+            showMarkersRoute(routeState, totalState);
             showPanel(map, vehicle);
           });
         }
       } else {
-        const vehicle_to_update = map_vehicles.find(
+        const vehicle_to_update = totalState.map_vehicles.find(
           (map_vehicle) => map_vehicle["number"] === vehicle["number"]
         );
-        if (vehicle_to_update["route"] == "T") {
-          updatePosition(vehicle_to_update, latlng);
-        } else {
-          vehicle_to_update["marker"].setLatLng(latlng);
-        }
+        vehicle_to_update["marker"].setLatLng(latlng);
       }
     }
   });
   // Удаляем старые маркеры
-  for (let i = map_vehicles.length - 1; i >= 0; i--) {
-    const map_vehicle = map_vehicles[i];
+  for (let i = totalState.map_vehicles.length - 1; i >= 0; i--) {
+    const map_vehicle = totalState.map_vehicles[i];
 
     if (!currentIds.has(map_vehicle["number"])) {
       map.removeLayer(map_vehicle["marker"]);
-      map_vehicles.splice(i, 1); // Удаляем текущий элемент
+      totalState.map_vehicles.splice(i, 1); // Удаляем текущий элемент
     }
   }
 }
 
-function updatePosition(vehicle_to_update, new_latlng) {
-  const latlng = L.latLng(new_latlng[0], new_latlng[1]);
-  // Находим ближайшую точку на маршруте
-  const closestPoint = L.GeometryUtil.closest(
-    map,
-    polylines[vehicle_to_update["route"]],
-    latlng
-  );
+// function updatePosition(vehicle_to_update, new_latlng) {
+//   const latlng = L.latLng(new_latlng[0], new_latlng[1]);
+//   // Находим ближайшую точку на маршруте
+//   const closestPoint = L.GeometryUtil.closest(
+//     map,
+//     polylines[vehicle_to_update["route"]],
+//     latlng
+//   );
 
-  // Ставим маркер на ближайшую точку
-  vehicle_to_update["marker"].setLatLng(closestPoint);
-}
+//   // Ставим маркер на ближайшую точку
+//   vehicle_to_update["marker"].setLatLng(closestPoint);
+// }
 
 function refreshTransports() {
-  for (let i = map_vehicles.length - 1; i >= 0; i--) {
-    const map_vehicle = map_vehicles[i];
+  for (let i = totalState.map_vehicles.length - 1; i >= 0; i--) {
+    const map_vehicle = totalState.map_vehicles[i];
     const transport_type = map_vehicle["type"];
 
     if (!allowed_transports.includes(transport_type)) {
       map.removeLayer(map_vehicle["marker"]);
-      map_vehicles.splice(i, 1); // Удаляем текущий элемент
+      totalState.map_vehicles.splice(i, 1); // Удаляем текущий элемент
     }
   }
 }
 // -----------------------------------------------------------------------
 
-export { map };
+export { map, routeState, totalState };
 export { updateMap };
 export { refreshTransports };

@@ -4551,7 +4551,152 @@ const new_routes = {
           lng: 21.03106945753098,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Mirdzas Ķempes iela",
+          coords: {
+            lat: 56.48189784792875,
+            lng: 21.025992035865787,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Cieceres iela",
+          coords: {
+            lat: 56.482779091481575,
+            lng: 21.021255254745487,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.48377574495424,
+            lng: 21.015805006027225,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48541389603778,
+            lng: 21.012728512287143,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Tukuma iela",
+          coords: {
+            lat: 56.48715991097471,
+            lng: 21.009354293346405,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728434295346,
+            lng: 21.005652844905857,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49088869325624,
+            lng: 21.00547850131989,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Līvas laukums",
+          coords: {
+            lat: 56.49799769671764,
+            lng: 21.006684355018344,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.501935299394994,
+            lng: 21.00624024868012,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50546981119077,
+            lng: 21.00680619478226,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Rožu laukums",
+          coords: {
+            lat: 56.508445002788996,
+            lng: 21.011127233505253,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51089874775666,
+            lng: 21.013755798339847,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.5173823213335,
+            lng: 21.01542949676514,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52062256024106,
+            lng: 21.01629585027695,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Stacija",
+          coords: {
+            lat: 56.52369578643726,
+            lng: 21.017596721649173,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Dzelzceļnieku iela",
+          coords: {
+            lat: 56.52171595169797,
+            lng: 21.021467149257663,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52425487948515,
+            lng: 21.0273814201355,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.52559520055271,
+            lng: 21.030645668506622,
+          },
+          trans_attend: ["T"],
+        },
+      ],
     }, // -- наверх
     m2: {
       trajectory: [
@@ -5240,7 +5385,152 @@ const new_routes = {
           lng: 21.02674171328545,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.52559520055271,
+            lng: 21.030645668506622,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52418230862621,
+            lng: 21.027115881443027,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Dzelzceļnieku iela",
+          coords: {
+            lat: 56.52177959601364,
+            lng: 21.020759046077732,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Stacija",
+          coords: {
+            lat: 56.52318813471133,
+            lng: 21.016928851604465,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52025844299007,
+            lng: 21.016151010990146,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.517151398372924,
+            lng: 21.015322208404545,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51097573493228,
+            lng: 21.013825535774235,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Rožu laukums",
+          coords: {
+            lat: 56.50826436672549,
+            lng: 21.010947525501255,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50489556058435,
+            lng: 21.006688177585605,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50091579238561,
+            lng: 21.006169370887484,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Līvas laukums",
+          coords: {
+            lat: 56.497440490602116,
+            lng: 21.006489694118503,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49088869325624,
+            lng: 21.00547850131989,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48702064460042,
+            lng: 21.005642116069797,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Tukuma iela",
+          coords: {
+            lat: 56.487220650422515,
+            lng: 21.010032892227176,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.4851427770363,
+            lng: 21.01302891969681,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.48363054951642,
+            lng: 21.0164487361908,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Cieceres iela",
+          coords: {
+            lat: 56.48262352083396,
+            lng: 21.021955311298374,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Mirdzas Ķempes iela",
+          coords: {
+            lat: 56.48173042036528,
+            lng: 21.026745736598972,
+          },
+          trans_attend: ["T"],
+        },
+      ],
     },
   },
   "1A": {
@@ -8131,7 +8421,369 @@ const new_routes = {
           lng: 21.0112,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55328776347143,
+            lng: 21.01815462112427,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.50844480649468,
+            lng: 21.009796857833862,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Jūras iela",
+          coords: {
+            lat: 56.51053920301431,
+            lng: 21.006189286708835,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.51032612355418,
+            lng: 21.000132858753208,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50653227614955,
+            lng: 21.000875830650333,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.502870450086654,
+            lng: 21.00247979164124,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.500741847054584,
+            lng: 21.003397107124332,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49856265223837,
+            lng: 21.003756523132328,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.49441558015101,
+            lng: 21.004515588283542,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49029476385661,
+            lng: 21.005626022815708,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728280377305,
+            lng: 21.00582450628281,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.485844854908116,
+            lng: 21.009151786565784,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Dienvidu robeža",
+          coords: {
+            lat: 56.476771472561346,
+            lng: 21.008761525154117,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Tonus Elast",
+          coords: {
+            lat: 56.453926999427736,
+            lng: 21.011215746402744,
+          },
+          trans_attend: ["1A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -10784,7 +11436,348 @@ const new_routes = {
           lng: 21.0118,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Tonus Elast",
+          coords: {
+            lat: 56.453926999427736,
+            lng: 21.011215746402744,
+          },
+          trans_attend: ["1A"],
+        },
+        {
+          name: "Dienvidu robeža",
+          coords: {
+            lat: 56.47747238432245,
+            lng: 21.008595228195194,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Svētes iela",
+          coords: {
+            lat: 56.48302910274455,
+            lng: 21.01472675800324,
+          },
+          trans_attend: ["1A", "10A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.48585226241979,
+            lng: 21.008951961994175,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50528481687705,
+            lng: 21.00144982337952,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.5090606520307,
+            lng: 20.9997895359993,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Graudu iela",
+          coords: {
+            lat: 56.51075684149819,
+            lng: 21.00430637598038,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.5087468517616,
+            lng: 21.008992195129398,
+          },
+          trans_attend: ["6", "1A", "2s", "6A"],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55355100108751,
+            lng: 21.016749143600467,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+      ],
     },
   },
   "1s": {
@@ -11995,7 +12988,204 @@ const new_routes = {
           lng: 21.09896,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.554775743283486,
+            lng: 21.096778213977814,
+          },
+          trans_attend: ["1s", "4s", "6A", "9A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.532021263459896,
+            lng: 21.00829213857651,
+          },
+          name: "Zaru iela",
+          trans_attend: ["11", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532053747841374,
+            lng: 21.003153026103977,
+          },
+          name: "Lapu iela",
+          trans_attend: ["11", "23", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+      ],
     },
   },
   "2s": {
@@ -13738,7 +14928,288 @@ const new_routes = {
           lng: 21.00345,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Nīcas iela",
+          coords: {
+            lat: 56.49273337857299,
+            lng: 21.018369197845463,
+          },
+          trans_attend: ["2s"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.49243824725947,
+            lng: 21.02046668529511,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Tukuma iela",
+          coords: {
+            lat: 56.48771649006829,
+            lng: 21.012291312217716,
+          },
+          trans_attend: ["2s"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50528481687705,
+            lng: 21.00144982337952,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.5090606520307,
+            lng: 20.9997895359993,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Graudu iela",
+          coords: {
+            lat: 56.51075684149819,
+            lng: 21.00430637598038,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.5087468517616,
+            lng: 21.008992195129398,
+          },
+          trans_attend: ["6", "1A", "2s", "6A"],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Sliežu iela",
+          coords: {
+            lat: 56.523855702571396,
+            lng: 21.004266142845157,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526844119301316,
+            lng: 21.00368142127991,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Ziemeļu kapi",
+          coords: {
+            lat: 56.53143601328235,
+            lng: 21.002774834632877,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+      ],
     },
   },
   3: {
@@ -16273,7 +17744,343 @@ const new_routes = {
           lng: 21.0118,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48968739155598,
+            lng: 21.019849777221683,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49522110516929,
+            lng: 21.018924415111545,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Salmu iela",
+          coords: {
+            lat: 56.49754561995559,
+            lng: 21.019586920738224,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.50069898964906,
+            lng: 21.016813516616825,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.50256251173176,
+            lng: 21.008922457695007,
+          },
+          trans_attend: ["3", "4", "9", "9A", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55355100108751,
+            lng: 21.016749143600467,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -18774,7 +20581,357 @@ const new_routes = {
           lng: 21.02721,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55328776347143,
+            lng: 21.01815462112427,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.5013594494207,
+            lng: 21.008107066154484,
+          },
+          trans_attend: ["3", "4", "9", "10", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.49997300027446,
+            lng: 21.01656943559647,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Raiņa vidusskola",
+          coords: {
+            lat: 56.497181365140854,
+            lng: 21.016561388969425,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49486363940153,
+            lng: 21.017358005046848,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.49243824725947,
+            lng: 21.02046668529511,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
     },
   },
   4: {
@@ -18813,24 +20970,24 @@ const new_routes = {
           lng: 21.02202,
         },
         {
+          lat: 56.48277,
+          lng: 21.02159,
+        },
+        {
+          lat: 56.48277,
+          lng: 21.02159,
+        },
+        {
+          lat: 56.48277,
+          lng: 21.02159,
+        },
+        {
           lat: 56.48281,
           lng: 21.0214,
         },
         {
           lat: 56.48298,
           lng: 21.02044,
-        },
-        {
-          lat: 56.48327,
-          lng: 21.01895,
-        },
-        {
-          lat: 56.48327,
-          lng: 21.01895,
-        },
-        {
-          lat: 56.48327,
-          lng: 21.01895,
         },
         {
           lat: 56.48331,
@@ -18849,24 +21006,24 @@ const new_routes = {
           lng: 21.01669,
         },
         {
+          lat: 56.48374,
+          lng: 21.01632,
+        },
+        {
+          lat: 56.48374,
+          lng: 21.01632,
+        },
+        {
+          lat: 56.48374,
+          lng: 21.01632,
+        },
+        {
           lat: 56.48382,
           lng: 21.0159,
         },
         {
           lat: 56.48384,
           lng: 21.01576,
-        },
-        {
-          lat: 56.48385,
-          lng: 21.01571,
-        },
-        {
-          lat: 56.48385,
-          lng: 21.01571,
-        },
-        {
-          lat: 56.48385,
-          lng: 21.01571,
         },
         {
           lat: 56.48389,
@@ -18909,20 +21066,20 @@ const new_routes = {
           lng: 21.0161,
         },
         {
+          lat: 56.48515,
+          lng: 21.01613,
+        },
+        {
+          lat: 56.48515,
+          lng: 21.01613,
+        },
+        {
+          lat: 56.48515,
+          lng: 21.01613,
+        },
+        {
           lat: 56.48516,
           lng: 21.01614,
-        },
-        {
-          lat: 56.48525,
-          lng: 21.01617,
-        },
-        {
-          lat: 56.48525,
-          lng: 21.01617,
-        },
-        {
-          lat: 56.48525,
-          lng: 21.01617,
         },
         {
           lat: 56.48531,
@@ -18957,19 +21114,19 @@ const new_routes = {
           lng: 21.01652,
         },
         {
-          lat: 56.48689,
-          lng: 21.01657,
-        },
-        {
-          lat: 56.48689,
-          lng: 21.01657,
-        },
-        {
-          lat: 56.48689,
-          lng: 21.01657,
-        },
-        {
           lat: 56.48715,
+          lng: 21.01661,
+        },
+        {
+          lat: 56.48716,
+          lng: 21.01661,
+        },
+        {
+          lat: 56.48716,
+          lng: 21.01661,
+        },
+        {
+          lat: 56.48716,
           lng: 21.01661,
         },
         {
@@ -19029,16 +21186,16 @@ const new_routes = {
           lng: 21.01815,
         },
         {
-          lat: 56.48904,
-          lng: 21.01901,
+          lat: 56.48902,
+          lng: 21.01894,
         },
         {
-          lat: 56.48904,
-          lng: 21.01901,
+          lat: 56.48902,
+          lng: 21.01894,
         },
         {
-          lat: 56.48904,
-          lng: 21.01901,
+          lat: 56.48902,
+          lng: 21.01894,
         },
         {
           lat: 56.48909,
@@ -19077,20 +21234,20 @@ const new_routes = {
           lng: 21.01976,
         },
         {
+          lat: 56.49008,
+          lng: 21.01992,
+        },
+        {
+          lat: 56.49008,
+          lng: 21.01992,
+        },
+        {
+          lat: 56.49008,
+          lng: 21.01992,
+        },
+        {
           lat: 56.49043,
           lng: 21.02,
-        },
-        {
-          lat: 56.49076,
-          lng: 21.02008,
-        },
-        {
-          lat: 56.49076,
-          lng: 21.02008,
-        },
-        {
-          lat: 56.49076,
-          lng: 21.02008,
         },
         {
           lat: 56.49203,
@@ -19117,16 +21274,16 @@ const new_routes = {
           lng: 21.02073,
         },
         {
-          lat: 56.49362,
-          lng: 21.02075,
+          lat: 56.49382,
+          lng: 21.02079,
         },
         {
-          lat: 56.49362,
-          lng: 21.02075,
+          lat: 56.49382,
+          lng: 21.02079,
         },
         {
-          lat: 56.49362,
-          lng: 21.02075,
+          lat: 56.49382,
+          lng: 21.02079,
         },
         {
           lat: 56.49407,
@@ -19153,16 +21310,16 @@ const new_routes = {
           lng: 21.02078,
         },
         {
-          lat: 56.49471,
-          lng: 21.01934,
+          lat: 56.4947,
+          lng: 21.01943,
         },
         {
-          lat: 56.49471,
-          lng: 21.01934,
+          lat: 56.4947,
+          lng: 21.01943,
         },
         {
-          lat: 56.49471,
-          lng: 21.01934,
+          lat: 56.4947,
+          lng: 21.01943,
         },
         {
           lat: 56.49473,
@@ -19185,20 +21342,20 @@ const new_routes = {
           lng: 21.01896,
         },
         {
-          lat: 56.49653,
-          lng: 21.01926,
-        },
-        {
-          lat: 56.49653,
-          lng: 21.01926,
-        },
-        {
-          lat: 56.49653,
-          lng: 21.01926,
-        },
-        {
           lat: 56.49656,
           lng: 21.01927,
+        },
+        {
+          lat: 56.49711,
+          lng: 21.0194,
+        },
+        {
+          lat: 56.49711,
+          lng: 21.0194,
+        },
+        {
+          lat: 56.49711,
+          lng: 21.0194,
         },
         {
           lat: 56.49726,
@@ -19253,16 +21410,16 @@ const new_routes = {
           lng: 21.02101,
         },
         {
-          lat: 56.49993,
-          lng: 21.02144,
+          lat: 56.49984,
+          lng: 21.0214,
         },
         {
-          lat: 56.49993,
-          lng: 21.02144,
+          lat: 56.49984,
+          lng: 21.0214,
         },
         {
-          lat: 56.49993,
-          lng: 21.02144,
+          lat: 56.49984,
+          lng: 21.0214,
         },
         {
           lat: 56.50017,
@@ -19277,20 +21434,20 @@ const new_routes = {
           lng: 21.02146,
         },
         {
+          lat: 56.50027,
+          lng: 21.02034,
+        },
+        {
+          lat: 56.50027,
+          lng: 21.02034,
+        },
+        {
+          lat: 56.50027,
+          lng: 21.02034,
+        },
+        {
           lat: 56.50032,
           lng: 21.01979,
-        },
-        {
-          lat: 56.50037,
-          lng: 21.01924,
-        },
-        {
-          lat: 56.50037,
-          lng: 21.01924,
-        },
-        {
-          lat: 56.50037,
-          lng: 21.01924,
         },
         {
           lat: 56.50043,
@@ -19337,6 +21494,18 @@ const new_routes = {
           lng: 21.01514,
         },
         {
+          lat: 56.50134,
+          lng: 21.01471,
+        },
+        {
+          lat: 56.50134,
+          lng: 21.01471,
+        },
+        {
+          lat: 56.50134,
+          lng: 21.01471,
+        },
+        {
           lat: 56.50145,
           lng: 21.01407,
         },
@@ -19347,18 +21516,6 @@ const new_routes = {
         {
           lat: 56.50151,
           lng: 21.01385,
-        },
-        {
-          lat: 56.50164,
-          lng: 21.01352,
-        },
-        {
-          lat: 56.50164,
-          lng: 21.01352,
-        },
-        {
-          lat: 56.50164,
-          lng: 21.01352,
         },
         {
           lat: 56.50214,
@@ -19391,18 +21548,6 @@ const new_routes = {
         {
           lat: 56.50252,
           lng: 21.00928,
-        },
-        {
-          lat: 56.50254,
-          lng: 21.00917,
-        },
-        {
-          lat: 56.50254,
-          lng: 21.00917,
-        },
-        {
-          lat: 56.50254,
-          lng: 21.00917,
         },
         {
           lat: 56.50257,
@@ -19441,16 +21586,16 @@ const new_routes = {
           lng: 21.00915,
         },
         {
-          lat: 56.50333,
-          lng: 21.00922,
+          lat: 56.50336,
+          lng: 21.00925,
         },
         {
-          lat: 56.50333,
-          lng: 21.00922,
+          lat: 56.50336,
+          lng: 21.00925,
         },
         {
-          lat: 56.50333,
-          lng: 21.00922,
+          lat: 56.50336,
+          lng: 21.00925,
         },
         {
           lat: 56.5034,
@@ -19489,6 +21634,10 @@ const new_routes = {
           lng: 21.01084,
         },
         {
+          lat: 56.50443,
+          lng: 21.01084,
+        },
+        {
           lat: 56.50446,
           lng: 21.01092,
         },
@@ -19511,18 +21660,6 @@ const new_routes = {
         {
           lat: 56.50495,
           lng: 21.01135,
-        },
-        {
-          lat: 56.50497,
-          lng: 21.01137,
-        },
-        {
-          lat: 56.50497,
-          lng: 21.01137,
-        },
-        {
-          lat: 56.50497,
-          lng: 21.01137,
         },
         {
           lat: 56.50504,
@@ -19553,16 +21690,20 @@ const new_routes = {
           lng: 21.01235,
         },
         {
+          lat: 56.50582,
+          lng: 21.01268,
+        },
+        {
+          lat: 56.50582,
+          lng: 21.01268,
+        },
+        {
+          lat: 56.50582,
+          lng: 21.01268,
+        },
+        {
           lat: 56.50589,
           lng: 21.0128,
-        },
-        {
-          lat: 56.50601,
-          lng: 21.01295,
-        },
-        {
-          lat: 56.50601,
-          lng: 21.01295,
         },
         {
           lat: 56.50601,
@@ -19585,52 +21726,16 @@ const new_routes = {
           lng: 21.01317,
         },
         {
-          lat: 56.50625,
-          lng: 21.01335,
+          lat: 56.50624,
+          lng: 21.0132,
         },
         {
-          lat: 56.50636,
-          lng: 21.01399,
-        },
-        {
-          lat: 56.50636,
-          lng: 21.01399,
-        },
-        {
-          lat: 56.50636,
-          lng: 21.01399,
-        },
-        {
-          lat: 56.50637,
-          lng: 21.01367,
-        },
-        {
-          lat: 56.50637,
-          lng: 21.01345,
-        },
-        {
-          lat: 56.50637,
-          lng: 21.01345,
-        },
-        {
-          lat: 56.50637,
-          lng: 21.01345,
+          lat: 56.50634,
+          lng: 21.01323,
         },
         {
           lat: 56.50637,
           lng: 21.01321,
-        },
-        {
-          lat: 56.50641,
-          lng: 21.01288,
-        },
-        {
-          lat: 56.50641,
-          lng: 21.01288,
-        },
-        {
-          lat: 56.50641,
-          lng: 21.01288,
         },
         {
           lat: 56.50651,
@@ -19653,20 +21758,20 @@ const new_routes = {
           lng: 21.01115,
         },
         {
-          lat: 56.50669,
-          lng: 21.0108,
-        },
-        {
-          lat: 56.50669,
-          lng: 21.0108,
-        },
-        {
-          lat: 56.50669,
-          lng: 21.0108,
-        },
-        {
           lat: 56.50675,
           lng: 21.01054,
+        },
+        {
+          lat: 56.50682,
+          lng: 21.01029,
+        },
+        {
+          lat: 56.50682,
+          lng: 21.01029,
+        },
+        {
+          lat: 56.50682,
+          lng: 21.01029,
         },
         {
           lat: 56.50683,
@@ -19717,18 +21822,6 @@ const new_routes = {
           lng: 21.01028,
         },
         {
-          lat: 56.50756,
-          lng: 21.01045,
-        },
-        {
-          lat: 56.50756,
-          lng: 21.01045,
-        },
-        {
-          lat: 56.50756,
-          lng: 21.01045,
-        },
-        {
           lat: 56.50783,
           lng: 21.01071,
         },
@@ -19741,16 +21834,16 @@ const new_routes = {
           lng: 21.01092,
         },
         {
-          lat: 56.50867,
-          lng: 21.01147,
+          lat: 56.50831,
+          lng: 21.01116,
         },
         {
-          lat: 56.50867,
-          lng: 21.01147,
+          lat: 56.50831,
+          lng: 21.01116,
         },
         {
-          lat: 56.50867,
-          lng: 21.01147,
+          lat: 56.50831,
+          lng: 21.01116,
         },
         {
           lat: 56.50871,
@@ -19785,18 +21878,6 @@ const new_routes = {
           lng: 21.01223,
         },
         {
-          lat: 56.50963,
-          lng: 21.0123,
-        },
-        {
-          lat: 56.50963,
-          lng: 21.0123,
-        },
-        {
-          lat: 56.50963,
-          lng: 21.0123,
-        },
-        {
           lat: 56.50977,
           lng: 21.01244,
         },
@@ -19809,32 +21890,8 @@ const new_routes = {
           lng: 21.01276,
         },
         {
-          lat: 56.51013,
-          lng: 21.01286,
-        },
-        {
-          lat: 56.51013,
-          lng: 21.01286,
-        },
-        {
-          lat: 56.51013,
-          lng: 21.01286,
-        },
-        {
           lat: 56.51028,
           lng: 21.01305,
-        },
-        {
-          lat: 56.51044,
-          lng: 21.01326,
-        },
-        {
-          lat: 56.51044,
-          lng: 21.01326,
-        },
-        {
-          lat: 56.51044,
-          lng: 21.01326,
         },
         {
           lat: 56.51056,
@@ -19847,18 +21904,6 @@ const new_routes = {
         {
           lat: 56.5109,
           lng: 21.01386,
-        },
-        {
-          lat: 56.51099,
-          lng: 21.01397,
-        },
-        {
-          lat: 56.51099,
-          lng: 21.01397,
-        },
-        {
-          lat: 56.51099,
-          lng: 21.01397,
         },
         {
           lat: 56.51104,
@@ -19877,16 +21922,16 @@ const new_routes = {
           lng: 21.01425,
         },
         {
-          lat: 56.51163,
-          lng: 21.0143,
+          lat: 56.51181,
+          lng: 21.01433,
         },
         {
-          lat: 56.51163,
-          lng: 21.0143,
+          lat: 56.51181,
+          lng: 21.01433,
         },
         {
-          lat: 56.51163,
-          lng: 21.0143,
+          lat: 56.51181,
+          lng: 21.01433,
         },
         {
           lat: 56.51186,
@@ -19942,267 +21987,123 @@ const new_routes = {
         },
         {
           lat: 56.51351,
-          lng: 21.01539,
+          lng: 21.0154,
         },
         {
           lat: 56.51351,
-          lng: 21.01539,
+          lng: 21.0154,
         },
         {
           lat: 56.51351,
-          lng: 21.01539,
+          lng: 21.0154,
         },
         {
           lat: 56.5135,
           lng: 21.01564,
         },
         {
-          lat: 56.51348,
-          lng: 21.01597,
+          lat: 56.51347495324905,
+          lng: 21.016098707914356,
         },
         {
-          lat: 56.51348,
-          lng: 21.01597,
+          lat: 56.51358076410053,
+          lng: 21.01611211895943,
         },
         {
-          lat: 56.51348,
-          lng: 21.01597,
+          lat: 56.5136813899948,
+          lng: 21.016129553318027,
         },
         {
-          lat: 56.51348,
-          lng: 21.01611,
+          lat: 56.513817530485426,
+          lng: 21.01618051528931,
         },
         {
-          lat: 56.51347,
-          lng: 21.01639,
+          lat: 56.513966988504414,
+          lng: 21.016251593828205,
         },
         {
-          lat: 56.51346,
-          lng: 21.01678,
+          lat: 56.514740993971415,
+          lng: 21.016609668731693,
         },
         {
-          lat: 56.51346,
-          lng: 21.01782,
+          lat: 56.51525153750018,
+          lng: 21.01685643196106,
         },
         {
-          lat: 56.51345,
-          lng: 21.0181,
+          lat: 56.515785742729435,
+          lng: 21.01709514856339,
         },
         {
-          lat: 56.51343,
-          lng: 21.01845,
+          lat: 56.51626667232373,
+          lng: 21.01732045412064,
         },
         {
-          lat: 56.51343,
-          lng: 21.01845,
+          lat: 56.51696363725367,
+          lng: 21.01767182350159,
         },
         {
-          lat: 56.5135,
-          lng: 21.01862,
+          lat: 56.51759695968877,
+          lng: 21.017988324165348,
         },
         {
-          lat: 56.51355,
-          lng: 21.01872,
+          lat: 56.51806899149631,
+          lng: 21.01822435855866,
         },
         {
-          lat: 56.51358,
-          lng: 21.01874,
+          lat: 56.51848626924155,
+          lng: 21.01842284202576,
         },
         {
-          lat: 56.51381,
-          lng: 21.01885,
+          lat: 56.519261611474256,
+          lng: 21.01880639791489,
         },
         {
-          lat: 56.51448,
-          lng: 21.01912,
+          lat: 56.5200147579717,
+          lng: 21.019165813922886,
         },
         {
-          lat: 56.51521,
-          lng: 21.01942,
+          lat: 56.52038020341191,
+          lng: 21.019353568553928,
         },
         {
-          lat: 56.51528,
-          lng: 21.01945,
+          lat: 56.52054890085781,
+          lng: 21.019479632377625,
         },
         {
-          lat: 56.51561,
-          lng: 21.01958,
+          lat: 56.52070868894814,
+          lng: 21.019624471664432,
         },
         {
-          lat: 56.51596,
-          lng: 21.01971,
+          lat: 56.52083444761944,
+          lng: 21.01979345083237,
         },
         {
-          lat: 56.51596,
-          lng: 21.01971,
+          lat: 56.520992785652375,
+          lng: 21.02003484964371,
         },
         {
-          lat: 56.51596,
-          lng: 21.01971,
+          lat: 56.521096350870884,
+          lng: 21.020227968692783,
         },
         {
-          lat: 56.51661,
-          lng: 21.01995,
+          lat: 56.52139818167776,
+          lng: 21.02095484733582,
         },
         {
-          lat: 56.51685,
-          lng: 21.02005,
+          lat: 56.52278455998086,
+          lng: 21.0241574048996,
         },
         {
-          lat: 56.51702,
-          lng: 21.02012,
+          lat: 56.52407315411028,
+          lng: 21.02714538574219,
         },
         {
-          lat: 56.51734,
-          lng: 21.02035,
+          lat: 56.52584705316886,
+          lng: 21.031254529953003,
         },
         {
-          lat: 56.51774,
-          lng: 21.02081,
-        },
-        {
-          lat: 56.51909,
-          lng: 21.02261,
-        },
-        {
-          lat: 56.51909,
-          lng: 21.02261,
-        },
-        {
-          lat: 56.51909,
-          lng: 21.02261,
-        },
-        {
-          lat: 56.51915,
-          lng: 21.0227,
-        },
-        {
-          lat: 56.51932,
-          lng: 21.02299,
-        },
-        {
-          lat: 56.5195,
-          lng: 21.02328,
-        },
-        {
-          lat: 56.5202,
-          lng: 21.02442,
-        },
-        {
-          lat: 56.52032,
-          lng: 21.02462,
-        },
-        {
-          lat: 56.52047,
-          lng: 21.02487,
-        },
-        {
-          lat: 56.52145,
-          lng: 21.02647,
-        },
-        {
-          lat: 56.52164,
-          lng: 21.02679,
-        },
-        {
-          lat: 56.52172,
-          lng: 21.02691,
-        },
-        {
-          lat: 56.52177,
-          lng: 21.027,
-        },
-        {
-          lat: 56.52186,
-          lng: 21.02714,
-        },
-        {
-          lat: 56.52193,
-          lng: 21.02727,
-        },
-        {
-          lat: 56.52207,
-          lng: 21.02751,
-        },
-        {
-          lat: 56.52242,
-          lng: 21.0281,
-        },
-        {
-          lat: 56.52262,
-          lng: 21.02843,
-        },
-        {
-          lat: 56.52315,
-          lng: 21.02929,
-        },
-        {
-          lat: 56.52344,
-          lng: 21.02979,
-        },
-        {
-          lat: 56.52407,
-          lng: 21.03083,
-        },
-        {
-          lat: 56.52463,
-          lng: 21.03173,
-        },
-        {
-          lat: 56.52463,
-          lng: 21.03173,
-        },
-        {
-          lat: 56.52463,
-          lng: 21.03173,
-        },
-        {
-          lat: 56.52495,
-          lng: 21.03225,
-        },
-        {
-          lat: 56.52501,
-          lng: 21.03232,
-        },
-        {
-          lat: 56.52512,
-          lng: 21.03243,
-        },
-        {
-          lat: 56.52531,
-          lng: 21.03257,
-        },
-        {
-          lat: 56.52542,
-          lng: 21.03262,
-        },
-        {
-          lat: 56.52581,
-          lng: 21.03273,
-        },
-        {
-          lat: 56.52606,
-          lng: 21.03279,
-        },
-        {
-          lat: 56.52606,
-          lng: 21.03279,
-        },
-        {
-          lat: 56.52623,
-          lng: 21.03288,
-        },
-        {
-          lat: 56.52646,
-          lng: 21.03295,
-        },
-        {
-          lat: 56.52653,
-          lng: 21.03299,
-        },
-        {
-          lat: 56.52657,
-          lng: 21.03306,
+          lat: 56.52661776653478,
+          lng: 21.032952368259433,
         },
         {
           lat: 56.52664,
@@ -20221,6 +22122,18 @@ const new_routes = {
           lng: 21.03345,
         },
         {
+          lat: 56.52701,
+          lng: 21.03403,
+        },
+        {
+          lat: 56.52701,
+          lng: 21.03403,
+        },
+        {
+          lat: 56.52701,
+          lng: 21.03403,
+        },
+        {
           lat: 56.52707,
           lng: 21.03416,
         },
@@ -20229,16 +22142,8 @@ const new_routes = {
           lng: 21.03433,
         },
         {
-          lat: 56.52726,
-          lng: 21.03461,
-        },
-        {
-          lat: 56.52726,
-          lng: 21.03461,
-        },
-        {
-          lat: 56.52726,
-          lng: 21.03461,
+          lat: 56.52714,
+          lng: 21.03433,
         },
         {
           lat: 56.5273,
@@ -20273,18 +22178,6 @@ const new_routes = {
           lng: 21.04224,
         },
         {
-          lat: 56.53128,
-          lng: 21.044,
-        },
-        {
-          lat: 56.53128,
-          lng: 21.044,
-        },
-        {
-          lat: 56.53128,
-          lng: 21.044,
-        },
-        {
           lat: 56.53239,
           lng: 21.04659,
         },
@@ -20305,16 +22198,16 @@ const new_routes = {
           lng: 21.04912,
         },
         {
-          lat: 56.5338,
-          lng: 21.05151,
+          lat: 56.53346,
+          lng: 21.05014,
         },
         {
-          lat: 56.5338,
-          lng: 21.05151,
+          lat: 56.53346,
+          lng: 21.05014,
         },
         {
-          lat: 56.5338,
-          lng: 21.05151,
+          lat: 56.53346,
+          lng: 21.05014,
         },
         {
           lat: 56.53423,
@@ -20341,16 +22234,16 @@ const new_routes = {
           lng: 21.05536,
         },
         {
-          lat: 56.53571,
-          lng: 21.0552,
+          lat: 56.53555,
+          lng: 21.05535,
         },
         {
-          lat: 56.53571,
-          lng: 21.0552,
+          lat: 56.53555,
+          lng: 21.05535,
         },
         {
-          lat: 56.53571,
-          lng: 21.0552,
+          lat: 56.53555,
+          lng: 21.05535,
         },
         {
           lat: 56.53586,
@@ -20405,12 +22298,16 @@ const new_routes = {
           lng: 21.05388,
         },
         {
-          lat: 56.53824,
-          lng: 21.05388,
+          lat: 56.53823,
+          lng: 21.05386,
         },
         {
-          lat: 56.53828,
-          lng: 21.05391,
+          lat: 56.53826,
+          lng: 21.05385,
+        },
+        {
+          lat: 56.53826,
+          lng: 21.05385,
         },
         {
           lat: 56.53828,
@@ -20453,18 +22350,6 @@ const new_routes = {
           lng: 21.05426,
         },
         {
-          lat: 56.539,
-          lng: 21.0543,
-        },
-        {
-          lat: 56.539,
-          lng: 21.0543,
-        },
-        {
-          lat: 56.539,
-          lng: 21.0543,
-        },
-        {
           lat: 56.53903,
           lng: 21.05431,
         },
@@ -20501,18 +22386,6 @@ const new_routes = {
           lng: 21.05477,
         },
         {
-          lat: 56.54173,
-          lng: 21.05477,
-        },
-        {
-          lat: 56.54173,
-          lng: 21.05477,
-        },
-        {
-          lat: 56.54173,
-          lng: 21.05477,
-        },
-        {
           lat: 56.54266,
           lng: 21.05494,
         },
@@ -20527,6 +22400,18 @@ const new_routes = {
         {
           lat: 56.54327,
           lng: 21.05505,
+        },
+        {
+          lat: 56.54361,
+          lng: 21.05513,
+        },
+        {
+          lat: 56.54361,
+          lng: 21.05513,
+        },
+        {
+          lat: 56.54361,
+          lng: 21.05513,
         },
         {
           lat: 56.544,
@@ -20645,6 +22530,18 @@ const new_routes = {
           lng: 21.05172,
         },
         {
+          lat: 56.54849,
+          lng: 21.05137,
+        },
+        {
+          lat: 56.54849,
+          lng: 21.05137,
+        },
+        {
+          lat: 56.54849,
+          lng: 21.05137,
+        },
+        {
           lat: 56.54882,
           lng: 21.05098,
         },
@@ -20655,18 +22552,6 @@ const new_routes = {
         {
           lat: 56.55032,
           lng: 21.04922,
-        },
-        {
-          lat: 56.55035,
-          lng: 21.04919,
-        },
-        {
-          lat: 56.55035,
-          lng: 21.04919,
-        },
-        {
-          lat: 56.55035,
-          lng: 21.04919,
         },
         {
           lat: 56.55086,
@@ -20733,6 +22618,18 @@ const new_routes = {
           lng: 21.04193,
         },
         {
+          lat: 56.55167,
+          lng: 21.04138,
+        },
+        {
+          lat: 56.55167,
+          lng: 21.04138,
+        },
+        {
+          lat: 56.55167,
+          lng: 21.04138,
+        },
+        {
           lat: 56.55169,
           lng: 21.04087,
         },
@@ -20759,18 +22656,6 @@ const new_routes = {
         {
           lat: 56.55178,
           lng: 21.03856,
-        },
-        {
-          lat: 56.55182,
-          lng: 21.0376,
-        },
-        {
-          lat: 56.55182,
-          lng: 21.0376,
-        },
-        {
-          lat: 56.55182,
-          lng: 21.0376,
         },
         {
           lat: 56.55185,
@@ -20841,20 +22726,24 @@ const new_routes = {
           lng: 21.02616,
         },
         {
+          lat: 56.55244,
+          lng: 21.02603,
+        },
+        {
+          lat: 56.55244,
+          lng: 21.02603,
+        },
+        {
+          lat: 56.55244,
+          lng: 21.02603,
+        },
+        {
           lat: 56.55248,
           lng: 21.0252,
         },
         {
           lat: 56.55253,
           lng: 21.0242,
-        },
-        {
-          lat: 56.55253,
-          lng: 21.0242,
-        },
-        {
-          lat: 56.55253,
-          lng: 21.02419,
         },
         {
           lat: 56.55254,
@@ -20897,6 +22786,18 @@ const new_routes = {
           lng: 21.02342,
         },
         {
+          lat: 56.54822,
+          lng: 21.02318,
+        },
+        {
+          lat: 56.54822,
+          lng: 21.02318,
+        },
+        {
+          lat: 56.54822,
+          lng: 21.02318,
+        },
+        {
           lat: 56.54793,
           lng: 21.02312,
         },
@@ -20925,18 +22826,6 @@ const new_routes = {
           lng: 21.02271,
         },
         {
-          lat: 56.54543,
-          lng: 21.02267,
-        },
-        {
-          lat: 56.54543,
-          lng: 21.02267,
-        },
-        {
-          lat: 56.54543,
-          lng: 21.02267,
-        },
-        {
           lat: 56.54493,
           lng: 21.02258,
         },
@@ -20947,6 +22836,18 @@ const new_routes = {
         {
           lat: 56.54487,
           lng: 21.02257,
+        },
+        {
+          lat: 56.54493,
+          lng: 21.02152,
+        },
+        {
+          lat: 56.54493,
+          lng: 21.02152,
+        },
+        {
+          lat: 56.54493,
+          lng: 21.02152,
         },
         {
           lat: 56.54501,
@@ -20969,18 +22870,6 @@ const new_routes = {
           lng: 21.01962,
         },
         {
-          lat: 56.54549,
-          lng: 21.01913,
-        },
-        {
-          lat: 56.54549,
-          lng: 21.01913,
-        },
-        {
-          lat: 56.54549,
-          lng: 21.01913,
-        },
-        {
           lat: 56.54566,
           lng: 21.01883,
         },
@@ -20999,6 +22888,18 @@ const new_routes = {
         {
           lat: 56.54727,
           lng: 21.01588,
+        },
+        {
+          lat: 56.54747,
+          lng: 21.01552,
+        },
+        {
+          lat: 56.54747,
+          lng: 21.01552,
+        },
+        {
+          lat: 56.54747,
+          lng: 21.01552,
         },
         {
           lat: 56.54774,
@@ -21065,16 +22966,16 @@ const new_routes = {
           lng: 21.00808,
         },
         {
-          lat: 56.54859,
-          lng: 21.00746,
+          lat: 56.54856,
+          lng: 21.00788,
         },
         {
-          lat: 56.54859,
-          lng: 21.00746,
+          lat: 56.54856,
+          lng: 21.00788,
         },
         {
-          lat: 56.54859,
-          lng: 21.00746,
+          lat: 56.54856,
+          lng: 21.00788,
         },
         {
           lat: 56.54862,
@@ -21113,6 +23014,18 @@ const new_routes = {
           lng: 21.00679,
         },
         {
+          lat: 56.55168,
+          lng: 21.00686,
+        },
+        {
+          lat: 56.55168,
+          lng: 21.00686,
+        },
+        {
+          lat: 56.55168,
+          lng: 21.00686,
+        },
+        {
           lat: 56.55217,
           lng: 21.00696,
         },
@@ -21131,18 +23044,6 @@ const new_routes = {
         {
           lat: 56.55384,
           lng: 21.00732,
-        },
-        {
-          lat: 56.55388,
-          lng: 21.00733,
-        },
-        {
-          lat: 56.55388,
-          lng: 21.00733,
-        },
-        {
-          lat: 56.55388,
-          lng: 21.00733,
         },
         {
           lat: 56.5542,
@@ -21173,32 +23074,282 @@ const new_routes = {
           lng: 21.00775,
         },
         {
-          lat: 56.55598,
-          lng: 21.0078,
+          lat: 56.55586,
+          lng: 21.00778,
         },
         {
-          lat: 56.55627,
-          lng: 21.00787,
-        },
-        {
-          lat: 56.55636,
-          lng: 21.00789,
-        },
-        {
-          lat: 56.55649,
-          lng: 21.00791,
-        },
-        {
-          lat: 56.55654,
-          lng: 21.00792,
-        },
-        {
-          lat: 56.55654,
-          lng: 21.00792,
+          lat: 56.55586,
+          lng: 21.00778,
         },
       ],
-      stations: {},
-    }, // ------------------------
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48968739155598,
+            lng: 21.019849777221683,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49522110516929,
+            lng: 21.018924415111545,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Salmu iela",
+          coords: {
+            lat: 56.49754561995559,
+            lng: 21.019586920738224,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.50069898964906,
+            lng: 21.016813516616825,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.50256251173176,
+            lng: 21.008922457695007,
+          },
+          trans_attend: ["3", "4", "9", "9A", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51513132157159,
+            lng: 21.016802787780765,
+          },
+          trans_attend: ["4", "9", "4s", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52127072313359,
+            lng: 21.020683944225315,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527923576996336,
+            lng: 21.03616833686829,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53299161832804,
+            lng: 21.048340201377872,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53614343357391,
+            lng: 21.054804325103763,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          name: "Piemares pamatskola",
+          coords: {
+            lat: 56.54987326290834,
+            lng: 21.023470759391788,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Turaidas iela",
+          coords: {
+            lat: 56.54502678239902,
+            lng: 21.022596359252933,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Invalīdu iela",
+          coords: {
+            lat: 56.54624161753377,
+            lng: 21.017757654190067,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          coords: {
+            lat: 56.548587116242736,
+            lng: 21.00797295570374,
+          },
+          name: "Lācplēša dārzs",
+          trans_attend: ["4", "7"],
+        },
+        {
+          coords: {
+            lat: 56.5519873724064,
+            lng: 21.00693225860596,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.55583349809851,
+            lng: 21.007769107818607,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+      ],
+    },
     m2: {
       trajectory: [
         {
@@ -23666,15 +25817,328 @@ const new_routes = {
           lng: 21.02721,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55654625788889,
+            lng: 21.00792467594147,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.551833564521296,
+            lng: 21.006894707679752,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54851020546951,
+            lng: 21.008662283420563,
+          },
+          name: "Lācplēša dārzs",
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Invalīdu iela",
+          coords: {
+            lat: 56.54586346617288,
+            lng: 21.01843893527985,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Turaidas iela",
+          coords: {
+            lat: 56.544883300606045,
+            lng: 21.022258400917057,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Piemares pamatskola",
+          coords: {
+            lat: 56.55065120974201,
+            lng: 21.023610234260563,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53609312924824,
+            lng: 21.05480164289475,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Saulesdruvas",
+          coords: {
+            lat: 56.534766239941995,
+            lng: 21.05487942695618,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53251220508497,
+            lng: 21.04654848575592,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Mehāniksais centrs",
+          coords: {
+            lat: 56.529734262523476,
+            lng: 21.040052175521854,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527296232268746,
+            lng: 21.034462451934818,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52425487948515,
+            lng: 21.0273814201355,
+          },
+          trans_attend: ["T"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52098209882982,
+            lng: 21.0199972987175,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.5013594494207,
+            lng: 21.008107066154484,
+          },
+          trans_attend: ["3", "4", "9", "10", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.49997300027446,
+            lng: 21.01656943559647,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Raiņa vidusskola",
+          coords: {
+            lat: 56.497181365140854,
+            lng: 21.016561388969425,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49486363940153,
+            lng: 21.017358005046848,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.49243824725947,
+            lng: 21.02046668529511,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
     },
   },
   "4s": {
     m1: {
       trajectory: [
         {
-          lat: 56.55227,
-          lng: 21.09901,
+          lat: 56.55229,
+          lng: 21.09899,
         },
         {
           lat: 56.55238,
@@ -23733,24 +26197,24 @@ const new_routes = {
           lng: 21.0974,
         },
         {
-          lat: 56.55282,
-          lng: 21.09737,
-        },
-        {
-          lat: 56.55282,
-          lng: 21.09737,
-        },
-        {
-          lat: 56.55282,
-          lng: 21.09737,
-        },
-        {
           lat: 56.55305,
           lng: 21.09722,
         },
         {
           lat: 56.55317,
           lng: 21.09721,
+        },
+        {
+          lat: 56.55325,
+          lng: 21.0972,
+        },
+        {
+          lat: 56.55325,
+          lng: 21.0972,
+        },
+        {
+          lat: 56.55325,
+          lng: 21.0972,
         },
         {
           lat: 56.554,
@@ -23794,15 +26258,15 @@ const new_routes = {
         },
         {
           lat: 56.55591,
-          lng: 21.09631,
+          lng: 21.0963,
         },
         {
           lat: 56.55591,
-          lng: 21.09631,
+          lng: 21.0963,
         },
         {
           lat: 56.55591,
-          lng: 21.09631,
+          lng: 21.0963,
         },
         {
           lat: 56.55623,
@@ -23829,6 +26293,18 @@ const new_routes = {
           lng: 21.09474,
         },
         {
+          lat: 56.55474,
+          lng: 21.09385,
+        },
+        {
+          lat: 56.55474,
+          lng: 21.09385,
+        },
+        {
+          lat: 56.55474,
+          lng: 21.09385,
+        },
+        {
           lat: 56.5545,
           lng: 21.09355,
         },
@@ -23853,18 +26329,6 @@ const new_routes = {
           lng: 21.09264,
         },
         {
-          lat: 56.55359,
-          lng: 21.09247,
-        },
-        {
-          lat: 56.55359,
-          lng: 21.09247,
-        },
-        {
-          lat: 56.55359,
-          lng: 21.09247,
-        },
-        {
           lat: 56.55338,
           lng: 21.09222,
         },
@@ -23875,18 +26339,6 @@ const new_routes = {
         {
           lat: 56.55258,
           lng: 21.09125,
-        },
-        {
-          lat: 56.55164,
-          lng: 21.0901,
-        },
-        {
-          lat: 56.55164,
-          lng: 21.0901,
-        },
-        {
-          lat: 56.55164,
-          lng: 21.0901,
         },
         {
           lat: 56.55145,
@@ -23907,6 +26359,18 @@ const new_routes = {
         {
           lat: 56.54972,
           lng: 21.08774,
+        },
+        {
+          lat: 56.54874,
+          lng: 21.08654,
+        },
+        {
+          lat: 56.54874,
+          lng: 21.08654,
+        },
+        {
+          lat: 56.54874,
+          lng: 21.08654,
         },
         {
           lat: 56.54869,
@@ -23949,18 +26413,6 @@ const new_routes = {
           lng: 21.0818,
         },
         {
-          lat: 56.54544,
-          lng: 21.08129,
-        },
-        {
-          lat: 56.54544,
-          lng: 21.08129,
-        },
-        {
-          lat: 56.54544,
-          lng: 21.08129,
-        },
-        {
           lat: 56.54503,
           lng: 21.07969,
         },
@@ -23975,6 +26427,18 @@ const new_routes = {
         {
           lat: 56.54493,
           lng: 21.07891,
+        },
+        {
+          lat: 56.54488,
+          lng: 21.07684,
+        },
+        {
+          lat: 56.54488,
+          lng: 21.07684,
+        },
+        {
+          lat: 56.54488,
+          lng: 21.07684,
         },
         {
           lat: 56.54482,
@@ -24025,6 +26489,18 @@ const new_routes = {
           lng: 21.0666,
         },
         {
+          lat: 56.5436,
+          lng: 21.06594,
+        },
+        {
+          lat: 56.5436,
+          lng: 21.06594,
+        },
+        {
+          lat: 56.5436,
+          lng: 21.06594,
+        },
+        {
           lat: 56.54352,
           lng: 21.06465,
         },
@@ -24065,20 +26541,20 @@ const new_routes = {
           lng: 21.05775,
         },
         {
+          lat: 56.54417,
+          lng: 21.05729,
+        },
+        {
+          lat: 56.54417,
+          lng: 21.05729,
+        },
+        {
+          lat: 56.54417,
+          lng: 21.05729,
+        },
+        {
           lat: 56.54424,
           lng: 21.05683,
-        },
-        {
-          lat: 56.54424,
-          lng: 21.0568,
-        },
-        {
-          lat: 56.54424,
-          lng: 21.0568,
-        },
-        {
-          lat: 56.54424,
-          lng: 21.0568,
         },
         {
           lat: 56.54431,
@@ -24197,16 +26673,16 @@ const new_routes = {
           lng: 21.05477,
         },
         {
-          lat: 56.54158,
-          lng: 21.05475,
+          lat: 56.54148,
+          lng: 21.05473,
         },
         {
-          lat: 56.54158,
-          lng: 21.05475,
+          lat: 56.54148,
+          lng: 21.05473,
         },
         {
-          lat: 56.54158,
-          lng: 21.05475,
+          lat: 56.54148,
+          lng: 21.05473,
         },
         {
           lat: 56.54131,
@@ -24329,6 +26805,18 @@ const new_routes = {
           lng: 21.054,
         },
         {
+          lat: 56.53749,
+          lng: 21.0541,
+        },
+        {
+          lat: 56.53749,
+          lng: 21.0541,
+        },
+        {
+          lat: 56.53749,
+          lng: 21.0541,
+        },
+        {
           lat: 56.53746,
           lng: 21.05411,
         },
@@ -24365,18 +26853,6 @@ const new_routes = {
           lng: 21.05504,
         },
         {
-          lat: 56.53576,
-          lng: 21.05514,
-        },
-        {
-          lat: 56.53576,
-          lng: 21.05514,
-        },
-        {
-          lat: 56.53576,
-          lng: 21.05514,
-        },
-        {
           lat: 56.53554,
           lng: 21.05536,
         },
@@ -24393,16 +26869,16 @@ const new_routes = {
           lng: 21.05593,
         },
         {
-          lat: 56.53439,
-          lng: 21.05346,
+          lat: 56.53445,
+          lng: 21.05367,
         },
         {
-          lat: 56.53439,
-          lng: 21.05346,
+          lat: 56.53445,
+          lng: 21.05367,
         },
         {
-          lat: 56.53439,
-          lng: 21.05346,
+          lat: 56.53445,
+          lng: 21.05367,
         },
         {
           lat: 56.53407,
@@ -24453,144 +26929,16 @@ const new_routes = {
           lng: 21.03647,
         },
         {
-          lat: 56.52787,
-          lng: 21.03575,
+          lat: 56.52817,
+          lng: 21.03641,
         },
         {
-          lat: 56.52769,
-          lng: 21.03533,
+          lat: 56.52817,
+          lng: 21.03641,
         },
         {
-          lat: 56.52763,
-          lng: 21.03517,
-        },
-        {
-          lat: 56.52736,
-          lng: 21.03462,
-        },
-        {
-          lat: 56.52726,
-          lng: 21.03442,
-        },
-        {
-          lat: 56.52698,
-          lng: 21.03378,
-        },
-        {
-          lat: 56.52684,
-          lng: 21.03345,
-        },
-        {
-          lat: 56.5268,
-          lng: 21.03338,
-        },
-        {
-          lat: 56.52669,
-          lng: 21.03312,
-        },
-        {
-          lat: 56.5266,
-          lng: 21.03293,
-        },
-        {
-          lat: 56.5266,
-          lng: 21.03293,
-        },
-        {
-          lat: 56.52664,
-          lng: 21.03318,
-        },
-        {
-          lat: 56.5267,
-          lng: 21.03332,
-        },
-        {
-          lat: 56.52673,
-          lng: 21.03338,
-        },
-        {
-          lat: 56.52676,
-          lng: 21.03345,
-        },
-        {
-          lat: 56.52707,
-          lng: 21.03416,
-        },
-        {
-          lat: 56.52714,
-          lng: 21.03433,
-        },
-        {
-          lat: 56.52714,
-          lng: 21.03433,
-        },
-        {
-          lat: 56.5273,
-          lng: 21.03471,
-        },
-        {
-          lat: 56.52747,
-          lng: 21.0351,
-        },
-        {
-          lat: 56.52752,
-          lng: 21.0352,
-        },
-        {
-          lat: 56.52755,
-          lng: 21.03528,
-        },
-        {
-          lat: 56.5276,
-          lng: 21.0354,
-        },
-        {
-          lat: 56.52867,
-          lng: 21.0379,
-        },
-        {
-          lat: 56.52867,
-          lng: 21.0379,
-        },
-        {
-          lat: 56.52867,
-          lng: 21.0379,
-        },
-        {
-          lat: 56.5289,
-          lng: 21.03844,
-        },
-        {
-          lat: 56.52994,
-          lng: 21.04089,
-        },
-        {
-          lat: 56.52994,
-          lng: 21.04089,
-        },
-        {
-          lat: 56.53002,
-          lng: 21.04098,
-        },
-        {
-          lat: 56.53008,
-          lng: 21.04102,
-        },
-        {
-          lat: 56.53016,
-          lng: 21.04103,
-        },
-        {
-          lat: 56.52932,
-          lng: 21.0391,
-        },
-        {
-          lat: 56.5283,
-          lng: 21.03672,
-        },
-        {
-          lat: 56.52819,
-          lng: 21.03647,
+          lat: 56.52817,
+          lng: 21.03641,
         },
         {
           lat: 56.52787,
@@ -24631,6 +26979,18 @@ const new_routes = {
         {
           lat: 56.5266,
           lng: 21.03293,
+        },
+        {
+          lat: 56.52623,
+          lng: 21.03209,
+        },
+        {
+          lat: 56.52623,
+          lng: 21.03209,
+        },
+        {
+          lat: 56.52623,
+          lng: 21.03209,
         },
         {
           lat: 56.52581,
@@ -24661,6 +27021,18 @@ const new_routes = {
           lng: 21.02899,
         },
         {
+          lat: 56.52466,
+          lng: 21.02849,
+        },
+        {
+          lat: 56.52466,
+          lng: 21.02849,
+        },
+        {
+          lat: 56.52466,
+          lng: 21.02849,
+        },
+        {
           lat: 56.52454,
           lng: 21.02823,
         },
@@ -24683,6 +27055,18 @@ const new_routes = {
         {
           lat: 56.52333,
           lng: 21.02542,
+        },
+        {
+          lat: 56.52312,
+          lng: 21.02494,
+        },
+        {
+          lat: 56.52312,
+          lng: 21.02494,
+        },
+        {
+          lat: 56.52312,
+          lng: 21.02494,
         },
         {
           lat: 56.5231,
@@ -24717,24 +27101,24 @@ const new_routes = {
           lng: 21.02226,
         },
         {
-          lat: 56.52195,
-          lng: 21.02222,
-        },
-        {
-          lat: 56.52195,
-          lng: 21.02222,
-        },
-        {
-          lat: 56.52195,
-          lng: 21.02222,
-        },
-        {
           lat: 56.52153,
           lng: 21.02125,
         },
         {
           lat: 56.52146,
           lng: 21.02109,
+        },
+        {
+          lat: 56.52139,
+          lng: 21.02092,
+        },
+        {
+          lat: 56.52139,
+          lng: 21.02092,
+        },
+        {
+          lat: 56.52139,
+          lng: 21.02092,
         },
         {
           lat: 56.52129,
@@ -24773,6 +27157,18 @@ const new_routes = {
           lng: 21.01934,
         },
         {
+          lat: 56.51892,
+          lng: 21.01864,
+        },
+        {
+          lat: 56.51892,
+          lng: 21.01864,
+        },
+        {
+          lat: 56.51892,
+          lng: 21.01864,
+        },
+        {
           lat: 56.51832,
           lng: 21.01834,
         },
@@ -24791,18 +27187,6 @@ const new_routes = {
         {
           lat: 56.5172,
           lng: 21.01779,
-        },
-        {
-          lat: 56.51671,
-          lng: 21.01755,
-        },
-        {
-          lat: 56.51671,
-          lng: 21.01755,
-        },
-        {
-          lat: 56.51671,
-          lng: 21.01755,
         },
         {
           lat: 56.51598,
@@ -24829,6 +27213,18 @@ const new_routes = {
           lng: 21.01657,
         },
         {
+          lat: 56.51437,
+          lng: 21.01644,
+        },
+        {
+          lat: 56.51437,
+          lng: 21.01644,
+        },
+        {
+          lat: 56.51437,
+          lng: 21.01644,
+        },
+        {
           lat: 56.51396,
           lng: 21.01625,
         },
@@ -24843,18 +27239,6 @@ const new_routes = {
         {
           lat: 56.51365,
           lng: 21.01612,
-        },
-        {
-          lat: 56.51367,
-          lng: 21.01573,
-        },
-        {
-          lat: 56.51367,
-          lng: 21.01573,
-        },
-        {
-          lat: 56.51367,
-          lng: 21.01573,
         },
         {
           lat: 56.51371,
@@ -24897,16 +27281,16 @@ const new_routes = {
           lng: 21.01444,
         },
         {
-          lat: 56.51307,
-          lng: 21.01441,
+          lat: 56.51323,
+          lng: 21.01444,
         },
         {
-          lat: 56.51307,
-          lng: 21.01441,
+          lat: 56.51323,
+          lng: 21.01444,
         },
         {
-          lat: 56.51307,
-          lng: 21.01441,
+          lat: 56.51323,
+          lng: 21.01444,
         },
         {
           lat: 56.51245,
@@ -24969,20 +27353,20 @@ const new_routes = {
           lng: 21.01292,
         },
         {
+          lat: 56.51023,
+          lng: 21.01278,
+        },
+        {
+          lat: 56.51023,
+          lng: 21.01278,
+        },
+        {
+          lat: 56.51023,
+          lng: 21.01278,
+        },
+        {
           lat: 56.51011,
           lng: 21.01262,
-        },
-        {
-          lat: 56.51008,
-          lng: 21.01259,
-        },
-        {
-          lat: 56.51008,
-          lng: 21.01259,
-        },
-        {
-          lat: 56.51008,
-          lng: 21.01259,
         },
         {
           lat: 56.50997,
@@ -25001,15 +27385,204 @@ const new_routes = {
           lng: 21.012,
         },
         {
-          lat: 56.50912,
+          lat: 56.50911,
           lng: 21.01163,
         },
         {
-          lat: 56.50912,
+          lat: 56.50911,
           lng: 21.01163,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.554775743283486,
+            lng: 21.096778213977814,
+          },
+          trans_attend: ["1s", "4s", "6A", "9A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53609312924824,
+            lng: 21.05480164289475,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Saulesdruvas",
+          coords: {
+            lat: 56.534766239941995,
+            lng: 21.05487942695618,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53251220508497,
+            lng: 21.04654848575592,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Mehāniksais centrs",
+          coords: {
+            lat: 56.529734262523476,
+            lng: 21.040052175521854,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527296232268746,
+            lng: 21.034462451934818,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52098209882982,
+            lng: 21.0199972987175,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+      ],
     },
   },
   6: {
@@ -27376,7 +29949,340 @@ const new_routes = {
           lng: 21.09905,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.48585226241979,
+            lng: 21.008951961994175,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50528481687705,
+            lng: 21.00144982337952,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.5090606520307,
+            lng: 20.9997895359993,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Graudu iela",
+          coords: {
+            lat: 56.51075684149819,
+            lng: 21.00430637598038,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.5087468517616,
+            lng: 21.008992195129398,
+          },
+          trans_attend: ["6", "1A", "2s", "6A"],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -29765,8 +32671,370 @@ const new_routes = {
           lng: 21.02721,
         },
       ],
-      stations: {},
-    }, // 399 - 425
+      stations: [
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.50844480649468,
+            lng: 21.009796857833862,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Jūras iela",
+          coords: {
+            lat: 56.51053920301431,
+            lng: 21.006189286708835,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.51032612355418,
+            lng: 21.000132858753208,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50653227614955,
+            lng: 21.000875830650333,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.502870450086654,
+            lng: 21.00247979164124,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.500741847054584,
+            lng: 21.003397107124332,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49856265223837,
+            lng: 21.003756523132328,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.49441558015101,
+            lng: 21.004515588283542,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49029476385661,
+            lng: 21.005626022815708,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728280377305,
+            lng: 21.00582450628281,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.485844854908116,
+            lng: 21.009151786565784,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
+    },
   },
   "6A": {
     m1: {
@@ -32228,7 +35496,385 @@ const new_routes = {
           lng: 21.02723,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Biznesa centrs",
+          coords: {
+            lat: 56.56054520432922,
+            lng: 21.09316125512123,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.55469736627175,
+            lng: 21.09680771827698,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.50844480649468,
+            lng: 21.009796857833862,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Jūras iela",
+          coords: {
+            lat: 56.51053920301431,
+            lng: 21.006189286708835,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.51032612355418,
+            lng: 21.000132858753208,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50653227614955,
+            lng: 21.000875830650333,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.502870450086654,
+            lng: 21.00247979164124,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.500741847054584,
+            lng: 21.003397107124332,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49856265223837,
+            lng: 21.003756523132328,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.49441558015101,
+            lng: 21.004515588283542,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49029476385661,
+            lng: 21.005626022815708,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728280377305,
+            lng: 21.00582450628281,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.485844854908116,
+            lng: 21.009151786565784,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
     }, // -- 462 - 488
     m2: {
       trajectory: [
@@ -34729,9 +38375,359 @@ const new_routes = {
           lng: 21.09312,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.48585226241979,
+            lng: 21.008951961994175,
+          },
+          trans_attend: ["6", "1A", "6A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50528481687705,
+            lng: 21.00144982337952,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.5090606520307,
+            lng: 20.9997895359993,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Graudu iela",
+          coords: {
+            lat: 56.51075684149819,
+            lng: 21.00430637598038,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Liepājas Universitāte",
+          coords: {
+            lat: 56.5087468517616,
+            lng: 21.008992195129398,
+          },
+          trans_attend: ["6", "1A", "2s", "6A"],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.554775743283486,
+            lng: 21.096778213977814,
+          },
+          trans_attend: ["1s", "4s", "6A", "9A", "12B"],
+        },
+        {
+          name: "Biznesa centrs",
+          coords: {
+            lat: 56.560594715973494,
+            lng: 21.093134433031086,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+      ],
     },
   },
+  //// Отредактировать второй маршрут
   7: {
     m1: {
       trajectory: [
@@ -36676,7 +40672,303 @@ const new_routes = {
           lng: 21.00793,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Siena tirgus",
+          coords: {
+            lat: 56.502380366784024,
+            lng: 21.00815534591675,
+          },
+          trans_attend: ["7", "11", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          name: "Piemares pamatskola",
+          coords: {
+            lat: 56.54987326290834,
+            lng: 21.023470759391788,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Turaidas iela",
+          coords: {
+            lat: 56.54502678239902,
+            lng: 21.022596359252933,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Invalīdu iela",
+          coords: {
+            lat: 56.54624161753377,
+            lng: 21.017757654190067,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          coords: {
+            lat: 56.548587116242736,
+            lng: 21.00797295570374,
+          },
+          name: "Lācplēša dārzs",
+          trans_attend: ["4", "7"],
+        },
+        {
+          coords: {
+            lat: 56.5519873724064,
+            lng: 21.00693225860596,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.55583349809851,
+            lng: 21.007769107818607,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+      ],
     }, // 39 - 63
     m2: {
       trajectory: [
@@ -38529,7 +42821,325 @@ const new_routes = {
           lng: 21.00785,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55654625788889,
+            lng: 21.00792467594147,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.551833564521296,
+            lng: 21.006894707679752,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54851020546951,
+            lng: 21.008662283420563,
+          },
+          name: "Lācplēša dārzs",
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Invalīdu iela",
+          coords: {
+            lat: 56.54586346617288,
+            lng: 21.01843893527985,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Turaidas iela",
+          coords: {
+            lat: 56.544883300606045,
+            lng: 21.022258400917057,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          name: "Piemares pamatskola",
+          coords: {
+            lat: 56.55065120974201,
+            lng: 21.023610234260563,
+          },
+          trans_attend: ["4", "7"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Siena tirgus",
+          coords: {
+            lat: 56.50194203064064,
+            lng: 21.00784689188004,
+          },
+          trans_attend: ["7", "11", "11A"],
+        },
+      ],
     },
   },
   8: {
@@ -40412,7 +45022,305 @@ const new_routes = {
           lng: 21.01163,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.61713536597153,
+            lng: 21.040272116661075,
+          },
+          name: "Šķēde",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.611920856812986,
+            lng: 21.038732528686527,
+          },
+          name: "Šķēde I",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.60908365799664,
+            lng: 21.037724018096927,
+          },
+          name: "Šķēde II",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.5952866027515,
+            lng: 21.027094423770908,
+          },
+          name: "Attīrīšanas iekārtas",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.58393805223956,
+            lng: 21.026603579521183,
+          },
+          name: "Lībiešu iela",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.56248843143518,
+            lng: 21.01406693458557,
+          },
+          name: "Beberliņi",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.5584708971989,
+            lng: 21.012001633644108,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.55328776347143,
+            lng: 21.01815462112427,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -42289,7 +47197,292 @@ const new_routes = {
           lng: 21.04029,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55355100108751,
+            lng: 21.016749143600467,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.558698611018634,
+            lng: 21.011776328086857,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.56360155380468,
+            lng: 21.014509499073032,
+          },
+          name: "Beberliņi",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.583623307160686,
+            lng: 21.02654457092285,
+          },
+          name: "Lībiešu iela",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.59533682842393,
+            lng: 21.027156114578247,
+          },
+          name: "Attīrīšanas iekārtas",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.60966698366584,
+            lng: 21.037954688072208,
+          },
+          name: "Šķēde II",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.61250243892327,
+            lng: 21.038957834243778,
+          },
+          name: "Šķede I",
+          trans_attend: ["8"],
+        },
+        {
+          coords: {
+            lat: 56.6167532099736,
+            lng: 21.040425002574924,
+          },
+          name: "Šķēde",
+          trans_attend: ["8"],
+        },
+      ],
     },
   },
   9: {
@@ -44404,7 +49597,260 @@ const new_routes = {
           lng: 21.02721,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53609312924824,
+            lng: 21.05480164289475,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Saulesdruvas",
+          coords: {
+            lat: 56.534766239941995,
+            lng: 21.05487942695618,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53251220508497,
+            lng: 21.04654848575592,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Mehāniksais centrs",
+          coords: {
+            lat: 56.529734262523476,
+            lng: 21.040052175521854,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527296232268746,
+            lng: 21.034462451934818,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52098209882982,
+            lng: 21.0199972987175,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Jaunā iela",
+          coords: {
+            lat: 56.50981807755046,
+            lng: 21.023325920104984,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Baznīcas iela",
+          coords: {
+            lat: 56.50792098697509,
+            lng: 21.022011637687687,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Kungu iela",
+          coords: {
+            lat: 56.50611212218596,
+            lng: 21.01945817470551,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.5013594494207,
+            lng: 21.008107066154484,
+          },
+          trans_attend: ["3", "4", "9", "10", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.49997300027446,
+            lng: 21.01656943559647,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Raiņa vidusskola",
+          coords: {
+            lat: 56.497181365140854,
+            lng: 21.016561388969425,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49486363940153,
+            lng: 21.017358005046848,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.49243824725947,
+            lng: 21.02046668529511,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -46345,7 +51791,251 @@ const new_routes = {
           lng: 21.09907,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48968739155598,
+            lng: 21.019849777221683,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49522110516929,
+            lng: 21.018924415111545,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Salmu iela",
+          coords: {
+            lat: 56.49754561995559,
+            lng: 21.019586920738224,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.50069898964906,
+            lng: 21.016813516616825,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.50256251173176,
+            lng: 21.008922457695007,
+          },
+          trans_attend: ["3", "4", "9", "9A", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kungu iela",
+          coords: {
+            lat: 56.506109160763764,
+            lng: 21.019098758697513,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Dārza iela",
+          coords: {
+            lat: 56.506097478481486,
+            lng: 21.024838685989383,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Jaunā iela",
+          coords: {
+            lat: 56.508912394781206,
+            lng: 21.025750637054447,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Ādu iela",
+          coords: {
+            lat: 56.51128436527524,
+            lng: 21.022703647613525,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52127072313359,
+            lng: 21.020683944225315,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527923576996336,
+            lng: 21.03616833686829,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53299161832804,
+            lng: 21.048340201377872,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53614343357391,
+            lng: 21.054804325103763,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+      ],
     }, // --------------
   },
   "9A": {
@@ -48668,7 +54358,276 @@ const new_routes = {
           lng: 21.02721,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Biznesa centrs",
+          coords: {
+            lat: 56.56054520432922,
+            lng: 21.09316125512123,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.55469736627175,
+            lng: 21.09680771827698,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.543778786924136,
+            lng: 21.055158376693726,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.540626029715646,
+            lng: 21.05457365512848,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53609312924824,
+            lng: 21.05480164289475,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Saulesdruvas",
+          coords: {
+            lat: 56.534766239941995,
+            lng: 21.05487942695618,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53251220508497,
+            lng: 21.04654848575592,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Mehāniksais centrs",
+          coords: {
+            lat: 56.529734262523476,
+            lng: 21.040052175521854,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527296232268746,
+            lng: 21.034462451934818,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52098209882982,
+            lng: 21.0199972987175,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Jaunā iela",
+          coords: {
+            lat: 56.50981807755046,
+            lng: 21.023325920104984,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Baznīcas iela",
+          coords: {
+            lat: 56.50792098697509,
+            lng: 21.022011637687687,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Kungu iela",
+          coords: {
+            lat: 56.50611212218596,
+            lng: 21.01945817470551,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.5013594494207,
+            lng: 21.008107066154484,
+          },
+          trans_attend: ["3", "4", "9", "10", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.49997300027446,
+            lng: 21.01656943559647,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Raiņa vidusskola",
+          coords: {
+            lat: 56.497181365140854,
+            lng: 21.016561388969425,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49486363940153,
+            lng: 21.017358005046848,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -50833,7 +56792,267 @@ const new_routes = {
           lng: 21.09315,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48968739155598,
+            lng: 21.019849777221683,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49522110516929,
+            lng: 21.018924415111545,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Salmu iela",
+          coords: {
+            lat: 56.49754561995559,
+            lng: 21.019586920738224,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.50069898964906,
+            lng: 21.016813516616825,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.50256251173176,
+            lng: 21.008922457695007,
+          },
+          trans_attend: ["3", "4", "9", "9A", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kungu iela",
+          coords: {
+            lat: 56.506109160763764,
+            lng: 21.019098758697513,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Dārza iela",
+          coords: {
+            lat: 56.506097478481486,
+            lng: 21.024838685989383,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Jaunā iela",
+          coords: {
+            lat: 56.508912394781206,
+            lng: 21.025750637054447,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Ādu iela",
+          coords: {
+            lat: 56.51128436527524,
+            lng: 21.022703647613525,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51513132157159,
+            lng: 21.016802787780765,
+          },
+          trans_attend: ["4", "9", "4s", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52127072313359,
+            lng: 21.020683944225315,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527923576996336,
+            lng: 21.03616833686829,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53299161832804,
+            lng: 21.048340201377872,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53614343357391,
+            lng: 21.054804325103763,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.541273711400635,
+            lng: 21.054699718952183,
+          },
+          name: "Cukuriņš",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.543871978910545,
+            lng: 21.055185198783875,
+          },
+          name: "Pagr. uz Grīzupes ielu",
+          trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.554775743283486,
+            lng: 21.096778213977814,
+          },
+          trans_attend: ["1s", "4s", "6A", "9A", "12B"],
+        },
+        {
+          name: "Biznesa centrs",
+          coords: {
+            lat: 56.56054520432922,
+            lng: 21.09316125512123,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+      ],
     },
   },
   10: {
@@ -52496,7 +58715,253 @@ const new_routes = {
           lng: 21.02721,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526752365310294,
+            lng: 21.003649234771732,
+          },
+          trans_attend: ["10", "22", "25", "10A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.5013594494207,
+            lng: 21.008107066154484,
+          },
+          trans_attend: ["3", "4", "9", "10", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.49997300027446,
+            lng: 21.01656943559647,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Raiņa vidusskola",
+          coords: {
+            lat: 56.497181365140854,
+            lng: 21.016561388969425,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49486363940153,
+            lng: 21.017358005046848,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.49243824725947,
+            lng: 21.02046668529511,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48306163290836,
+            lng: 21.01915776729584,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48158483286921,
+            lng: 21.02720439434052,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -54045,7 +60510,259 @@ const new_routes = {
           lng: 21.00401,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "M. Ķempes iela",
+          coords: {
+            lat: 56.48196117487996,
+            lng: 21.026024222373962,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Rojas iela",
+          coords: {
+            lat: 56.48346109002931,
+            lng: 21.017859578132633,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48968739155598,
+            lng: 21.019849777221683,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49522110516929,
+            lng: 21.018924415111545,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Salmu iela",
+          coords: {
+            lat: 56.49754561995559,
+            lng: 21.019586920738224,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.50069898964906,
+            lng: 21.016813516616825,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.50256251173176,
+            lng: 21.008922457695007,
+          },
+          trans_attend: ["3", "4", "9", "9A", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Sliežu iela",
+          coords: {
+            lat: 56.523855702571396,
+            lng: 21.004266142845157,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526844119301316,
+            lng: 21.00368142127991,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Ziemeļu kapi",
+          coords: {
+            lat: 56.53143601328235,
+            lng: 21.002774834632877,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+      ],
     },
   },
   "10A": {
@@ -55820,7 +62537,253 @@ const new_routes = {
           lng: 21.00918,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Dienvidu kapi",
+          coords: {
+            lat: 56.47291674696083,
+            lng: 21.009252369403843,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Dienvidu robeža",
+          coords: {
+            lat: 56.47747238432245,
+            lng: 21.008595228195194,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48480327746066,
+            lng: 21.015874743461612,
+          },
+          trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48893820720965,
+            lng: 21.018514037132263,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.49243824725947,
+            lng: 21.02046668529511,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49486363940153,
+            lng: 21.017358005046848,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Raiņa vidusskola",
+          coords: {
+            lat: 56.497181365140854,
+            lng: 21.016561388969425,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.49997300027446,
+            lng: 21.01656943559647,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.5013594494207,
+            lng: 21.008107066154484,
+          },
+          trans_attend: ["3", "4", "9", "10", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526752365310294,
+            lng: 21.003649234771732,
+          },
+          trans_attend: ["10", "22", "25", "10A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -57517,7 +64480,267 @@ const new_routes = {
           lng: 21.00403,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Dienvidu kapi",
+          coords: {
+            lat: 56.47291674696083,
+            lng: 21.009252369403843,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Dienvidu robeža",
+          coords: {
+            lat: 56.47747238432245,
+            lng: 21.008595228195194,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Svētes iela",
+          coords: {
+            lat: 56.48302910274455,
+            lng: 21.01472675800324,
+          },
+          trans_attend: ["1A", "10A"],
+        },
+        {
+          name: "Vaiņodes iela",
+          coords: {
+            lat: 56.48615848190225,
+            lng: 21.016384363174442,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "E. Tisē iela",
+          coords: {
+            lat: 56.48968739155598,
+            lng: 21.019849777221683,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Dzērves iela",
+          coords: {
+            lat: 56.491937583135154,
+            lng: 21.020359396934513,
+          },
+          trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+        },
+        {
+          name: "Lauku iela",
+          coords: {
+            lat: 56.49522110516929,
+            lng: 21.018924415111545,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Salmu iela",
+          coords: {
+            lat: 56.49754561995559,
+            lng: 21.019586920738224,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Ganību iela",
+          coords: {
+            lat: 56.50069898964906,
+            lng: 21.016813516616825,
+          },
+          trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+        },
+        {
+          name: "Kuršu iela",
+          coords: {
+            lat: 56.50256251173176,
+            lng: 21.008922457695007,
+          },
+          trans_attend: ["3", "4", "9", "9A", "10A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Sliežu iela",
+          coords: {
+            lat: 56.523855702571396,
+            lng: 21.004266142845157,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526844119301316,
+            lng: 21.00368142127991,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Ziemeļu kapi",
+          coords: {
+            lat: 56.53143601328235,
+            lng: 21.002774834632877,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+      ],
     },
   },
   11: {
@@ -59080,7 +66303,253 @@ const new_routes = {
           lng: 21.00583,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53203606637574,
+            lng: 21.007313132286075,
+          },
+          name: "Ziedu iela",
+          trans_attend: ["11", "23", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53197833976775,
+            lng: 21.01106017827988,
+          },
+          name: "Sakņu iela",
+          trans_attend: ["11", "23", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Siena tirgus",
+          coords: {
+            lat: 56.50194203064064,
+            lng: 21.00784689188004,
+          },
+          trans_attend: ["7", "11", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.500741847054584,
+            lng: 21.003397107124332,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49856265223837,
+            lng: 21.003756523132328,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.49441558015101,
+            lng: 21.004515588283542,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49029476385661,
+            lng: 21.005626022815708,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728280377305,
+            lng: 21.00582450628281,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -60617,7 +68086,243 @@ const new_routes = {
           lng: 21.00401,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Siena tirgus",
+          coords: {
+            lat: 56.502380366784024,
+            lng: 21.00815534591675,
+          },
+          trans_attend: ["7", "11", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532021263459896,
+            lng: 21.00829213857651,
+          },
+          name: "Zaru iela",
+          trans_attend: ["11", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532053747841374,
+            lng: 21.003153026103977,
+          },
+          name: "Lapu iela",
+          trans_attend: ["11", "23", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+      ],
     }, // 115 - 145
   },
   "11A": {
@@ -62476,7 +70181,277 @@ const new_routes = {
           lng: 21.0094,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Dienvidu kapi",
+          coords: {
+            lat: 56.47291674696083,
+            lng: 21.009252369403843,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Dienvidu robeža",
+          coords: {
+            lat: 56.476771472561346,
+            lng: 21.008761525154117,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.48466710043548,
+            lng: 21.005993485450748,
+          },
+          trans_attend: ["11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728280377305,
+            lng: 21.00582450628281,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49029476385661,
+            lng: 21.005626022815708,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.49441558015101,
+            lng: 21.004515588283542,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49856265223837,
+            lng: 21.003756523132328,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.500741847054584,
+            lng: 21.003397107124332,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Siena tirgus",
+          coords: {
+            lat: 56.50194203064064,
+            lng: 21.00784689188004,
+          },
+          trans_attend: ["7", "11", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.524091922005034,
+            lng: 21.01105481386185,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.5295064660511,
+            lng: 21.011787056922916,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53197833976775,
+            lng: 21.01106017827988,
+          },
+          name: "Sakņu iela",
+          trans_attend: ["11", "23", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53203606637574,
+            lng: 21.007313132286075,
+          },
+          name: "Ziedu iela",
+          trans_attend: ["11", "23", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -64197,7 +72172,267 @@ const new_routes = {
           lng: 21.00403,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Dienvidu kapi",
+          coords: {
+            lat: 56.47291674696083,
+            lng: 21.009252369403843,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Dienvidu robeža",
+          coords: {
+            lat: 56.47747238432245,
+            lng: 21.008595228195194,
+          },
+          trans_attend: ["1A", "10A", "11A"],
+        },
+        {
+          name: "Centrālkapi",
+          coords: {
+            lat: 56.484438941286164,
+            lng: 21.006063222885135,
+          },
+          trans_attend: ["11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Siena tirgus",
+          coords: {
+            lat: 56.502380366784024,
+            lng: 21.00815534591675,
+          },
+          trans_attend: ["7", "11", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Flotes iela",
+          coords: {
+            lat: 56.5240904419962,
+            lng: 21.01121306419373,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          name: "Krūmu iela",
+          coords: {
+            lat: 56.529633728404065,
+            lng: 21.011824607849125,
+          },
+          trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532021263459896,
+            lng: 21.00829213857651,
+          },
+          name: "Zaru iela",
+          trans_attend: ["11", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532053747841374,
+            lng: 21.003153026103977,
+          },
+          name: "Lapu iela",
+          trans_attend: ["11", "23", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54412601821005,
+            lng: 21.004016697406772,
+          },
+          name: "O.Kaplaka tilts",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+      ],
     },
   },
   12: {
@@ -65088,7 +73323,120 @@ const new_routes = {
           lng: 21.09892,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55328776347143,
+            lng: 21.01815462112427,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -65953,7 +74301,120 @@ const new_routes = {
           lng: 21.0118,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55355100108751,
+            lng: 21.016749143600467,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+      ],
     },
   },
   "12A": {
@@ -66952,7 +75413,144 @@ const new_routes = {
           lng: 21.0118,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55355100108751,
+            lng: 21.016749143600467,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pieneņu iela",
+          coords: {
+            lat: 56.54255076261646,
+            lng: 21.097987890243534,
+          },
+          trans_attend: ["12A"],
+        },
+        {
+          name: "Smilgu iela",
+          coords: {
+            lat: 56.53940068738958,
+            lng: 21.099929809570312,
+          },
+          trans_attend: ["12A"],
+        },
+        {
+          name: "Pilsētas robeža",
+          coords: {
+            lat: 56.534869548785665,
+            lng: 21.10150694847107,
+          },
+          trans_attend: ["12A"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -68017,7 +76615,144 @@ const new_routes = {
           lng: 21.1015,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55328776347143,
+            lng: 21.01815462112427,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pieneņu iela",
+          coords: {
+            lat: 56.54253301116012,
+            lng: 21.09799325466156,
+          },
+          trans_attend: ["12A"],
+        },
+        {
+          name: "Smilgu iela",
+          coords: {
+            lat: 56.539365181514896,
+            lng: 21.099956631660465,
+          },
+          trans_attend: ["12A"],
+        },
+        {
+          name: "Pilsētas robeža",
+          coords: {
+            lat: 56.534869548785665,
+            lng: 21.10150694847107,
+          },
+          trans_attend: ["12A"],
+        },
+      ],
     },
   },
   "12B": {
@@ -69084,7 +77819,136 @@ const new_routes = {
           lng: 21.09314,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55328776347143,
+            lng: 21.01815462112427,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55249305804874,
+            lng: 21.024715304374695,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55206139153888,
+            lng: 21.032960414886478,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55170363436136,
+            lng: 21.040320396423343,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55141683180705,
+            lng: 21.046816706657413,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54763199710147,
+            lng: 21.052360832691196,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54375204045495,
+            lng: 21.068671345710758,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.54459184658333,
+            lng: 21.072952151298527,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.544912929241725,
+            lng: 21.078466773033142,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.54802688975702,
+            lng: 21.085652410984043,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.55019859553008,
+            lng: 21.088321208953857,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.55375883240204,
+            lng: 21.092666387557987,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.552244653876436,
+            lng: 21.099033951759342,
+          },
+          trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.554775743283486,
+            lng: 21.096778213977814,
+          },
+          trans_attend: ["1s", "4s", "6A", "9A", "12B"],
+        },
+        {
+          name: "Biznesa centrs",
+          coords: {
+            lat: 56.56054520432922,
+            lng: 21.09316125512123,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+      ],
     },
     m2: {
       trajectory: [
@@ -70153,7 +79017,136 @@ const new_routes = {
           lng: 21.0118,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Biznesa centrs",
+          coords: {
+            lat: 56.560594715973494,
+            lng: 21.093134433031086,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+        {
+          name: "Ceriņu iela",
+          coords: {
+            lat: 56.55469736627175,
+            lng: 21.09680771827698,
+          },
+          trans_attend: ["6A", "9A", "12B"],
+        },
+        {
+          name: "Slimnīca",
+          coords: {
+            lat: 56.55229789455988,
+            lng: 21.09896957874298,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Pagr.uz slimnīcu",
+          coords: {
+            lat: 56.553282639787604,
+            lng: 21.09209775924683,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Grīzupes iela",
+          coords: {
+            lat: 56.549583331162815,
+            lng: 21.08756482601166,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Kārklu iela",
+          coords: {
+            lat: 56.547377530422075,
+            lng: 21.084818243980408,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "14.novembra bulv.",
+          coords: {
+            lat: 56.54488334532243,
+            lng: 21.07690304517746,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Bērnudārzs",
+          coords: {
+            lat: 56.544340773693975,
+            lng: 21.071916818618774,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          name: "Talsu iela",
+          coords: {
+            lat: 56.54360411609149,
+            lng: 21.0661393404007,
+          },
+          trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.54788935773838,
+            lng: 21.052071154117588,
+          },
+          name: "Nākotnes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55144641062071,
+            lng: 21.04641437530518,
+          },
+          name: "Mežmalas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55166814002341,
+            lng: 21.041264533996586,
+          },
+          name: "Tosmare",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55199927701276,
+            lng: 21.03417277336121,
+          },
+          name: "Laboratorijas iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55246643785363,
+            lng: 21.02545022964478,
+          },
+          name: "Lazaretes iela",
+          trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55355100108751,
+            lng: 21.016749143600467,
+          },
+          name: "Ģenerāļa Baloža iela",
+          trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+        },
+        {
+          coords: {
+            lat: 56.55414135001608,
+            lng: 21.01179510354996,
+          },
+          name: "Pulkveža Brieža iela",
+          trans_attend: ["3", "12", "1A", "12A", "12B"],
+        },
+      ],
     },
   },
   22: {
@@ -71548,7 +80541,194 @@ const new_routes = {
           lng: 21.00992,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55654625788889,
+            lng: 21.00792467594147,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.551833564521296,
+            lng: 21.006894707679752,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54835898495498,
+            lng: 21.006041765213013,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526752365310294,
+            lng: 21.003649234771732,
+          },
+          trans_attend: ["10", "22", "25", "10A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.520172722543315,
+            lng: 21.017977595329288,
+          },
+          trans_attend: ["22"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Koncertzāle",
+          coords: {
+            lat: 56.51130139964532,
+            lng: 21.014050841331485,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509128650450336,
+            lng: 21.011639535427097,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "4s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Zivju iela",
+          coords: {
+            lat: 56.50568615714687,
+            lng: 21.011084318161014,
+          },
+          trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+      ],
     }, // -- сверху-вниз
     m2: {
       trajectory: [
@@ -73185,7 +82365,206 @@ const new_routes = {
           lng: 21.00792,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Līva",
+          coords: {
+            lat: 56.509574306397276,
+            lng: 21.012245714664463,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "K.Zāles laukums",
+          coords: {
+            lat: 56.51209233930211,
+            lng: 21.01872324943543,
+          },
+          trans_attend: ["22"],
+        },
+        {
+          name: "Tirgus iela",
+          coords: {
+            lat: 56.517034290023,
+            lng: 21.024532914161686,
+          },
+          trans_attend: ["22", "23"],
+        },
+        {
+          name: "Zemnieku iela",
+          coords: {
+            lat: 56.520651057644656,
+            lng: 21.027850806713104,
+          },
+          trans_attend: ["22", "23"],
+        },
+        {
+          name: "Miltu iela",
+          coords: {
+            lat: 56.52255787002509,
+            lng: 21.0283175110817,
+          },
+          trans_attend: ["22", "23"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52098209882982,
+            lng: 21.0199972987175,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "T.Breikša iela",
+          coords: {
+            lat: 56.51888385591636,
+            lng: 21.013004779815677,
+          },
+          trans_attend: ["22"],
+        },
+        {
+          name: "1905.gada iela",
+          coords: {
+            lat: 56.5207485644864,
+            lng: 21.007065027952198,
+          },
+          trans_attend: ["22"],
+        },
+        {
+          name: "Sliežu iela",
+          coords: {
+            lat: 56.523855702571396,
+            lng: 21.004266142845157,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526844119301316,
+            lng: 21.00368142127991,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Ziemeļu kapi",
+          coords: {
+            lat: 56.53143601328235,
+            lng: 21.002774834632877,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54852463939567,
+            lng: 21.00612759590149,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.5519873724064,
+            lng: 21.00693225860596,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.55583349809851,
+            lng: 21.007769107818607,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+      ],
     },
   },
   "22S": {
@@ -73496,7 +82875,40 @@ const new_routes = {
           lng: 21.0032,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55654625788889,
+            lng: 21.00792467594147,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.551833564521296,
+            lng: 21.006894707679752,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54835898495498,
+            lng: 21.006041765213013,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+      ],
     }, // сверху-вниз
     m2: {
       trajectory: [
@@ -73793,7 +83205,40 @@ const new_routes = {
           lng: 21.00778,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54852463939567,
+            lng: 21.00612759590149,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.5519873724064,
+            lng: 21.00693225860596,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.55583349809851,
+            lng: 21.007769107818607,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+      ],
     },
   },
   23: {
@@ -75404,7 +84849,247 @@ const new_routes = {
           lng: 21.00777,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.50520047535415,
+            lng: 21.01164758205414,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "11A",
+          ],
+        },
+        {
+          name: "Kungu iela",
+          coords: {
+            lat: 56.506109160763764,
+            lng: 21.019098758697513,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Dārza iela",
+          coords: {
+            lat: 56.506097478481486,
+            lng: 21.024838685989383,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Jaunā iela",
+          coords: {
+            lat: 56.508912394781206,
+            lng: 21.025750637054447,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Ādu iela",
+          coords: {
+            lat: 56.51128436527524,
+            lng: 21.022703647613525,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Tirgus iela",
+          coords: {
+            lat: 56.517034290023,
+            lng: 21.024532914161686,
+          },
+          trans_attend: ["22", "23"],
+        },
+        {
+          name: "Zemnieku iela",
+          coords: {
+            lat: 56.520651057644656,
+            lng: 21.027850806713104,
+          },
+          trans_attend: ["22", "23"],
+        },
+        {
+          name: "Miltu iela",
+          coords: {
+            lat: 56.52255787002509,
+            lng: 21.0283175110817,
+          },
+          trans_attend: ["22", "23"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527923576996336,
+            lng: 21.03616833686829,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53299161832804,
+            lng: 21.048340201377872,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53614343357391,
+            lng: 21.054804325103763,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          coords: {
+            lat: 56.538484625990414,
+            lng: 21.05253249406815,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53909400326417,
+            lng: 21.042267680168155,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.538862901166375,
+            lng: 21.031731963157657,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536305923206776,
+            lng: 21.028486490249637,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.534602318533516,
+            lng: 21.025372445583347,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53465260382242,
+            lng: 21.01826459169388,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53333914147307,
+            lng: 21.011835336685184,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.532021263459896,
+            lng: 21.00829213857651,
+          },
+          name: "Zaru iela",
+          trans_attend: ["11", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532053747841374,
+            lng: 21.003153026103977,
+          },
+          name: "Lapu iela",
+          trans_attend: ["11", "23", "1s", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54852463939567,
+            lng: 21.00612759590149,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.5519873724064,
+            lng: 21.00693225860596,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.55583349809851,
+            lng: 21.007769107818607,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+      ],
     }, // снизу - вверх
     m2: {
       trajectory: [
@@ -77169,7 +86854,244 @@ const new_routes = {
           lng: 21.00987,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55654625788889,
+            lng: 21.00792467594147,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.551833564521296,
+            lng: 21.006894707679752,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54835898495498,
+            lng: 21.006041765213013,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53203606637574,
+            lng: 21.007313132286075,
+          },
+          name: "Ziedu iela",
+          trans_attend: ["11", "23", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53197833976775,
+            lng: 21.01106017827988,
+          },
+          name: "Sakņu iela",
+          trans_attend: ["11", "23", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.53233164167434,
+            lng: 21.011824607849125,
+          },
+          name: "Siļķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53467484787708,
+            lng: 21.01410180330277,
+          },
+          name: "Ziemeļu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460966263409,
+            lng: 21.020724177360538,
+          },
+          name: "Lauma",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53460083893528,
+            lng: 21.025514602661136,
+          },
+          name: "Ventspils iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.536410969808905,
+            lng: 21.028634011745453,
+          },
+          name: "Valsts tehnikums",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53942522546946,
+            lng: 21.034301519393924,
+          },
+          name: "Pulvera iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53903482630856,
+            lng: 21.04318499565125,
+          },
+          name: "Saraiķu iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+        },
+        {
+          coords: {
+            lat: 56.53845503704803,
+            lng: 21.052690744400028,
+          },
+          name: "Cukura iela",
+          trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+        },
+        {
+          name: "Autobusu parks",
+          coords: {
+            lat: 56.53609312924824,
+            lng: 21.05480164289475,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Saulesdruvas",
+          coords: {
+            lat: 56.534766239941995,
+            lng: 21.05487942695618,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Satiksmes iela",
+          coords: {
+            lat: 56.53251220508497,
+            lng: 21.04654848575592,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Mehāniksais centrs",
+          coords: {
+            lat: 56.529734262523476,
+            lng: 21.040052175521854,
+          },
+          trans_attend: ["4", "9", "23", "9A"],
+        },
+        {
+          name: "Brīvības iela",
+          coords: {
+            lat: 56.527296232268746,
+            lng: 21.034462451934818,
+          },
+          trans_attend: ["4", "9", "23", "4s", "9A"],
+        },
+        {
+          name: "Metalurgs",
+          coords: {
+            lat: 56.52404915858856,
+            lng: 21.027105152606968,
+          },
+          trans_attend: ["4", "9", "9A"],
+        },
+        {
+          name: "Olimpiskais centrs",
+          coords: {
+            lat: 56.52098209882982,
+            lng: 21.0199972987175,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Esperanto iela",
+          coords: {
+            lat: 56.51447735319591,
+            lng: 21.016480922698978,
+          },
+          trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+        },
+        {
+          name: "Jaunā iela",
+          coords: {
+            lat: 56.50981807755046,
+            lng: 21.023325920104984,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Baznīcas iela",
+          coords: {
+            lat: 56.50792098697509,
+            lng: 21.022011637687687,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Kungu iela",
+          coords: {
+            lat: 56.50611212218596,
+            lng: 21.01945817470551,
+          },
+          trans_attend: ["9", "23", "9A"],
+        },
+        {
+          name: "Pētertirgus",
+          coords: {
+            lat: 56.503995128416975,
+            lng: 21.00992023944855,
+          },
+          trans_attend: [
+            "3",
+            "4",
+            "7",
+            "9",
+            "10",
+            "11",
+            "22",
+            "23",
+            "9A",
+            "10A",
+            "11A",
+          ],
+        },
+      ],
     },
   },
   25: {
@@ -78400,7 +88322,234 @@ const new_routes = {
           lng: 21.00778,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48743539243858,
+            lng: 21.005832552909855,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49061176687997,
+            lng: 21.005617976188663,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.495142851933124,
+            lng: 21.004373431205753,
+          },
+          trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49793173848674,
+            lng: 21.003885269165043,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.50066347198146,
+            lng: 21.00341856479645,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50528481687705,
+            lng: 21.00144982337952,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.5090606520307,
+            lng: 20.9997895359993,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Graudu iela",
+          coords: {
+            lat: 56.51075684149819,
+            lng: 21.00430637598038,
+          },
+          trans_attend: ["6", "25", "1A", "2s", "6A"],
+        },
+        {
+          name: "Radio iela",
+          coords: {
+            lat: 56.51194959363218,
+            lng: 21.012245714664463,
+          },
+          trans_attend: ["25"],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51439869540272,
+            lng: 21.01480454206467,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.51773554102306,
+            lng: 21.0109555721283,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.520561940045454,
+            lng: 21.006851792335514,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "1A",
+            "2s",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Sliežu iela",
+          coords: {
+            lat: 56.523855702571396,
+            lng: 21.004266142845157,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526844119301316,
+            lng: 21.00368142127991,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          name: "Ziemeļu kapi",
+          coords: {
+            lat: 56.53143601328235,
+            lng: 21.002774834632877,
+          },
+          trans_attend: ["10", "22", "25", "2s", "10A"],
+        },
+        {
+          coords: {
+            lat: 56.53508608478128,
+            lng: 21.002066731452945,
+          },
+          name: "Piltenes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.53832779840499,
+            lng: 21.002761423587803,
+          },
+          name: "Šķēdes iela",
+          trans_attend: [
+            "10",
+            "11",
+            "22",
+            "23",
+            "25",
+            "1s",
+            "2s",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          coords: {
+            lat: 56.54051197042882,
+            lng: 21.00343465805054,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54852463939567,
+            lng: 21.00612759590149,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.5519873724064,
+            lng: 21.00693225860596,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.55583349809851,
+            lng: 21.007769107818607,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+      ],
     }, // снизу - вверх
     m2: {
       trajectory: [
@@ -79789,824 +89938,1954 @@ const new_routes = {
           lng: 21.00585,
         },
       ],
-      stations: {},
+      stations: [
+        {
+          coords: {
+            lat: 56.55654625788889,
+            lng: 21.00792467594147,
+          },
+          name: "Atmodas bulvāris",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.551833564521296,
+            lng: 21.006894707679752,
+          },
+          name: "Studentu rotas iela",
+          trans_attend: ["4", "7", "22", "23", "25", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.54835898495498,
+            lng: 21.006041765213013,
+          },
+          name: "Turaidas iela",
+          trans_attend: ["10", "11", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.540172165942984,
+            lng: 21.003305912017826,
+          },
+          name: "O.Kalpaka vidusskola",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+        },
+        {
+          coords: {
+            lat: 56.53745813697811,
+            lng: 21.002506613731388,
+          },
+          name: "Piltenes iela",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          coords: {
+            lat: 56.532442834680225,
+            lng: 21.002587080001835,
+          },
+          name: "Ziemeļu kapi",
+          trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+        },
+        {
+          name: "Buru iela",
+          coords: {
+            lat: 56.526752365310294,
+            lng: 21.003649234771732,
+          },
+          trans_attend: ["10", "22", "25", "10A"],
+        },
+        {
+          name: "Pārbrauktuve",
+          coords: {
+            lat: 56.52177550234474,
+            lng: 21.005001068115238,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Raiņa iela",
+          coords: {
+            lat: 56.5170107192243,
+            lng: 21.01193726062775,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "22",
+            "25",
+            "1A",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Rīgas iela",
+          coords: {
+            lat: 56.51377438841533,
+            lng: 21.014501452445984,
+          },
+          trans_attend: [
+            "3",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "25",
+            "6A",
+            "10A",
+            "11A",
+          ],
+        },
+        {
+          name: "Radio iela",
+          coords: {
+            lat: 56.51198956665398,
+            lng: 21.011725366115574,
+          },
+          trans_attend: ["25"],
+        },
+        {
+          name: "Kūrmājas prospekts",
+          coords: {
+            lat: 56.51032612355418,
+            lng: 21.000132858753208,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.50653227614955,
+            lng: 21.000875830650333,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Peldu iela",
+          coords: {
+            lat: 56.502870450086654,
+            lng: 21.00247979164124,
+          },
+          trans_attend: ["6", "25", "1A", "6A"],
+        },
+        {
+          name: "Jūrmalas iela",
+          coords: {
+            lat: 56.500741847054584,
+            lng: 21.003397107124332,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Robežu iela",
+          coords: {
+            lat: 56.49856265223837,
+            lng: 21.003756523132328,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Palangas iela",
+          coords: {
+            lat: 56.49441558015101,
+            lng: 21.004515588283542,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Ventas iela",
+          coords: {
+            lat: 56.49029476385661,
+            lng: 21.005626022815708,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+        {
+          name: "Klaipēdas iela",
+          coords: {
+            lat: 56.48728280377305,
+            lng: 21.00582450628281,
+          },
+          trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+        },
+      ],
     },
   },
 };
 
-const polylines = {
-  T: L.polyline(routes["T"], { color: "#c92828ff" }),
-  "1A": L.polyline(routes["1A"], { color: "#c92828ff" }),
-  "1s": L.polyline(routes["1s"], { color: "#c92828ff" }),
-  "2s": L.polyline(routes["2s"], { color: "#c92828ff" }),
-  3: L.polyline(routes["3"], { color: "#c92828ff" }),
-};
+let stations = [
+  {
+    coords: { lat: 56.61713536597153, lng: 21.040272116661075 },
+    name: "Šķēde",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.6167532099736, lng: 21.040425002574924 },
+    name: "Šķēde",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.61250243892327, lng: 21.038957834243778 },
+    name: "Šķede I",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.611920856812986, lng: 21.038732528686527 },
+    name: "Šķēde I",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.60966698366584, lng: 21.037954688072208 },
+    name: "Šķēde II",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.60908365799664, lng: 21.037724018096927 },
+    name: "Šķēde II",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.5952866027515, lng: 21.027094423770908 },
+    name: "Attīrīšanas iekārtas",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.59533682842393, lng: 21.027156114578247 },
+    name: "Attīrīšanas iekārtas",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.58393805223956, lng: 21.026603579521183 },
+    name: "Lībiešu iela",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.583623307160686, lng: 21.02654457092285 },
+    name: "Lībiešu iela",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.56360155380468, lng: 21.014509499073032 },
+    name: "Beberliņi",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.56248843143518, lng: 21.01406693458557 },
+    name: "Beberliņi",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.558698611018634, lng: 21.011776328086857 },
+    name: "Pulkveža Brieža iela",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.5584708971989, lng: 21.012001633644108 },
+    name: "Pulkveža Brieža iela",
+    trans_attend: ["8"],
+  },
+  {
+    coords: { lat: 56.55654625788889, lng: 21.00792467594147 },
+    name: "Atmodas bulvāris",
+    trans_attend: ["4", "7", "22", "23", "25", "22S"],
+  },
+  {
+    coords: { lat: 56.55583349809851, lng: 21.007769107818607 },
+    name: "Atmodas bulvāris",
+    trans_attend: ["4", "7", "22", "23", "25", "22S"],
+  },
+  {
+    coords: { lat: 56.55414135001608, lng: 21.01179510354996 },
+    name: "Pulkveža Brieža iela",
+    trans_attend: ["3", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55355100108751, lng: 21.016749143600467 },
+    name: "Ģenerāļa Baloža iela",
+    trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55328776347143, lng: 21.01815462112427 },
+    name: "Ģenerāļa Baloža iela",
+    trans_attend: ["3", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55249305804874, lng: 21.024715304374695 },
+    name: "Lazaretes iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55246643785363, lng: 21.02545022964478 },
+    name: "Lazaretes iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55206139153888, lng: 21.032960414886478 },
+    name: "Laboratorijas iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55199927701276, lng: 21.03417277336121 },
+    name: "Laboratorijas iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55170363436136, lng: 21.040320396423343 },
+    name: "Tosmare",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55166814002341, lng: 21.041264533996586 },
+    name: "Tosmare",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55144641062071, lng: 21.04641437530518 },
+    name: "Mežmalas iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.55141683180705, lng: 21.046816706657413 },
+    name: "Mežmalas iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.54788935773838, lng: 21.052071154117588 },
+    name: "Nākotnes iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.54763199710147, lng: 21.052360832691196 },
+    name: "Nākotnes iela",
+    trans_attend: ["3", "4", "7", "8", "12", "1A", "12A", "12B"],
+  },
+  {
+    coords: { lat: 56.543871978910545, lng: 21.055185198783875 },
+    name: "Pagr. uz Grīzupes ielu",
+    trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+  },
+  {
+    coords: { lat: 56.543778786924136, lng: 21.055158376693726 },
+    name: "Pagr. uz Grīzupes ielu",
+    trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+  },
+  {
+    coords: { lat: 56.541273711400635, lng: 21.054699718952183 },
+    name: "Cukuriņš",
+    trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+  },
+  {
+    coords: { lat: 56.540626029715646, lng: 21.05457365512848 },
+    name: "Cukuriņš",
+    trans_attend: ["3", "4", "6", "7", "8", "9", "12", "1A", "6A", "9A"],
+  },
+  {
+    coords: { lat: 56.538484625990414, lng: 21.05253249406815 },
+    name: "Cukura iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+  },
+  {
+    coords: { lat: 56.53845503704803, lng: 21.052690744400028 },
+    name: "Cukura iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+  },
+  {
+    coords: { lat: 56.53909400326417, lng: 21.042267680168155 },
+    name: "Saraiķu iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53903482630856, lng: 21.04318499565125 },
+    name: "Saraiķu iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53942522546946, lng: 21.034301519393924 },
+    name: "Pulvera iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.538862901166375, lng: 21.031731963157657 },
+    name: "Pulvera iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.536305923206776, lng: 21.028486490249637 },
+    name: "Valsts tehnikums",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.536410969808905, lng: 21.028634011745453 },
+    name: "Valsts tehnikums",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.534602318533516, lng: 21.025372445583347 },
+    name: "Ventspils iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53460083893528, lng: 21.025514602661136 },
+    name: "Ventspils iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53460966263409, lng: 21.020724177360538 },
+    name: "Lauma",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53465260382242, lng: 21.01826459169388 },
+    name: "Lauma",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53467484787708, lng: 21.01410180330277 },
+    name: "Ziemeļu iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53333914147307, lng: 21.011835336685184 },
+    name: "Siļķu iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "1s", "6A"],
+  },
+  {
+    coords: { lat: 56.53233164167434, lng: 21.011824607849125 },
+    name: "Siļķu iela",
+    trans_attend: ["3", "6", "7", "8", "23", "1A", "6A"],
+  },
+  {
+    coords: { lat: 56.53197833976775, lng: 21.01106017827988 },
+    name: "Sakņu iela",
+    trans_attend: ["11", "23", "11A"],
+  },
+  {
+    coords: { lat: 56.532021263459896, lng: 21.00829213857651 },
+    name: "Zaru iela",
+    trans_attend: ["11", "1s", "11A"],
+  },
+  {
+    coords: { lat: 56.53203606637574, lng: 21.007313132286075 },
+    name: "Ziedu iela",
+    trans_attend: ["11", "23", "11A"],
+  },
+  {
+    coords: { lat: 56.532053747841374, lng: 21.003153026103977 },
+    name: "Lapu iela",
+    trans_attend: ["11", "23", "1s", "11A"],
+  },
+  {
+    coords: { lat: 56.532442834680225, lng: 21.002587080001835 },
+    name: "Ziemeļu kapi",
+    trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.53508608478128, lng: 21.002066731452945 },
+    name: "Piltenes iela",
+    trans_attend: ["10", "11", "22", "23", "25", "1s", "2s", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.53745813697811, lng: 21.002506613731388 },
+    name: "Piltenes iela",
+    trans_attend: ["10", "11", "22", "23", "25", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.53832779840499, lng: 21.002761423587803 },
+    name: "Šķēdes iela",
+    trans_attend: ["10", "11", "22", "23", "25", "1s", "2s", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.540172165942984, lng: 21.003305912017826 },
+    name: "O.Kalpaka vidusskola",
+    trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+  },
+  {
+    coords: { lat: 56.54051197042882, lng: 21.00343465805054 },
+    name: "O.Kalpaka vidusskola",
+    trans_attend: ["10", "11", "22", "23", "25", "10A", "11A", "22S"],
+  },
+  {
+    coords: { lat: 56.54412601821005, lng: 21.004016697406772 },
+    name: "O.Kaplaka tilts",
+    trans_attend: ["10", "11", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.54835898495498, lng: 21.006041765213013 },
+    name: "Turaidas iela",
+    trans_attend: ["10", "11", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.54852463939567, lng: 21.00612759590149 },
+    name: "Turaidas iela",
+    trans_attend: ["10", "11", "10A", "11A"],
+  },
+  {
+    coords: { lat: 56.548587116242736, lng: 21.00797295570374 },
+    name: "Lācplēša dārzs",
+    trans_attend: ["4", "7"],
+  },
+  {
+    coords: { lat: 56.54851020546951, lng: 21.008662283420563 },
+    name: "Lācplēša dārzs",
+    trans_attend: ["4", "7"],
+  },
+  {
+    coords: { lat: 56.551833564521296, lng: 21.006894707679752 },
+    name: "Studentu rotas iela",
+    trans_attend: ["4", "7", "22", "23", "25", "22S"],
+  },
+  {
+    coords: { lat: 56.5519873724064, lng: 21.00693225860596 },
+    name: "Studentu rotas iela",
+    trans_attend: ["4", "7", "22", "23", "25", "22S"],
+  },
+  {
+    name: "Invalīdu iela",
+    coords: {
+      lat: 56.54624161753377,
+      lng: 21.017757654190067,
+    },
+    trans_attend: ["4", "7"],
+  },
+  {
+    name: "Invalīdu iela",
+    coords: {
+      lat: 56.54586346617288,
+      lng: 21.01843893527985,
+    },
+    trans_attend: ["4", "7"],
+  },
+  {
+    name: "Turaidas iela",
+    coords: {
+      lat: 56.544883300606045,
+      lng: 21.022258400917057,
+    },
+    trans_attend: ["4", "7"],
+  },
+  {
+    name: "Turaidas iela",
+    coords: {
+      lat: 56.54502678239902,
+      lng: 21.022596359252933,
+    },
+    trans_attend: ["4", "7"],
+  },
+  {
+    name: "Piemares pamatskola",
+    coords: {
+      lat: 56.54987326290834,
+      lng: 21.023470759391788,
+    },
+    trans_attend: ["4", "7"],
+  },
+  {
+    name: "Piemares pamatskola",
+    coords: {
+      lat: 56.55065120974201,
+      lng: 21.023610234260563,
+    },
+    trans_attend: ["4", "7"],
+  },
+  {
+    name: "Talsu iela",
+    coords: {
+      lat: 56.54360411609149,
+      lng: 21.0661393404007,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Talsu iela",
+    coords: {
+      lat: 56.54375204045495,
+      lng: 21.068671345710758,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Bērnudārzs",
+    coords: {
+      lat: 56.544340773693975,
+      lng: 21.071916818618774,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Bērnudārzs",
+    coords: {
+      lat: 56.54459184658333,
+      lng: 21.072952151298527,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "14.novembra bulv.",
+    coords: {
+      lat: 56.54488334532243,
+      lng: 21.07690304517746,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "14.novembra bulv.",
+    coords: {
+      lat: 56.544912929241725,
+      lng: 21.078466773033142,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Kārklu iela",
+    coords: {
+      lat: 56.547377530422075,
+      lng: 21.084818243980408,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Kārklu iela",
+    coords: {
+      lat: 56.54802688975702,
+      lng: 21.085652410984043,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Grīzupes iela",
+    coords: {
+      lat: 56.549583331162815,
+      lng: 21.08756482601166,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Grīzupes iela",
+    coords: {
+      lat: 56.55019859553008,
+      lng: 21.088321208953857,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Pagr.uz slimnīcu",
+    coords: {
+      lat: 56.553282639787604,
+      lng: 21.09209775924683,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Pagr.uz slimnīcu",
+    coords: {
+      lat: 56.55375883240204,
+      lng: 21.092666387557987,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Ceriņu iela",
+    coords: {
+      lat: 56.554775743283486,
+      lng: 21.096778213977814,
+    },
+    trans_attend: ["1s", "4s", "6A", "9A", "12B"],
+  },
+  {
+    name: "Ceriņu iela",
+    coords: {
+      lat: 56.55469736627175,
+      lng: 21.09680771827698,
+    },
+    trans_attend: ["6A", "9A", "12B"],
+  },
+  {
+    name: "Slimnīca",
+    coords: {
+      lat: 56.55229789455988,
+      lng: 21.09896957874298,
+    },
+    trans_attend: ["6", "9", "12", "1s", "4s", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Slimnīca",
+    coords: {
+      lat: 56.552244653876436,
+      lng: 21.099033951759342,
+    },
+    trans_attend: ["6", "9", "12", "6A", "9A", "12A", "12B"],
+  },
+  {
+    name: "Pieneņu iela",
+    coords: {
+      lat: 56.54255076261646,
+      lng: 21.097987890243534,
+    },
+    trans_attend: ["12A"],
+  },
+  {
+    name: "Pieneņu iela",
+    coords: {
+      lat: 56.54253301116012,
+      lng: 21.09799325466156,
+    },
+    trans_attend: ["12A"],
+  },
+  {
+    name: "Smilgu iela",
+    coords: {
+      lat: 56.53940068738958,
+      lng: 21.099929809570312,
+    },
+    trans_attend: ["12A"],
+  },
+  {
+    name: "Smilgu iela",
+    coords: {
+      lat: 56.539365181514896,
+      lng: 21.099956631660465,
+    },
+    trans_attend: ["12A"],
+  },
+  {
+    name: "Pilsētas robeža",
+    coords: {
+      lat: 56.534869548785665,
+      lng: 21.10150694847107,
+    },
+    trans_attend: ["12A"],
+  },
+  {
+    name: "Autobusu parks",
+    coords: {
+      lat: 56.53614343357391,
+      lng: 21.054804325103763,
+    },
+    trans_attend: ["4", "9", "23", "9A"],
+  },
+  {
+    name: "Autobusu parks",
+    coords: {
+      lat: 56.53609312924824,
+      lng: 21.05480164289475,
+    },
+    trans_attend: ["4", "9", "23", "4s", "9A"],
+  },
+  {
+    name: "Saulesdruvas",
+    coords: {
+      lat: 56.534766239941995,
+      lng: 21.05487942695618,
+    },
+    trans_attend: ["4", "9", "23", "4s", "9A"],
+  },
+  {
+    name: "Satiksmes iela",
+    coords: {
+      lat: 56.53251220508497,
+      lng: 21.04654848575592,
+    },
+    trans_attend: ["4", "9", "23", "4s", "9A"],
+  },
+  {
+    name: "Satiksmes iela",
+    coords: {
+      lat: 56.53299161832804,
+      lng: 21.048340201377872,
+    },
+    trans_attend: ["4", "9", "23", "9A"],
+  },
+  {
+    name: "Mehāniksais centrs",
+    coords: {
+      lat: 56.529734262523476,
+      lng: 21.040052175521854,
+    },
+    trans_attend: ["4", "9", "23", "9A"],
+  },
+  {
+    name: "Brīvības iela",
+    coords: {
+      lat: 56.527923576996336,
+      lng: 21.03616833686829,
+    },
+    trans_attend: ["4", "9", "23", "9A"],
+  },
+  {
+    name: "Brīvības iela",
+    coords: {
+      lat: 56.527296232268746,
+      lng: 21.034462451934818,
+    },
+    trans_attend: ["4", "9", "23", "4s", "9A"],
+  },
+  {
+    name: "Brīvības iela",
+    coords: {
+      lat: 56.52547236449727,
+      lng: 21.030364036560062,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Brīvības iela",
+    coords: {
+      lat: 56.52559520055271,
+      lng: 21.030645668506622,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Metalurgs",
+    coords: {
+      lat: 56.52418230862621,
+      lng: 21.027115881443027,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Metalurgs",
+    coords: {
+      lat: 56.52425487948515,
+      lng: 21.0273814201355,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Metalurgs",
+    coords: {
+      lat: 56.52404915858856,
+      lng: 21.027105152606968,
+    },
+    trans_attend: ["4", "9", "9A"],
+  },
+  {
+    name: "Miltu iela",
+    coords: {
+      lat: 56.52255787002509,
+      lng: 21.0283175110817,
+    },
+    trans_attend: ["22", "23"],
+  },
+  {
+    name: "Zemnieku iela",
+    coords: {
+      lat: 56.520651057644656,
+      lng: 21.027850806713104,
+    },
+    trans_attend: ["22", "23"],
+  },
+  {
+    name: "Dzelzceļnieku iela",
+    coords: {
+      lat: 56.52171595169797,
+      lng: 21.021467149257663,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Dzelzceļnieku iela",
+    coords: {
+      lat: 56.52177959601364,
+      lng: 21.020759046077732,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Olimpiskais centrs",
+    coords: {
+      lat: 56.52127072313359,
+      lng: 21.020683944225315,
+    },
+    trans_attend: ["4", "9", "9A"],
+  },
+  {
+    name: "Olimpiskais centrs",
+    coords: {
+      lat: 56.52098209882982,
+      lng: 21.0199972987175,
+    },
+    trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+  },
+  {
+    name: "Stacija",
+    coords: {
+      lat: 56.52369578643726,
+      lng: 21.017596721649173,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Stacija",
+    coords: {
+      lat: 56.52318813471133,
+      lng: 21.016928851604465,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Olimpiskais centrs",
+    coords: {
+      lat: 56.52025844299007,
+      lng: 21.016151010990146,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Olimpiskais centrs",
+    coords: {
+      lat: 56.52062256024106,
+      lng: 21.01629585027695,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Olimpiskais centrs",
+    coords: {
+      lat: 56.520172722543315,
+      lng: 21.017977595329288,
+    },
+    trans_attend: ["22"],
+  },
+  {
+    name: "Esperanto iela",
+    coords: {
+      lat: 56.5173823213335,
+      lng: 21.01542949676514,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Esperanto iela",
+    coords: {
+      lat: 56.517151398372924,
+      lng: 21.015322208404545,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Pīlādžu iela",
+    coords: {
+      lat: 56.51751406521271,
+      lng: 21.014737486839298,
+    },
+    trans_attend: ["22"],
+  },
+  {
+    name: "T.Breikša iela",
+    coords: {
+      lat: 56.51888385591636,
+      lng: 21.013004779815677,
+    },
+    trans_attend: ["22"],
+  },
+  {
+    name: "Raiņa iela",
+    coords: {
+      lat: 56.5170107192243,
+      lng: 21.01193726062775,
+    },
+    trans_attend: [
+      "3",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "22",
+      "25",
+      "1A",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Raiņa iela",
+    coords: {
+      lat: 56.51773554102306,
+      lng: 21.0109555721283,
+    },
+    trans_attend: [
+      "3",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "22",
+      "25",
+      "1A",
+      "2s",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Pārbrauktuve",
+    coords: {
+      lat: 56.520561940045454,
+      lng: 21.006851792335514,
+    },
+    trans_attend: [
+      "3",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "25",
+      "1A",
+      "2s",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "1905.gada iela",
+    coords: {
+      lat: 56.5207485644864,
+      lng: 21.007065027952198,
+    },
+    trans_attend: ["22"],
+  },
+  {
+    name: "Pārbrauktuve",
+    coords: {
+      lat: 56.52177550234474,
+      lng: 21.005001068115238,
+    },
+    trans_attend: [
+      "3",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "22",
+      "25",
+      "1A",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Sliežu iela",
+    coords: {
+      lat: 56.523855702571396,
+      lng: 21.004266142845157,
+    },
+    trans_attend: ["10", "22", "25", "2s", "10A"],
+  },
+  {
+    name: "Buru iela",
+    coords: {
+      lat: 56.526844119301316,
+      lng: 21.00368142127991,
+    },
+    trans_attend: ["10", "22", "25", "2s", "10A"],
+  },
+  {
+    name: "Buru iela",
+    coords: {
+      lat: 56.526752365310294,
+      lng: 21.003649234771732,
+    },
+    trans_attend: ["10", "22", "25", "10A"],
+  },
+  {
+    name: "Ziemeļu kapi",
+    coords: {
+      lat: 56.53143601328235,
+      lng: 21.002774834632877,
+    },
+    trans_attend: ["10", "22", "25", "2s", "10A"],
+  },
+  {
+    name: "Flotes iela",
+    coords: {
+      lat: 56.5240904419962,
+      lng: 21.01121306419373,
+    },
+    trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+  },
+  {
+    name: "Flotes iela",
+    coords: {
+      lat: 56.524091922005034,
+      lng: 21.01105481386185,
+    },
+    trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+  },
+  {
+    name: "Krūmu iela",
+    coords: {
+      lat: 56.529633728404065,
+      lng: 21.011824607849125,
+    },
+    trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+  },
+  {
+    name: "Krūmu iela",
+    coords: {
+      lat: 56.5295064660511,
+      lng: 21.011787056922916,
+    },
+    trans_attend: ["3", "6", "7", "8", "11", "1A", "6A", "11A"],
+  },
+  {
+    name: "Rīgas iela",
+    coords: {
+      lat: 56.51439869540272,
+      lng: 21.01480454206467,
+    },
+    trans_attend: ["3", "6", "7", "8", "10", "11", "25", "6A", "10A", "11A"],
+  },
+  {
+    name: "Rīgas iela",
+    coords: {
+      lat: 56.51377438841533,
+      lng: 21.014501452445984,
+    },
+    trans_attend: ["3", "6", "7", "8", "10", "11", "25", "6A", "10A", "11A"],
+  },
+  {
+    name: "Esperanto iela",
+    coords: {
+      lat: 56.51447735319591,
+      lng: 21.016480922698978,
+    },
+    trans_attend: ["4", "9", "22", "23", "4s", "9A"],
+  },
+  {
+    name: "Esperanto iela",
+    coords: {
+      lat: 56.51513132157159,
+      lng: 21.016802787780765,
+    },
+    trans_attend: ["4", "9", "4s", "9A"],
+  },
+  {
+    name: "Tirgus iela",
+    coords: {
+      lat: 56.517034290023,
+      lng: 21.024532914161686,
+    },
+    trans_attend: ["22", "23"],
+  },
+  {
+    name: "Radio iela",
+    coords: {
+      lat: 56.51198956665398,
+      lng: 21.011725366115574,
+    },
+    trans_attend: ["25"],
+  },
+  {
+    name: "Radio iela",
+    coords: {
+      lat: 56.51194959363218,
+      lng: 21.012245714664463,
+    },
+    trans_attend: ["25"],
+  },
+  {
+    name: "Koncertzāle",
+    coords: {
+      lat: 56.51130139964532,
+      lng: 21.014050841331485,
+    },
+    trans_attend: [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "22",
+      "1A",
+      "4s",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Līva",
+    coords: {
+      lat: 56.509574306397276,
+      lng: 21.012245714664463,
+    },
+    trans_attend: [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "22",
+      "1A",
+      "2s",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Līva",
+    coords: {
+      lat: 56.509128650450336,
+      lng: 21.011639535427097,
+    },
+    trans_attend: [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8",
+      "10",
+      "11",
+      "22",
+      "1A",
+      "4s",
+      "6A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Liepājas Universitāte",
+    coords: {
+      lat: 56.50844480649468,
+      lng: 21.009796857833862,
+    },
+    trans_attend: ["6", "1A", "6A"],
+  },
+  {
+    name: "Liepājas Universitāte",
+    coords: {
+      lat: 56.5087468517616,
+      lng: 21.008992195129398,
+    },
+    trans_attend: ["6", "1A", "2s", "6A"],
+  },
+  {
+    name: "Jūras iela",
+    coords: {
+      lat: 56.51053920301431,
+      lng: 21.006189286708835,
+    },
+    trans_attend: ["6", "1A", "6A"],
+  },
+  {
+    name: "Graudu iela",
+    coords: {
+      lat: 56.51075684149819,
+      lng: 21.00430637598038,
+    },
+    trans_attend: ["6", "25", "1A", "2s", "6A"],
+  },
+  {
+    name: "Kūrmājas prospekts",
+    coords: {
+      lat: 56.51032612355418,
+      lng: 21.000132858753208,
+    },
+    trans_attend: ["6", "25", "1A", "6A"],
+  },
+  {
+    name: "Kūrmājas prospekts",
+    coords: {
+      lat: 56.5090606520307,
+      lng: 20.9997895359993,
+    },
+    trans_attend: ["6", "25", "1A", "2s", "6A"],
+  },
+  {
+    name: "Peldu iela",
+    coords: {
+      lat: 56.50653227614955,
+      lng: 21.000875830650333,
+    },
+    trans_attend: ["6", "25", "1A", "6A"],
+  },
+  {
+    name: "Peldu iela",
+    coords: {
+      lat: 56.50528481687705,
+      lng: 21.00144982337952,
+    },
+    trans_attend: ["6", "25", "1A", "6A"],
+  },
+  {
+    name: "Peldu iela",
+    coords: {
+      lat: 56.502870450086654,
+      lng: 21.00247979164124,
+    },
+    trans_attend: ["6", "25", "1A", "6A"],
+  },
+  {
+    name: "Jūrmalas iela",
+    coords: {
+      lat: 56.500741847054584,
+      lng: 21.003397107124332,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Jūrmalas iela",
+    coords: {
+      lat: 56.50066347198146,
+      lng: 21.00341856479645,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Robežu iela",
+    coords: {
+      lat: 56.49856265223837,
+      lng: 21.003756523132328,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Robežu iela",
+    coords: {
+      lat: 56.49793173848674,
+      lng: 21.003885269165043,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Palangas iela",
+    coords: {
+      lat: 56.495142851933124,
+      lng: 21.004373431205753,
+    },
+    trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+  },
+  {
+    name: "Palangas iela",
+    coords: {
+      lat: 56.49441558015101,
+      lng: 21.004515588283542,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Ventas iela",
+    coords: {
+      lat: 56.49061176687997,
+      lng: 21.005617976188663,
+    },
+    trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+  },
+  {
+    name: "Ventas iela",
+    coords: {
+      lat: 56.49029476385661,
+      lng: 21.005626022815708,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Klaipēdas iela",
+    coords: {
+      lat: 56.48743539243858,
+      lng: 21.005832552909855,
+    },
+    trans_attend: ["6", "11", "25", "1A", "2s", "6A", "11A"],
+  },
+  {
+    name: "Klaipēdas iela",
+    coords: {
+      lat: 56.48728280377305,
+      lng: 21.00582450628281,
+    },
+    trans_attend: ["6", "11", "25", "1A", "6A", "11A"],
+  },
+  {
+    name: "Zivju iela",
+    coords: {
+      lat: 56.50568615714687,
+      lng: 21.011084318161014,
+    },
+    trans_attend: ["3", "4", "7", "10", "11", "22", "10A", "11A"],
+  },
+  {
+    name: "Pētertirgus",
+    coords: {
+      lat: 56.50520047535415,
+      lng: 21.01164758205414,
+    },
+    trans_attend: ["3", "4", "7", "9", "10", "11", "22", "23", "9A", "11A"],
+  },
+  {
+    name: "Pētertirgus",
+    coords: {
+      lat: 56.503995128416975,
+      lng: 21.00992023944855,
+    },
+    trans_attend: [
+      "3",
+      "4",
+      "7",
+      "9",
+      "10",
+      "11",
+      "22",
+      "23",
+      "9A",
+      "10A",
+      "11A",
+    ],
+  },
+  {
+    name: "Kuršu iela",
+    coords: {
+      lat: 56.50256251173176,
+      lng: 21.008922457695007,
+    },
+    trans_attend: ["3", "4", "9", "9A", "10A"],
+  },
+  {
+    name: "Siena tirgus",
+    coords: {
+      lat: 56.502380366784024,
+      lng: 21.00815534591675,
+    },
+    trans_attend: ["7", "11", "11A"],
+  },
+  {
+    name: "Siena tirgus",
+    coords: {
+      lat: 56.50194203064064,
+      lng: 21.00784689188004,
+    },
+    trans_attend: ["7", "11", "11A"],
+  },
+  {
+    name: "Kuršu iela",
+    coords: {
+      lat: 56.5013594494207,
+      lng: 21.008107066154484,
+    },
+    trans_attend: ["3", "4", "9", "10", "10A"],
+  },
+  {
+    name: "Kungu iela",
+    coords: {
+      lat: 56.506109160763764,
+      lng: 21.019098758697513,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Kungu iela",
+    coords: {
+      lat: 56.50611212218596,
+      lng: 21.01945817470551,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Baznīcas iela",
+    coords: {
+      lat: 56.50792098697509,
+      lng: 21.022011637687687,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Jaunā iela",
+    coords: {
+      lat: 56.50981807755046,
+      lng: 21.023325920104984,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Jaunā iela",
+    coords: {
+      lat: 56.508912394781206,
+      lng: 21.025750637054447,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Dārza iela",
+    coords: {
+      lat: 56.506097478481486,
+      lng: 21.024838685989383,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Ganību iela",
+    coords: {
+      lat: 56.50069898964906,
+      lng: 21.016813516616825,
+    },
+    trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+  },
+  {
+    name: "Ganību iela",
+    coords: {
+      lat: 56.49997300027446,
+      lng: 21.01656943559647,
+    },
+    trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+  },
+  {
+    name: "Raiņa vidusskola",
+    coords: {
+      lat: 56.497181365140854,
+      lng: 21.016561388969425,
+    },
+    trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+  },
+  {
+    name: "Salmu iela",
+    coords: {
+      lat: 56.49754561995559,
+      lng: 21.019586920738224,
+    },
+    trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+  },
+  {
+    name: "Lauku iela",
+    coords: {
+      lat: 56.49522110516929,
+      lng: 21.018924415111545,
+    },
+    trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+  },
+  {
+    name: "Lauku iela",
+    coords: {
+      lat: 56.49486363940153,
+      lng: 21.017358005046848,
+    },
+    trans_attend: ["3", "4", "9", "10", "9A", "10A"],
+  },
+  {
+    name: "Nīcas iela",
+    coords: {
+      lat: 56.49273337857299,
+      lng: 21.018369197845463,
+    },
+    trans_attend: ["2s"],
+  },
+  {
+    name: "Dzērves iela",
+    coords: {
+      lat: 56.49243824725947,
+      lng: 21.02046668529511,
+    },
+    trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+  },
+  {
+    name: "Dzērves iela",
+    coords: {
+      lat: 56.491937583135154,
+      lng: 21.020359396934513,
+    },
+    trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+  },
+  {
+    name: "E. Tisē iela",
+    coords: {
+      lat: 56.48968739155598,
+      lng: 21.019849777221683,
+    },
+    trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+  },
+  {
+    name: "E. Tisē iela",
+    coords: {
+      lat: 56.48893820720965,
+      lng: 21.018514037132263,
+    },
+    trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+  },
+  {
+    name: "Tukuma iela",
+    coords: {
+      lat: 56.48771649006829,
+      lng: 21.012291312217716,
+    },
+    trans_attend: ["2s"],
+  },
+  {
+    name: "Centrālkapi",
+    coords: {
+      lat: 56.48585226241979,
+      lng: 21.008951961994175,
+    },
+    trans_attend: ["6", "1A", "6A"],
+  },
+  {
+    name: "Centrālkapi",
+    coords: {
+      lat: 56.485844854908116,
+      lng: 21.009151786565784,
+    },
+    trans_attend: ["6", "1A", "6A"],
+  },
+  {
+    name: "Centrālkapi",
+    coords: {
+      lat: 56.48466710043548,
+      lng: 21.005993485450748,
+    },
+    trans_attend: ["11A"],
+  },
+  {
+    name: "Centrālkapi",
+    coords: {
+      lat: 56.484438941286164,
+      lng: 21.006063222885135,
+    },
+    trans_attend: ["11A"],
+  },
+  {
+    name: "Dienvidu robeža",
+    coords: {
+      lat: 56.476771472561346,
+      lng: 21.008761525154117,
+    },
+    trans_attend: ["1A", "10A", "11A"],
+  },
+  {
+    name: "Dienvidu robeža",
+    coords: {
+      lat: 56.47747238432245,
+      lng: 21.008595228195194,
+    },
+    trans_attend: ["1A", "10A", "11A"],
+  },
+  {
+    name: "Dienvidu kapi",
+    coords: {
+      lat: 56.47291674696083,
+      lng: 21.009252369403843,
+    },
+    trans_attend: ["1A", "10A", "11A"],
+  },
+  {
+    name: "Tonus Elast",
+    coords: {
+      lat: 56.453926999427736,
+      lng: 21.011215746402744,
+    },
+    trans_attend: ["1A"],
+  },
+  {
+    name: "K.Zāles laukums",
+    coords: {
+      lat: 56.51209233930211,
+      lng: 21.01872324943543,
+    },
+    trans_attend: ["22"],
+  },
+  {
+    name: "Ādu iela",
+    coords: {
+      lat: 56.51128436527524,
+      lng: 21.022703647613525,
+    },
+    trans_attend: ["9", "23", "9A"],
+  },
+  {
+    name: "Vaiņodes iela",
+    coords: {
+      lat: 56.48615848190225,
+      lng: 21.016384363174442,
+    },
+    trans_attend: ["3", "4", "9", "10", "2s", "9A", "10A"],
+  },
+  {
+    name: "Vaiņodes iela",
+    coords: {
+      lat: 56.48480327746066,
+      lng: 21.015874743461612,
+    },
+    trans_attend: ["3", "4", "6", "9", "10", "1A", "6A", "9A", "10A"],
+  },
+  {
+    name: "Svētes iela",
+    coords: {
+      lat: 56.48302910274455,
+      lng: 21.01472675800324,
+    },
+    trans_attend: ["1A", "10A"],
+  },
+  {
+    name: "Rojas iela",
+    coords: {
+      lat: 56.48346109002931,
+      lng: 21.017859578132633,
+    },
+    trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+  },
+  {
+    name: "Rojas iela",
+    coords: {
+      lat: 56.48306163290836,
+      lng: 21.01915776729584,
+    },
+    trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+  },
+  {
+    name: "M. Ķempes iela",
+    coords: {
+      lat: 56.48196117487996,
+      lng: 21.026024222373962,
+    },
+    trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
+  },
+  {
+    name: "M. Ķempes iela",
+    coords: {
+      lat: 56.48158483286921,
+      lng: 21.02720439434052,
+    },
+    trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
+  },
+  {
+    name: "Koncertzāle",
+    coords: {
+      lat: 56.51097573493228,
+      lng: 21.013825535774235,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Koncertzāle",
+    coords: {
+      lat: 56.51089874775666,
+      lng: 21.013755798339847,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Rožu laukums",
+    coords: {
+      lat: 56.508445002788996,
+      lng: 21.011127233505253,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Rožu laukums",
+    coords: {
+      lat: 56.50826436672549,
+      lng: 21.010947525501255,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Pētertirgus",
+    coords: {
+      lat: 56.50546981119077,
+      lng: 21.00680619478226,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Pētertirgus",
+    coords: {
+      lat: 56.50489556058435,
+      lng: 21.006688177585605,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Jūrmalas iela",
+    coords: {
+      lat: 56.501935299394994,
+      lng: 21.00624024868012,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Jūrmalas iela",
+    coords: {
+      lat: 56.50091579238561,
+      lng: 21.006169370887484,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Līvas laukums",
+    coords: {
+      lat: 56.49799769671764,
+      lng: 21.006684355018344,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Līvas laukums",
+    coords: {
+      lat: 56.497440490602116,
+      lng: 21.006489694118503,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Ventas iela",
+    coords: {
+      lat: 56.49169575394459,
+      lng: 21.005384624004368,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Ventas iela",
+    coords: {
+      lat: 56.49088869325624,
+      lng: 21.00547850131989,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Klaipēdas iela",
+    coords: {
+      lat: 56.48728434295346,
+      lng: 21.005652844905857,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Klaipēdas iela",
+    coords: {
+      lat: 56.48702064460042,
+      lng: 21.005642116069797,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Tukuma iela",
+    coords: {
+      lat: 56.48715991097471,
+      lng: 21.009354293346405,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Tukuma iela",
+    coords: {
+      lat: 56.487220650422515,
+      lng: 21.010032892227176,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Vaiņodes iela",
+    coords: {
+      lat: 56.48541389603778,
+      lng: 21.012728512287143,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Vaiņodes iela",
+    coords: {
+      lat: 56.4851427770363,
+      lng: 21.01302891969681,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Ganību iela",
+    coords: {
+      lat: 56.48377574495424,
+      lng: 21.015805006027225,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Ganību iela",
+    coords: {
+      lat: 56.48363054951642,
+      lng: 21.0164487361908,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Cieceres iela",
+    coords: {
+      lat: 56.482779091481575,
+      lng: 21.021255254745487,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Cieceres iela",
+    coords: {
+      lat: 56.48262352083396,
+      lng: 21.021955311298374,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Mirdzas Ķempes iela",
+    coords: {
+      lat: 56.48189784792875,
+      lng: 21.025992035865787,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Mirdzas Ķempes iela",
+    coords: {
+      lat: 56.48173042036528,
+      lng: 21.026745736598972,
+    },
+    trans_attend: ["T"],
+  },
+  {
+    name: "Biznesa centrs",
+    coords: {
+      lat: 56.560594715973494,
+      lng: 21.093134433031086,
+    },
+    trans_attend: ["6A", "9A", "12B"],
+  },
+  {
+    name: "Biznesa centrs",
+    coords: {
+      lat: 56.56054520432922,
+      lng: 21.09316125512123,
+    },
+    trans_attend: ["6A", "9A", "12B"],
+  },
+];
 
-const stations = {
-  T: {
-    up: [
-      [
-        ["Mirdzas Ķempes iela", ["56.48190234", "21.02598935"]],
-        ["Cieceres iela", ["56.48278071", "21.02124721"]],
-        ["Ganību iela", ["56.48377451", "21.01580501"]],
-        ["Vaiņodes iela", ["56.48541548", "21.01274192"]],
-        ["Tukuma iela", ["56.48716304", "21.00935429"]],
-        ["Klaipēdas iela", ["56.48727562", "21.00566223"]],
-        ["Ventas iela", ["56.49088397", "21.00548118"]],
-        ["Līvas laukums", ["56.49799802", "21.00671500"]],
-        ["Jūrmalas iela", ["56.50089309", "21.00620538"]],
-        ["Pētertirgus", ["56.50546118", "21.00681290"]],
-        ["Rožu laukums", ["56.50843850", "21.01113528"]],
-        ["Koncertzāle", ["56.51089001", "21.01376116"]],
-        ["Esperanto iela", ["56.51605496", "21.01507545"]],
-        ["Olimpiskais centrs", ["56.52062435", "21.01629585"]],
-        ["Stacija", ["56.52368241", "21.01806611"]],
-        ["Metalurgs", ["56.52417209", "21.02718830"]],
-        ["Brīvības iela", ["56.52563378", "21.03133768"]],
-      ],
-    ],
-    down: [
-      ["Brīvības iela", ["56.52578640", "21.03095680"]],
-      ["Metalurgs", ["56.52418240", "21.02710515"]],
-      ["Stacija", ["56.52318087", "21.01692483"]],
-      ["Olimpiskais centrs", ["56.52026311", "21.01615101"]],
-      ["Koncerzāle", ["56.51098008", "21.01381212"]],
-      ["Rožu laukums", ["56.50826451", "21.01092741"]],
-      ["Pētertirgus", ["56.50488904", "21.00666806"]],
-      ["Jūrmalas iela", ["56.50064713", "21.00621343"]],
-      ["Līvas laukums", ["56.49744040", "21.00646555"]],
-      ["Ventas iela", ["56.49171509", "21.00538999"]],
-      ["Klaipēdas iela", ["56.48701778", "21.00562871"]],
-      ["Tukuma iela", ["56.48722516", "21.01003557"]],
-      ["Vaiņodes iela", ["56.48513987", "21.01303697"]],
-      ["Ganību iela", ["56.48362937", "21.01645812"]],
-      ["Cieceres iela", ["56.48262447", "21.02196068"]],
-      ["Mirdzas Ķempes iela", ["56.48173280", "21.02674171"]],
-    ],
-  },
-  "1A": {
-    up: [
-      ["Tonus Elast", ["56.45392379", "21.01120770"]],
-      ["Dienvidu kapi", ["56.47295836", "21.00967079"]],
-      ["Dienvidu robeža", ["56.47748260", "21.00858718"]],
-      ["Svētes iela", ["56.48301846", "21.01471335"]],
-      ["Centrālkapi", ["56.48585086", "21.00895733"]],
-      ["Klaipedas iela", ["56.48743859", "21.00582451"]],
-      ["Ventas iela", ["56.49060450", "21.00562066"]],
-      ["Palangas iela", ["56.49496672", "21.00441098"]],
-      ["Robežu iela", ["56.49793360", "21.00389868"]],
-      ["Jūrmalas iela", ["56.50066228", "21.00342929"]],
-      ["Peldu iela", ["56.50529546", "21.00146055"]],
-      ["Kūrmājas prospekts", ["56.50905772", "20.99977076"]],
-      ["Graudu iela", ["56.51075691", "21.00430369"]],
-      ["Liepājas Universitāte", ["56.50876916", "21.00891978"]],
-      ["Līva", ["56.50956852", "21.01224840"]],
-      ["Rīgas iela", ["56.51442396", "21.01479113"]],
-      ["Raiņa iela", ["56.51772863", "21.01094216"]],
-      ["Pārbrauktuve", ["56.52055455", "21.00685447"]],
-      ["Flotes iela", ["56.52410558", "21.01127744"]],
-      ["Krūmu iela", ["56.52962964", "21.01180315"]],
-      ["Siļķu iela", ["56.53233530", "21.01183265"]],
-      ["Ziemeļu iela", ["56.53467984", "21.01410449"]],
-      ["Lauma", ["56.53462610", "21.02094144"]],
-      ["Ventspils iela", ["56.53458895", "21.02551460"]],
-      ["Valsts Tehnikums", ["56.53648824", "21.02871716"]],
-      ["Pulvera iela", ["56.53944037", "21.03464484"]],
-      ["Saraiķu iela", ["56.53909703", "21.04226500"]],
-      ["Cukura iela", ["56.53845665", "21.05275780"]],
-      ["Cukuriņš", ["56.54130953", "21.05470240"]],
-      ["Pagrieziens un Grīzupes ielu", ["56.54387062", "21.05518520"]],
-      ["Nakotnes iela", ["56.54791054", "21.05208457"]],
-      ["Mežmalas iela", ["56.55144613", "21.04640633"]],
-      ["Tosmare", ["56.55166876", "21.04128063"]],
-      ["Laboratorijas iela", ["56.55199954", "21.03416204"]],
-      ["Lazaretes iela", ["56.55246376", "21.02546632"]],
-      ["Ģenerāļā Baloža iela", ["56.55356072", "21.01674914"]],
-      ["Pulkveža Brieža iela", ["56.55415501", "21.01179510"]],
-    ],
-    down: [
-      ["Pulkveža Brieža iela", ["56.55413875", "21.01169318"]],
-      ["Ģenerāļa Baloža iela", ["56.55325615", "21.01813853"]],
-      ["Lazaretes iela", ["56.55246814", "21.02470726"]],
-      ["Laboratorijas iela", ["56.55202323", "21.03294700"]],
-      ["Tosmare", ["56.55166835", "21.04030430"]],
-      ["Mežmalas iela", ["56.55138748", "21.04681134"]],
-      ["Nākotnes iela", ["56.54757004", "21.05222940"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54377225", "21.05511948"]],
-      ["Cukuriņš", ["56.54062544", "21.05451062"]],
-      ["Cukura iela", ["56.53846482", "21.05282485"]],
-      ["Saraiķu iela", ["56.53909557", "21.04226768"]],
-      ["Pulvera iela", ["56.53892178", "21.03178695"]],
-      ["Valsks tehnikums", ["56.53633751", "21.02849185"]],
-      ["Ventspils iela", ["56.53460611", "21.02538183"]],
-      ["Lauma", ["56.53465349", "21.01826325"]],
-      ["Siļķu iela", ["56.53334363", "21.01182729"]],
-      ["Krūmu iela", ["56.52948454", "21.01174951"]],
-      ["Flotes iela", ["56.52408925", "21.01106822"]],
-      ["Pārbrauktuve", ["56.52159308", "21.00526929"]],
-      ["Raiņa iela", ["56.51700494", "21.01196408"]],
-      ["Rīgas iela", ["56.51376935", "21.01451084"]],
-      ["Koncertzāle", ["56.51149098", "21.01411790"]],
-      ["Līva", ["56.50915485", "21.01166770"]],
-      ["Liepājas Universitāte", ["56.50843698", "21.00981563"]],
-      ["Jūras iela", ["56.51052537", "21.00621611"]],
-      ["Kūrmājas prospekts", ["56.51032627", "21.00014091"]],
-      ["Peldu iela", ["56.50651063", "21.00089192"]],
-      ["J. Janševka iela", ["56.50287181", "21.00248247"]],
-      ["Jūrmalas iela", ["56.50074253", "21.00340113"]],
-      ["Robežu iela", ["56.49856547", "21.00374579"]],
-      ["Palangas iela", ["56.49440919", "21.00452498"]],
-      ["Ventas iela", ["56.49061027", "21.00561798"]],
-      ["Klaipēdas iela", ["56.48729587", "21.00583792"]],
-      ["Centrālkapi", ["56.48584788", "21.00909948"]],
-      ["Vaiņodes iela", ["56.48479624", "21.01586938"]],
-      ["Dienvidu robeža", ["56.47677288", "21.00873470"]],
-      ["Tonus Elast", ["56.45392405", "21.01121843"]],
-    ],
-  },
-  "1s": [
-    ["O. Kalpaka vidusskola", ["56.54052568", "21.00344539"]],
-    ["Šķedes iela", ["56.53834877", "21.00276411"]],
-    ["Piltenes iela", ["56.53508872", "21.00207210"]],
-    ["Lapu iela", ["56.53205975", "21.00322008"]],
-    ["Zaru iela", ["56.53202137", "21.00829482"]],
-    ["Siļķu iela", ["56.53294882", "21.01181120"]],
-    ["Lauma", ["56.53464803", "21.01835847"]],
-    ["Ventspils iela", ["56.53460978", "21.02538049"]],
-    ["Valsts Tehnikums", ["56.53636114", "21.02854550"]],
-    ["Pulvera iela", ["56.53892864", "21.03180170"]],
-    ["Saraiķu iela", ["56.53910287", "21.04226232"]],
-    ["Cukura iela", ["56.53845074", "21.05289996"]],
-    ["Cukuriņš", ["56.54063810", "21.05457902"]],
-    ["Pagrieziens uz Grīzupes ielu", ["56.54357564", "21.05509400"]],
-    ["Talsu iela", ["56.54361325", "21.06621444"]],
-    ["Bērnudārzs", ["56.54437923", "21.07209653"]],
-    ["14.novembra bulvāris", ["56.54489232", "21.07690036"]],
-    ["Kārklu iela", ["56.54739847", "21.08483434"]],
-    ["Grīzupes iela", ["56.54957788", "21.08752728"]],
-    ["Pagrieziens us slimnīcu", ["56.55303727", "21.09174907"]],
-    ["Ceriņu iela", ["56.55480539", "21.09677285"]],
-    ["Slimnīca", ["56.55228039", "21.09899372"]],
-  ],
-  "2s": [
-    ["Mirdzas Ķempes iela", ["56.48195951", "21.02602288"]],
-    ["Rojas iela", ["56.48345750", "21.01787031"]],
-    ["Vaiņodes iela", ["56.48614121", "21.01637363"]],
-    ["Nīcas iela", ["56.49272276", "21.01835445"]],
-    ["Dzērves iela", ["56.49242121", "21.02045864"]],
-    ["E.Tisē iela", ["56.48894560", "21.01853281"]],
-    ["Tukuma iela", ["56.48772120", "21.01229668"]],
-    ["Klaipēdas iela", ["56.48743542", "21.00582719"]],
-    ["Ventas iela", ["56.49059129", "21.00561261"]],
-    ["Palangas iela", ["56.49490606", "21.00440562"]],
-    ["Robežu iela", ["56.49793073", "21.00387722"]],
-    ["Jūrmalas iela", ["56.50065340", "21.00342125"]],
-    ["Peldu iela", ["56.50528422", "21.00144446"]],
-    ["Kūrmājas prospekts", ["56.50906378", "20.99977344"]],
-    ["Graudu iela", ["56.51076594", "21.00429833"]],
-    ["Liepājas Universitāte", ["56.50876633", "21.00894928"]],
-    ["Līva", ["56.50842725", "21.01208746"]],
-    ["Līva", ["56.50957080", "21.01223364"]],
-    ["Rīgas iela", ["56.51439918", "21.01479381"]],
-    ["Raiņa iela", ["56.51772262", "21.01094484"]],
-    ["Pārbrauktuve", ["56.52054867", "21.00685716"]],
-    ["Sliežu iela", ["56.52396235", "21.00425005"]],
-    ["Buru iela", ["56.52690489", "21.00365728"]],
-    ["Ziemeļu kapi", ["56.53142287", "21.00278020"]],
-    ["Piltenes iela", ["56.53507949", "21.00207210"]],
-    ["Šķedes iela", ["56.53826856", "21.00274265"]],
-    ["O. Kalpaka vidusskola", ["56.54050329", "21.00344002"]],
-  ],
-  3: {
-    up: [
-      ["M. Ķempes iela", ["56.48196005", "21.02602422"]],
-      ["Rojas iela", ["56.48345750", "21.01787299"]],
-      ["Vaiņodes iela", ["56.48613832", "21.01636559"]],
-      ["E. Tisē iela", ["56.48967897", "21.01983905"]],
-      ["Dzērves iela", ["56.49192378", "21.02035135"]],
-      ["Lauku iela", ["56.49523780", "21.01893783"]],
-      ["Salmu iela", ["56.49743737", "21.01949573"]],
-      ["Ganību iela", ["56.50066199", "21.01691276"]],
-      ["Kuršu iela", ["56.50256723", "21.00891978"]],
-      ["Pētertirgus", ["56.50518157", "21.01161808"]],
-      ["Līva", ["56.50957156", "21.01223767"]],
-      ["Rīgas iela", ["56.51440062", "21.01479381"]],
-      ["Pārbrauktuve", ["56.52055905", "21.00684911"]],
-      ["Flotes iela", ["56.52408505", "21.01105750"]],
-      ["Krūmu iela", ["56.52962811", "21.01180583"]],
-      ["Siļķu iela", ["56.53233350", "21.01183265"]],
-      ["Ziemeļu iela", ["56.53468238", "21.01386040"]],
-      ["Lauma", ["56.53462620", "21.02086902"]],
-      ["Ventspils iela", ["56.53459814", "21.02551460"]],
-      ["Valsts tehnikums", ["56.53649434", "21.02871716"]],
-      ["Pulvera iela", ["56.53942679", "21.03425324"]],
-      ["Saraiķu iela", ["56.53904976", "21.04299456"]],
-      ["Cukura iela", ["56.53846112", "21.05269879"]],
-      ["Cukuriņš", ["56.54130807", "21.05470777"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54386413", "21.05518520"]],
-      ["Nākotnes iela", ["56.54789946", "21.05206847"]],
-      ["Mežmalas iela", ["56.55144734", "21.04641438"]],
-      ["Tosmare", ["56.55166986", "21.04127258"]],
-      ["Laboratorijas iela", ["56.55209119", "21.03250444"]],
-      ["Lazaretes iela", ["56.55246379", "21.02547303"]],
-      ["Ģenerāļa Baloža iela", ["56.55355627", "21.01675987"]],
-      ["Pulkveža Brieža iela", ["56.55414244", "21.01179779"]],
-    ],
-    down: [
-      ["Pulkveža Brieža iela", ["56.55414927", "21.01179510"]],
-      ["Ģenerāļa Baloža iela", ["56.55328275", "21.01815194"]],
-      ["Lazaretes iela", ["56.55249631", "21.02470994"]],
-      ["Laboratorijas iela", ["56.55206314", "21.03294969"]],
-      ["Tosmare", ["56.55170088", "21.04031235"]],
-      ["Mežmalas iela", ["56.55142287", "21.04681671"]],
-      ["Nākotnes iela", ["56.54707896", "21.05301261"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54377890", "21.05516106"]],
-      ["Cukuriņš", ["56.54064051", "21.05457366"]],
-      ["Cukura iela", ["56.53845202", "21.05284899"]],
-      ["Saraiķu iela", ["56.53909660", "21.04226232"]],
-      ["Pulvera iela", ["56.53891954", "21.03178561"]],
-      ["Valsts tehnikums", ["56.53635206", "21.02853477"]],
-      ["Ventspils iela", ["56.53460228", "21.02537513"]],
-      ["Lauma", ["56.53465276", "21.01824984"]],
-      ["Siļķu iela", ["56.53334248", "21.01182729"]],
-      ["Krūmu iela", ["56.52955926", "21.01179242"]],
-      ["Flotes iela", ["56.52408592", "21.01105213"]],
-      ["Pārbrauktuve", ["56.52178954", "21.00499570"]],
-      ["Raiņa iela", ["56.51701594", "21.01195335"]],
-      ["Rīgas iela", ["56.51376945", "21.01451218"]],
-      ["Koncertzāle", ["56.51146873", "21.01410985"]],
-      ["Līva", ["56.50913105", "21.01164356"]],
-      ["Zivju iela", ["56.50569004", "21.01109236"]],
-      ["Pētertirgus", ["56.50397722", "21.00990683"]],
-      ["Kuršu iela", ["56.50136218", "21.00808561"]],
-      ["Ganību iela", ["56.49998701", "21.01654261"]],
-      ["Lauku iela", ["56.49486154", "21.01735801"]],
-      ["Dzērves iela", ["56.49241691", "21.02045864"]],
-      ["E.Tisē iela", ["56.48894286", "21.01853013"]],
-      ["Vaiņodes iela", ["56.48480596", "21.01586401"]],
-      ["Rojas iela", ["56.48305861", "21.01916045"]],
-      ["M.Ķempes iela", ["56.48158178", "21.02720708"]],
-    ],
-  },
-  4: {
-    up: [
-      ["M. Ķempes iela", ["56.48195863", "21.02602154"]],
-      ["Rojas iela", ["56.48345904", "21.01786762"]],
-      ["Vaiņodes iela", ["56.48616356", "21.01637363"]],
-      ["E. Tisē iela", ["56.48968498", "21.01983905"]],
-      ["Dzērves iela", ["56.49194466", "21.02035403"]],
-      ["Lauku iela", ["56.49523487", "21.01893246"]],
-      ["Salmu iela", ["56.49754867", "21.01960301"]],
-      ["Ganību iela", ["56.50068127", "21.01684839"]],
-      ["Kuršu iela", ["56.50256570", "21.00891709"]],
-      ["Pētertirgus", ["56.50519028", "21.01164222"]],
-      ["Līva", ["56.50956336", "21.01223096"]],
-      ["Esperanto iela", ["56.51512562", "21.01679742"]],
-      ["Olimpiskais centrs", ["56.52128713", "21.02068663"]],
-      ["Metalurgs", ["56.52404340", "21.02709442"]],
-      ["Brīvības iela", ["56.52792328", "21.03617907"]],
-      ["Satiskmes iela", ["56.53300021", "21.04837239"]],
-      ["Autobusu parks", ["56.53614935", "21.05478019"]],
-      ["Cukuriņš", ["56.54130354", "21.05470777"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54386462", "21.05518788"]],
-      ["Nākotnes iela", ["56.54790730", "21.05204701"]],
-      ["Mežmalas iela", ["56.55144665", "21.04641169"]],
-      ["Tosmare", ["56.55167417", "21.04125917"]],
-      ["Laboratorijas iela", ["56.55209858", "21.03251249"]],
-      ["Lazaretes iela", ["56.55246676", "21.02547169"]],
-      ["Piemares pamatskola", ["56.54988083", "21.02346808"]],
-      ["Turaides iela", ["56.54489669", "21.02212429"]],
-      ["Invalīdu iela", ["56.54553378", "21.01905316"]],
-      ["Lāčplēša dārzs", ["56.54855479", "21.00797564"]],
-      ["Studentu rotas iela", ["56.55197901", "21.00692153"]],
-      ["Atmodas bulvāris", ["56.55584188", "21.00777179"]],
-    ],
-    down: [
-      ["Atmodas bulvāris", ["56.55654377", "21.00791931"]],
-      ["Studentu rotas iela", ["56.55185436", "21.00688398"]],
-      ["Lāčplēša dārzs", ["56.54852366", "21.00850135"]],
-      ["Invalīdu iela", ["56.54589710", "21.01839200"]],
-      ["Turaides iela", ["56.54489599", "21.02213368"]],
-      ["Piemares pamatskola", ["56.55066976", "21.02361694"]],
-      ["Laboratorijas iela", ["56.55206612", "21.03295237"]],
-      ["Tosmare", ["56.55169493", "21.04030967"]],
-      ["Mežmalas iela", ["56.55142292", "21.04682207"]],
-      ["Nākotnes iela", ["56.54710585", "21.05298579"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54378035", "21.05516106"]],
-      ["Cukuriņš", ["56.54064061", "21.05457366"]],
-      ["Autobusu parks", ["56.53610344", "21.05479896"]],
-      ["Saulesdruvas", ["56.53475444", "21.05491698"]],
-      ["Satiskmes iela", ["56.53253456", "21.04656994"]],
-      ["Mehāniskais centrs", ["56.52973422", "21.04004681"]],
-      ["Brīvības iela", ["56.52728165", "21.03445172"]],
-      ["Metalurgs", ["56.52392206", "21.02679536"]],
-      ["Olimpiskais centrs", ["56.52097567", "21.01999864"]],
-      ["Esperanto iela", ["56.51447878", "21.01647556"]],
-      ["Koncertzāle", ["56.51130710", "21.01406157"]],
-      ["Līva", ["56.50912573", "21.01163685"]],
-      ["Zivju iela", ["56.50568746", "21.01109236"]],
-      ["Pētertirgus", ["56.50398675", "21.00990415"]],
-      ["Kuršu iela", ["56.50136186", "21.00809097"]],
-      ["Ganību iela", ["56.49995002", "21.01671025"]],
-      ["Raiņa vidusskola", ["56.49716807", "21.01655871"]],
-      ["Lauku iela", ["56.49485232", "21.01735532"]],
-      ["Dzērves iela", ["56.49241396", "21.02046132"]],
-      ["E. Tisē iela", ["56.48894287", "21.01853013"]],
-      ["Vaiņodes iela", ["56.48479613", "21.01586938"]],
-      ["Rojas iela", ["56.48306200", "21.01916313"]],
-      ["M. Ķempes iela", ["56.48158235", "21.02720439"]],
-    ],
-  },
-  "4s": [
-    ["Slimnīca", ["56.55230566", "21.09896421"]],
-    ["Ceriņu iela", ["56.55476553", "21.09678626"]],
-    ["Pagrieziens uz slimnīcu", ["56.55301627", "21.09176517"]],
-    ["Grīzupes iela", ["56.54957320", "21.08755678"]],
-    ["Kārklu iela", ["56.54738631", "21.08482897"]],
-    ["14. novembra bulvāris", ["56.54487874", "21.07690036"]],
-    ["Bērnudārzs", ["56.54434367", "21.07190609"]],
-    ["Talsu iela", ["56.54365762", "21.06689304"]],
-    ["Pagrieziens uz Grīzupes ielu", ["56.54377590", "21.05515838"]],
-    ["Cukuriņš", ["56.54063759", "21.05457902"]],
-    ["Autobusu parks", ["56.53610350", "21.05479360"]],
-    ["Saulesdruvas", ["56.53475151", "21.05490088"]],
-    ["Satiksmes iela", ["56.53253165", "21.04656726"]],
-    ["Mehāniskais centrs", ["56.52973120", "21.04005218"]],
-    ["Brīvības iela", ["56.52729363", "21.03446782"]],
-    ["Metalurgs", ["56.52393102", "21.02681547"]],
-    ["Olimpiskais centrs", ["56.52097041", "21.01999462"]],
-    ["Esperanto iela", ["56.51446846", "21.01648092"]],
-    ["Koncertzāle", ["56.51131189", "21.01405621"]],
-    ["Līva", ["56.50912967", "21.01164222"]],
-  ],
-  6: {
-    up: [
-      ["M. Ķempes iela", ["56.48196041", "21.02602422"]],
-      ["Rojas iela", ["56.48294819", "21.02341175"]],
-      ["Rojas iela", ["56.48345940", "21.01786494"]],
-      ["Centrālkapi", ["56.48585122", "21.00898683"]],
-      ["Klaipēdas iela", ["56.48743434", "21.00581914"]],
-      ["Ventas iela", ["56.49060329", "21.00561798"]],
-      ["Palangas iela", ["56.49514009", "21.00436807"]],
-      ["Robežu iela", ["56.49792805", "21.00388795"]],
-      ["Jūrmalas iela", ["56.50067451", "21.00341320"]],
-      ["Peldu iela", ["56.50529239", "21.00143909"]],
-      ["Kūrmājas prospekts", ["56.50904456", "20.99977612"]],
-      ["Graudu iela", ["56.51076169", "21.00430369"]],
-      ["Liepājas Universitāte", ["56.50878907", "21.00890100"]],
-      ["Līva", ["56.50958068", "21.01224571"]],
-      ["Rīgas iela", ["56.51441292", "21.01480186"]],
-      ["Raiņa iela", ["56.51772723", "21.01093411"]],
-      ["Pārbrauktuve", ["56.52055660", "21.00682497"]],
-      ["Flotes iela", ["56.52408331", "21.01106286"]],
-      ["Krūmu iela", ["56.52962842", "21.01181656"]],
-      ["Siļķu iela", ["56.53234979", "21.01182461"]],
-      ["Ziemeļu iela", ["56.53468370", "21.01390064"]],
-      ["Lauma", ["56.53462200", "21.02085829"]],
-      ["Ventspils iela", ["56.53459975", "21.02551192"]],
-      ["Valsts tehnikums", ["56.53646470", "21.02869034"]],
-      ["Pulvera iela", ["56.53942369", "21.03421837"]],
-      ["Saraiķu iela", ["56.53903816", "21.04316086"]],
-      ["Cukura iela", ["56.53845111", "21.05280876"]],
-      ["Cukuriņš", ["56.54130354", "21.05471313"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54388493", "21.05518520"]],
-      ["Talsu iela", ["56.54375557", "21.06869817"]],
-      ["Bērnudārzs", ["56.54458421", "21.07289851"]],
-      ["14. novembra bulvāris", ["56.54491784", "21.07846946"]],
-      ["Kārklu iela", ["56.54805237", "21.08569264"]],
-      ["Grīzupes iela", ["56.55375646", "21.09267175"]],
-      ["Slimnīca", ["56.55228512", "21.09899104"]],
-    ],
-    down: [
-      ["Slimnīca", ["56.55229558", "21.09897763"]],
-      ["Pagrieziens uz slimnīcu", ["56.55302438", "21.09177589"]],
-      ["Grīzupes iela", ["56.54958873", "21.08755946"]],
-      ["Kārklu iela", ["56.54738136", "21.08482897"]],
-      ["14.novemra bulv.", ["56.54488678", "21.07689768"]],
-      ["Bērnudārzs", ["56.54434102", "21.07191145"]],
-      ["Talsu iela", ["56.54365500", "21.06690109"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54376940", "21.05516106"]],
-      ["Cukuriņš", ["56.54062372", "21.05456829"]],
-      ["Cukura iela", ["56.53846193", "21.05279803"]],
-      ["Saraiķu iela", ["56.53909180", "21.04226768"]],
-      ["Pulvera iela", ["56.53891692", "21.03179634"]],
-      ["Valsts tehnikums", ["56.53634050", "21.02853343"]],
-      ["Ventspils iela", ["56.53460155", "21.02536172"]],
-      ["Lauma", ["56.53465775", "21.01825923"]],
-      ["Siļķu iela", ["56.53333992", "21.01183265"]],
-      ["Krūmu iela", ["56.52945862", "21.01179510"]],
-      ["Flotes iela", ["56.52408648", "21.01106018"]],
-      ["Pārbrauktuve", ["56.52178006", "21.00500911"]],
-      ["Raiņa iela", ["56.51700568", "21.01197213"]],
-      ["Rīgas iela", ["56.51376471", "21.01451486"]],
-      ["Koncertzāle", ["56.51129906", "21.01405352"]],
-      ["Līva", ["56.50911832", "21.01163417"]],
-      ["Liepājas Universitāte", ["56.50845388", "21.00975662"]],
-      ["Jūras iela", ["56.51055671", "21.00618124"]],
-      ["Kurmājas prospekts", ["56.51032372", "21.00015432"]],
-      ["Peldu iela", ["56.50651306", "21.00089327"]],
-      ["Jūrmalas iela", ["56.50074575", "21.00339979"]],
-      ["Robežu iela", ["56.49855798", "21.00376725"]],
-      ["Palangas iela", ["56.49442067", "21.00451559"]],
-      ["Ventas iela", ["56.49039303", "21.00562871"]],
-      ["Klaipēdas iela", ["56.48733135", "21.00582451"]],
-      ["Centrālkapi", ["56.48584535", "21.00915715"]],
-      ["Vaiņodes iela", ["56.48479721", "21.01587206"]],
-      ["Rojas iela", ["56.48306007", "21.01916045"]],
-      ["M. Ķempes iela", ["56.48158435", "21.02720439"]],
-    ],
-  },
-  7: {
-    up: [
-      ["Siena tirgus", ["56.50237409", "21.00814730"]],
-      ["Pētertirgus", ["56.50518495", "21.01161808"]],
-      ["Līva", ["56.50959396", "21.01226449"]],
-      ["Rīgas iela", ["56.51440549", "21.01479650"]],
-      ["Raiņa iela", ["56.51773169", "21.01094216"]],
-      ["Pārbrauktuve", ["56.52054817", "21.00685582"]],
-      ["Flotes iela", ["56.52408521", "21.01107091"]],
-      ["Krūmu iela", ["56.52963133", "21.01179779"]],
-      ["Siļķu iela", ["56.53232791", "21.01182193"]],
-      ["Ziemeļu iela", ["56.53467643", "21.01410985"]],
-      ["Lauma", ["56.53462202", "21.02078855"]],
-      ["Ventspils iela", ["56.53459993", "21.02551460"]],
-      ["Valsts tehnikums", ["56.53647805", "21.02869973"]],
-      ["Pulvera iela", ["56.53942776", "21.03435650"]],
-      ["Saraiķu iela", ["56.53903659", "21.04321182"]],
-      ["Cukura iela", ["56.53845846", "21.05276853"]],
-      ["Cukuriņš", ["56.54130659", "21.05470240"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54386191", "21.05518386"]],
-      ["Nākotnes iela", ["56.54790595", "21.05204970"]],
-      ["Mežmalas iela", ["56.55144684", "21.04640901"]],
-      ["Tosmare", ["56.55167186", "21.04126990"]],
-      ["Laboratorijas iela", ["56.55199903", "21.03416204"]],
-      ["Lazaretes iela", ["56.55246395", "21.02547437"]],
-      ["Piemares pamatskola", ["56.54987377", "21.02347076"]],
-      ["Turaides iela", ["56.54489293", "21.02212965"]],
-      ["Invalīdu iela", ["56.54553309", "21.01905584"]],
-      ["Lāčplāša iela", ["56.54853585", "21.00835785"]],
-      ["Studentu rotas iela", ["56.55197748", "21.00692958"]],
-      ["Atmodas bulvāris", ["56.55584983", "21.00777313"]],
-    ],
-    down: [
-      ["Atmodas bulvāris", ["56.55652029", "21.00791931"]],
-      ["Studentu rotas iela", ["56.55181956", "21.00688398"]],
-      ["Lāčplēša dārzs", ["56.54853452", "21.00835249"]],
-      ["Invalīdu iela", ["56.54549100", "21.01912290"]],
-      ["Turaides iela", ["56.54488592", "21.02226108"]],
-      ["Piemares pamatskola", ["56.55001507", "21.02349892"]],
-      ["Lazaretes iela", ["56.55250105", "21.02470994"]],
-      ["Laboratorijas iela", ["56.55206630", "21.03295237"]],
-      ["Tosmare", ["56.55170125", "21.04031771"]],
-      ["Mežmalas iela", ["56.55142482", "21.04682207"]],
-      ["Nākotnes iela", ["56.54762351", "21.05236888"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54376758", "21.05515838"]],
-      ["Cukuriņš", ["56.54064142", "21.05457366"]],
-      ["Cukura iela", ["56.53844964", "21.05284095"]],
-      ["Saraiķu iela", ["56.53909587", "21.04226500"]],
-      ["Pulvera iela", ["56.53888440", "21.03174269"]],
-      ["Valsts tehnikums", ["56.53632567", "21.02851197"]],
-      ["Ventspils iela", ["56.53460143", "21.02537245"]],
-      ["Lauma", ["56.53465149", "21.01824984"]],
-      ["Siļķu iela", ["56.53334109", "21.01182997"]],
-      ["Krūmu iela", ["56.52948860", "21.01179108"]],
-      ["Flotes iela", ["56.52409028", "21.01106286"]],
-      ["Pārbrauktuve", ["56.52178524", "21.00499570"]],
-      ["Raiņa iela", ["56.51700540", "21.01197481"]],
-      ["Rīgas iela", ["56.51377927", "21.01451218"]],
-      ["Koncertzāle", ["56.51130106", "21.01405084"]],
-      ["Līva", ["56.50912388", "21.01163551"]],
-      ["Zivju iela", ["56.50568800", "21.01108968"]],
-      ["Pētertirgus", ["56.50398909", "21.00990951"]],
-      ["Siena tirgus", ["56.50194942", "21.00784689"]],
-    ],
-  },
-  8: {
-    up: [
-      ["Līva", ["56.50957182", "21.01223767"]],
-      ["Rīgas iela", ["56.51439807", "21.01480186"]],
-      ["Raiņa iela", ["56.51773917", "21.01093948"]],
-      ["Pārbrauktuve", ["56.52055600", "21.00685716"]],
-      ["Flotes iela", ["56.52410939", "21.01126403"]],
-      ["Krūmu iela", ["56.52963118", "21.01180315"]],
-      ["Siļķu iela", ["56.53233759", "21.01182997"]],
-      ["Ziemeļu iela", ["56.53468204", "21.01394221"]],
-      ["Lauma", ["56.53462553", "21.02069065"]],
-      ["Ventspils iela", ["56.53459985", "21.02550924"]],
-      ["Valsts tehnikums", ["56.53642345", "21.02863680"]],
-      ["Pulvera iela", ["56.53943218", "21.03439540"]],
-      ["Saraiķu iela", ["56.53903667", "21.04324937"]],
-      ["Cukura iela", ["56.53846645", "21.05266392"]],
-      ["Cukuriņš", ["56.54130347", "21.05470777"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54386023", "21.05519056"]],
-      ["Nākotnes iela", ["56.54791519", "21.05204165"]],
-      ["Mežmalas iela", ["56.55144716", "21.04640365"]],
-      ["Tosmare", ["56.55167462", "21.04125917"]],
-      ["Laboratorijas iela", ["56.55199906", "21.03417277"]],
-      ["Lazaretes iela", ["56.55246408", "21.02546364"]],
-      ["Ģenerāļa Baloža iela", ["56.55355514", "21.01676255"]],
-      ["Pulkveža Brieža iela", ["56.55870834", "21.01175487"]],
-      ["Beberliņi", ["56.56361527", "21.01452023"]],
-      ["Lībiešu iela", ["56.58362383", "21.02654457"]],
-      ["Attīrīšanas iekārtas", ["56.59549838", "21.02728218"]],
-      ["Šķēde 2", ["56.60965351", "21.03795469"]],
-      ["Šķēde 1", ["56.61264088", "21.03900611"]],
-      ["Šķēde", ["56.61671595", "21.04039818"]],
-    ],
-    down: [
-      ["Šķēde", ["56.61695137", "21.04037404"]],
-      ["Šķēde 1", ["56.61188973", "21.03873789"]],
-      ["Šķēde 2", ["56.60899139", "21.03769720"]],
-      ["Attīrīšanas iekārtas", ["56.59540604", "21.02719367"]],
-      ["Lībiešu iela", ["56.58393173", "21.02661029"]],
-      ["Beberliņi", ["56.56249030", "21.01407632"]],
-      ["Pulkveža Brieža iela", ["56.55849851", "21.01198822"]],
-      ["Ģenerāļa Baloža iela", ["56.55328038", "21.01814926"]],
-      ["Lazaretes iela", ["56.55249091", "21.02470458"]],
-      ["Laboratorijas iela", ["56.55206489", "21.03295773"]],
-      ["Tosmare", ["56.55170418", "21.04030699"]],
-      ["Mežmalas iela", ["56.55142316", "21.04682207"]],
-      ["Nākotnes iela", ["56.54761155", "21.05238229"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54377252", "21.05516106"]],
-      ["Cukuriņš", ["56.54062660", "21.05457097"]],
-      ["Cukura iela", ["56.53845701", "21.05277121"]],
-      ["Saraiķu iela", ["56.53909293", "21.04226232"]],
-      ["Pulvera iela", ["56.53892053", "21.03179500"]],
-      ["Valsts tehnikums", ["56.53632272", "21.02851063"]],
-      ["Ventspils iela", ["56.53460443", "21.02537781"]],
-      ["Lauma", ["56.53465308", "21.01826727"]],
-      ["Siļķu iela", ["56.53333656", "21.01183534"]],
-      ["Krūmu iela", ["56.52942558", "21.01179510"]],
-      ["Flotes iela", ["56.52408583", "21.01106554"]],
-      ["Pārbrauktuve", ["56.52177716", "21.00501716"]],
-      ["Raiņa iela", ["56.51700945", "21.01197481"]],
-      ["Rīgas iela", ["56.51377193", "21.01451486"]],
-      ["Koncertzāle", ["56.51130777", "21.01405889"]],
-      ["Līva", ["56.50913240", "21.01163954"]],
-    ],
-  },
-  9: {
-    up: [
-      ["Slimnīca", ["56.55221583", "21.09905541"]],
-      ["Pagrieziens uz slimnīcu", ["56.55375645", "21.09266102"]],
-      ["Grīzupes iela", ["56.55041495", "21.08860284"]],
-      ["Kārklu iela", ["56.54805257", "21.08567923"]],
-      ["14. novembra bulvāris", ["56.54491646", "21.07846677"]],
-      ["Bērnudārzs", ["56.54458959", "21.07293606"]],
-      ["Talsu iela", ["56.54376062", "21.06874913"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54386200", "21.05519056"]],
-      ["Cukuriņš", ["56.54130222", "21.05471045"]],
-      ["Autobusu parks", ["56.53614870", "21.05478019"]],
-      ["Satiksmes iela", ["56.53299645", "21.04836434"]],
-      ["Brīvības iela", ["56.52793046", "21.03617907"]],
-      ["Metalurgs", ["56.52404082", "21.02708369"]],
-      ["Olimpiskais centrs", ["56.52128805", "21.02069065"]],
-      ["Esperanto iela", ["56.51513187", "21.01680547"]],
-      ["Ādu iela", ["56.51116877", "21.02281094"]],
-      ["Jaunā iela", ["56.50893533", "21.02575332"]],
-      ["Dārza iela", ["56.50606114", "21.02481991"]],
-      ["Kungu iela", ["56.50612531", "21.01917922"]],
-      ["Pētertirgus", ["56.50519284", "21.01165295"]],
-      ["Kuršu iela", ["56.50255439", "21.00900829"]],
-      ["Ganību iela", ["56.50069505", "21.01682693"]],
-      ["Salmu iela", ["56.49760523", "21.01962984"]],
-      ["Lauku iela", ["56.49521857", "21.01892442"]],
-      ["Dzērves iela", ["56.49193328", "21.02034867"]],
-      ["E. Tisē iela", ["56.48968525", "21.01984441"]],
-      ["Vaiņodes iela", ["56.48614345", "21.01636827"]],
-      ["Rojas iela", ["56.48345352", "21.01787567"]],
-      ["M. Ķempes iela", ["56.48195757", "21.02602422"]],
-    ],
-    down: [
-      ["Slimnīca", ["56.55227028", "21.09900713"]],
-      ["Pagrieziens uz slimnīcu", ["56.55301714", "21.09177321"]],
-      ["Grīzupes iela", ["56.54957392", "21.08755410"]],
-      ["Kārklu iela", ["56.54738205", "21.08483970"]],
-      ["14. novembra bulvāris", ["56.54488525", "21.07690305"]],
-      ["Bērnudārzs", ["56.54433959", "21.07190609"]],
-      ["Talsu iela", ["56.54365538", "21.06690645"]],
-      ["Pagrieziens uz Grīzupes ielu", ["56.54377326", "21.05516106"]],
-      ["Cukuriņš", ["56.54062415", "21.05457634"]],
-      ["Autobusu parks", ["56.53608541", "21.05483249"]],
-      ["Saulesdruvas", ["56.53474915", "21.05490088"]],
-      ["Satiskmes iela", ["56.53253200", "21.04657263"]],
-      ["Mehāniskais centrs", ["56.52973937", "21.04006827"]],
-      ["Brīvības iela", ["56.52727362", "21.03444636"]],
-      ["Metalurgs", ["56.52390791", "21.02675378"]],
-      ["Olimpiskais centrs", ["56.52097766", "21.02001071"]],
-      ["Esperanto iela", ["56.51446905", "21.01648360"]],
-      ["Jaunā iela", ["56.50979306", "21.02332056"]],
-      ["Baznīcas iela", ["56.50793030", "21.02205724"]],
-      ["Kungu iela", ["56.50610092", "21.01964861"]],
-      ["Pētertirgus", ["56.50399052", "21.00991219"]],
-      ["Kuršu iela", ["56.50136096", "21.00810841"]],
-      ["Ganību iela", ["56.50000096", "21.01647288"]],
-      ["Raiņa vidusskola", ["56.49716732", "21.01656139"]],
-      ["Lauku iela", ["56.49486089", "21.01736337"]],
-      ["Dzērves iela", ["56.49242006", "21.02045864"]],
-      ["E. Tisē iela", ["56.48894324", "21.01851404"]],
-      ["Vaiņodes iela", ["56.48479814", "21.01587206"]],
-      ["Rojas iela", ["56.48306232", "21.01915911"]],
-      ["M. Ķempes iela", ["56.48158425", "21.02721244"]],
-    ],
-  },
-  10: {
-    up: [
-      ["M. Ķempes iela", ["56.48195809", "21.02602690"]],
-      ["Rojas iela", ["56.48345661", "21.01786494"]],
-      ["Vaiņodes iela", ["56.48616668", "21.01636827"]],
-      ["E. Tisē iela", ["56.48969421", "21.01984441"]],
-      ["Dzērves iela", ["56.49193142", "21.02034062"]],
-      ["Lauku iela", ["56.49523396", "21.01893246"]],
-      ["Salmu iela", ["56.49748301", "21.01954132"]],
-      ["Ganību iela", ["56.50064454", "21.01693153"]],
-      ["Kuršu iela", ["56.50255419", "21.00892246"]],
-      ["Pētertirgus", ["56.50519035", "21.01162612"]],
-      ["Līva", ["56.50956934", "21.01223767"]],
-      ["Rīgas iela", ["56.51441892", "21.01480186"]],
-      ["Raiņa iela", ["56.51772420", "21.01095289"]],
-      ["Pārbrauktuve", ["56.52055610", "21.00684911"]],
-      ["Sliežu iela", ["56.52383058", "21.00426346"]],
-      ["Buru iela", ["56.52678675", "21.00367874"]],
-      ["Ziemeļu kapi", ["56.53141173", "21.00277215"]],
-      ["Piltenes iela", ["56.53507070", "21.00206941"]],
-      ["Šķēdes iela", ["56.53828918", "21.00274801"]],
-      ["O.Kaplaka vidusskola", ["56.54051546", "21.00344002"]],
-      ["O.Kaplaka tilts", ["56.54412522", "21.00401402"]],
-    ],
-    down: [
-      ["O.Kalpaka tilts", ["56.54412476", "21.00401402"]],
-      ["O. Kalpaka vidusskola", ["56.53981679", "21.00318789"]],
-      ["Piltenes iela", ["56.53729494", "21.00301623"]],
-      ["Piltenes iela", ["56.53744420", "21.00250393"]],
-      ["Ziemeļu kapi", ["56.53270822", "21.00252539"]],
-      ["Buru iela", ["56.52675567", "21.00367069"]],
-      ["Pārbrauktuve", ["56.52438425", "21.00600958"]],
-      ["Pārbrauktuve", ["56.52178781", "21.00499570"]],
-      ["Raiņa iela", ["56.51701125", "21.01196945"]],
-      ["Rīgas iela", ["56.51379198", "21.01451755"]],
-      ["Koncertzāle", ["56.51131711", "21.01406693"]],
-      ["Līva", ["56.50913557", "21.01164222"]],
-      ["Zivju iela", ["56.50569247", "21.01109102"]],
-      ["Pētertirgus", ["56.50398723", "21.00991756"]],
-      ["Kuršu iela", ["56.50135445", "21.00817010"]],
-      ["Ganību iela", ["56.49996129", "21.01664722"]],
-      ["Raiņa vidusskola", ["56.49717558", "21.01654530"]],
-      ["Lauku iela", ["56.49486318", "21.01736069"]],
-      ["Dzērves iela", ["56.49241047", "21.02045864"]],
-      ["E. Tisē iela", ["56.48893996", "21.01851135"]],
-      ["Vaiņodes iela", ["56.48479566", "21.01586938"]],
-      ["Rojas iela", ["56.48305831", "21.01915509"]],
-      ["M. Ķempes iela", ["56.48158136", "21.02720171"]],
-    ],
-  },
-  "10A": {
-    up: [
-      ["Dienvidu kapi", ["56.47292794", "21.00941062"]],
-      ["Dienvidu robeža", ["56.47748990", "21.00858986"]],
-      ["Svētes iela", ["56.48302541", "21.01472676"]],
-      ["Vaiņodes iela", ["56.48615181", "21.01635754"]],
-      ["E.Tisē iela", ["56.48969403", "21.01983905"]],
-      ["Dzērves iela", ["56.49192667", "21.02035671"]],
-      ["Lauku iela", ["56.49524041", "21.01893783"]],
-      ["Salmu iela", ["56.49760810", "21.01963654"]],
-      ["Ganību iela", ["56.50071120", "21.01677597"]],
-      ["Kuršu iela", ["56.50256163", "21.00893319"]],
-      ["Pētertirgus", ["56.50519489", "21.01163149"]],
-      ["Līva", ["56.50957182", "21.01225108"]],
-      ["Rīgas iela", ["56.51441878", "21.01479113"]],
-      ["Raiņa iela", ["56.51773024", "21.01094753"]],
-      ["Pārbrauktuve", ["56.52055635", "21.00684375"]],
-      ["Sliežu iela", ["56.52381184", "21.00426614"]],
-      ["Buru iela", ["56.52684640", "21.00366533"]],
-      ["Ziemeļu kapi", ["56.53141660", "21.00277349"]],
-      ["Piltenes iela", ["56.53507430", "21.00207210"]],
-      ["Šķēdes iela", ["56.53832823", "21.00275874"]],
-      ["O.Kalpaka vidusskola", ["56.54053228", "21.00344002"]],
-      ["O.Kalpaka tilts", ["56.54412517", "21.00401133"]],
-    ],
-    down: [
-      ["O.Kalpaka tilts", ["56.54412512", "21.00401133"]],
-      ["O.Kalpaka vidusskola", ["56.53982657", "21.00319594"]],
-      ["Piltenes iela", ["56.53742474", "21.00249588"]],
-      ["Ziemeļu kapi", ["56.53270663", "21.00253344"]],
-      ["Buru iela", ["56.52675344", "21.00367069"]],
-      ["Pārbrauktuve", ["56.52178872", "21.00498497"]],
-      ["Raiņa iela", ["56.51701456", "21.01195872"]],
-      ["Rīgas iela", ["56.51376618", "21.01450682"]],
-      ["Koncertzāle", ["56.51130254", "21.01405889"]],
-      ["Līva", ["56.50912763", "21.01163417"]],
-      ["Zivju iela", ["56.50568966", "21.01108968"]],
-      ["Pētertirgus", ["56.50398431", "21.00990415"]],
-      ["Kuršu iela", ["56.50135383", "21.00815535"]],
-      ["Ganību iela", ["56.49998296", "21.01656944"]],
-      ["Raiņa vidusskola", ["56.49718357", "21.01655066"]],
-      ["Lauku iela", ["56.49486363", "21.01735801"]],
-      ["Dzērves iela", ["56.49240875", "21.02045059"]],
-      ["E.Tisē iela", ["56.48894405", "21.01854891"]],
-      ["Vaiņodes iela", ["56.48479267", "21.01586401"]],
-      ["Dienvidu robeža", ["56.47677405", "21.00875080"]],
-      ["Dienvidu kapi", ["56.47291918", "21.00927651"]],
-    ],
-  },
-  11: {
-    up: [
-      ["Klaipēdas iela", ["56.48742247", "21.00582451"]],
-      ["Ventas iela", ["56.49060477", "21.00561798"]],
-      ["Palangas iela", ["56.49511056", "21.00436270"]],
-      ["Robežu iela", ["56.49793408", "21.00388795"]],
-      ["Jūrmalas iela", ["56.50065788", "21.00343466"]],
-      ["Siena tirgus", ["56.50238548", "21.00815535"]],
-      ["Pētertirgus", ["56.50518829", "21.01161808"]],
-      ["Līva", ["56.50955988", "21.01223230"]],
-      ["Rīgas iela", ["56.51439647", "21.01479638"]],
-      ["Raiņa iela", ["56.51772572", "21.01093948"]],
-      ["Pārbrauktuve", ["56.52055572", "21.00684375"]],
-      ["Flotes iela", ["56.52409158", "21.01118356"]],
-      ["Krūmu iela", ["56.52962090", "21.01180181"]],
-      ["Zaru iela", ["56.53202168", "21.00828409"]],
-      ["Lapu iela", ["56.53205572", "21.00316644"]],
-      ["Piltenes iela", ["56.53507430", "21.00206673"]],
-      ["Šķēdes iela", ["56.53831284", "21.00275338"]],
-      ["O.Kalpaka vidusskola", ["56.54052840", "21.00344002"]],
-      ["O.Kalpaka tilts", ["56.54412013", "21.00401402"]],
-    ],
-    down: [
-      ["O.Kalpaka tilts", ["56.54412172", "21.00401402"]],
-      ["O.Kalpaka vidusskola", ["56.53983156", "21.00318789"]],
-      ["Piltenes iela", ["56.53745030", "21.00250661"]],
-      ["Ziemeļu kapi", ["56.53270078", "21.00254416"]],
-      ["Ziedu iela", ["56.53203508", "21.00732386"]],
-      ["Sakņu iela", ["56.53198031", "21.01104140"]],
-      ["Krūmu iela", ["56.52939475", "21.01178437"]],
-      ["Flotes iela", ["56.52408661", "21.01106420"]],
-      ["Pārbrauktuve", ["56.52178805", "21.00499034"]],
-      ["Raiņā iela", ["56.51700525", "21.01197213"]],
-      ["Rīgas iela", ["56.51377046", "21.01450682"]],
-      ["Koncertzāle", ["56.51130040", "21.01405352"]],
-      ["Līva", ["56.50912350", "21.01162881"]],
-      ["Zivju iela", ["56.50569149", "21.01108432"]],
-      ["Pētertirgus", ["56.50398145", "21.00990415"]],
-      ["Siena tirgus", ["56.50194616", "21.00783885"]],
-      ["Jūrmalas iela", ["56.50073874", "21.00340247"]],
-      ["Robežu iela", ["56.49855212", "21.00376993"]],
-      ["Palangas iela", ["56.49441930", "21.00451291"]],
-      ["Ventas iela", ["56.49039507", "21.00562602"]],
-      ["Klaipēdas iela", ["56.48721063", "21.00583524"]],
-    ],
-  },
-  "11A": {
-    up: [
-      ["Dienvidu kapi", ["56.47293663", "21.00948304"]],
-      ["Dienvidu robeža", ["56.47749288", "21.00859523"]],
-      ["Centrālkapi", ["56.48451723", "21.00604177"]],
-      ["Klaipēdas iela", ["56.48741055", "21.00582182"]],
-      ["Ventas iela", ["56.49059491", "21.00561664"]],
-      ["Palangas iela", ["56.49510778", "21.00436807"]],
-      ["Robežu iela", ["56.49792963", "21.00389063"]],
-      ["Jūrmalas iela", ["56.50067425", "21.00342393"]],
-      ["Siena tirgus", ["56.50239725", "21.00816607"]],
-      ["Pētertirgus", ["56.50517866", "21.01162076"]],
-      ["Līva", ["56.50957478", "21.01225644"]],
-      ["Rīgas iela", ["56.51440660", "21.01479113"]],
-      ["Raiņa iela", ["56.51772136", "21.01094753"]],
-      ["Pārbrauktuve", ["56.52055363", "21.00684375"]],
-      ["Flotes iela", ["56.52409668", "21.01117685"]],
-      ["Krūmu iela", ["56.52962916", "21.01180583"]],
-      ["Zaru iela", ["56.53201965", "21.00829348"]],
-      ["Lapu iela", ["56.53205728", "21.00322008"]],
-      ["Piltenes iela", ["56.53507578", "21.00206405"]],
-      ["Šķēdes iela", ["56.53835122", "21.00276411"]],
-      ["O.Kalpaka vidusskola", ["56.54050428", "21.00342929"]],
-      ["O.Kalpaka tilts", ["56.54412345", "21.00401670"]],
-    ],
-    down: [
-      ["O.Kalpaka tilts", ["56.54412625", "21.00401402"]],
-      ["O.Kalpaka vidusskola", ["56.53979714", "21.00319058"]],
-      ["Piltenes iela", ["56.53744583", "21.00250125"]],
-      ["Ziemeļu kapi", ["56.53270454", "21.00253075"]],
-      ["Ziedu iela", ["56.53203503", "21.00731581"]],
-      ["Sakņu iela", ["56.53197724", "21.01125464"]],
-      ["Krūmu iela", ["56.52946770", "21.01179376"]],
-      ["Flotes iela", ["56.52408830", "21.01106018"]],
-      ["Pārbrauktuve", ["56.52177724", "21.00500375"]],
-      ["Raiņa iela", ["56.51700701", "21.01196408"]],
-      ["Rīgas iela", ["56.51376047", "21.01451218"]],
-      ["Koncertzāle", ["56.51133071", "21.01405621"]],
-      ["Līva", ["56.50913053", "21.01163685"]],
-      ["Zivju iela", ["56.50569160", "21.01109371"]],
-      ["Pētertirgus", ["56.50400282", "21.00992560"]],
-      ["Siena tirgus", ["56.50193729", "21.00783348"]],
-      ["Jūrmalas iela", ["56.50074535", "21.00339979"]],
-      ["Robežu iela", ["56.49856046", "21.00376457"]],
-      ["Palangas iela", ["56.49441808", "21.00452363"]],
-      ["Ventas iela", ["56.49039153", "21.00562602"]],
-      ["Klaipēdas iela", ["56.48731768", "21.00582987"]],
-      ["Centrālkapi", ["56.48470445", "21.00598812"]],
-      ["Dienvidu robeža", ["56.47676176", "21.00875884"]],
-      ["Dienvidu kapi", ["56.47293809", "21.00945085"]],
-    ],
-  },
-};
-
-export { new_routes, routes, buses, minibuses, polylines };
+export { new_routes, routes, buses, minibuses };

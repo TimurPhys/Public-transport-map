@@ -1,3 +1,10 @@
+import { routeState, totalState } from "../map/map.js";
+import {
+  showOnlyChosenTransport,
+  deletePolyline,
+  clearMarkers,
+} from "../map/handle_marker_click.js";
+
 const image_from_type = {
   Трамвай: "tram/real_tram.png",
   Автобус: "bus/real_bus.jpg",
@@ -33,6 +40,9 @@ const card = document.querySelector(".transports-info-window");
 
 if (close_button !== null) {
   close_button.addEventListener("click", () => {
+    deletePolyline(routeState);
+    clearMarkers(routeState);
+    showOnlyChosenTransport(routeState, totalState.map_vehicles, true);
     card.style.opacity = "0";
     setTimeout(() => (card.style.display = "none"), 500); // убрать из потока после анимации
   });
