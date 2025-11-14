@@ -24,16 +24,19 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
     <link rel="manifest" href="manifest.json" />
     <link rel="apple-touch-icon" href="/app/static/img/pwa_icons/logo192.png" />
     <link rel="stylesheet" href="../static/css/libs/bootstrap.min.css" />
     <link rel="stylesheet" href="../static/css/style.css" />
     <link rel="stylesheet" href="../static/css/panel_style.css" />
   </head>
+
   <body>
-    <div id="status">Подключение</div>
-    <div id="count"></div>
-    <header>{% include "header.html" %}</header>
+    {% include "navbar.html" %} {% include "sidebar.html" %}
 
     <div class="map-wrapper" style="position: relative">
       <div id="map" class="map-container"></div>
@@ -49,14 +52,18 @@
       src="../static/js/map/correct_trajectory_choice.js"
       type="module"
     ></script>
+    <script src="../static/js/transports/script.js" type="module"></script>
     <script src="../static/js/map/map.js" type="module"></script>
     <script src="../static/js/map/websocket.js" type="module"></script>
     <script
       src="../static/js/map/handle_marker_click.js"
       type="module"
     ></script>
+    <script
+      src="../static/js/transports/filter_transport.js"
+      type="module"
+    ></script>
     <script src="../static/js/routes/routes.js" type="module"></script>
-    <script src="../static/js/transports/script.js" type="module"></script>
 
     <script src="../static/js/pwa/index.js"></script>
   </body>

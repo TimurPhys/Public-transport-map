@@ -1,11 +1,15 @@
 import createLayers from "./style/map_styles.js";
 import { createCustomIcon } from "./style/markers.js";
-import { allowed_transports } from "../transports/script.js";
+import { allowed_transports } from "../transports/filter_transport.js";
 import { showPanel } from "../transports/show_labels.js";
 import { showMarkersRoute } from "./handle_marker_click.js";
 import { routes, buses, minibuses } from "../routes/routes.js";
 
 const map = L.map("map").setView([56.49, 21.02], 15);
+
+const transport_quantity = document
+  .querySelectorAll(".connection-info-block div")[1]
+  .querySelector("span");
 
 const tiles = createLayers().google_maps;
 tiles.addTo(map);
@@ -42,9 +46,7 @@ function vehicle_init(vehicle) {
 let currentIds = new Set();
 
 function updateMap(vehicles) {
-  document.getElementById(
-    "count"
-  ).textContent = `Транспортов: ${vehicles.length}`;
+  transport_quantity.textContent = vehicles.length;
 
   // Обновляем маркеры
   vehicles.forEach((vehicle) => {

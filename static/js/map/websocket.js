@@ -3,6 +3,11 @@ import { updateMap } from "./map.js";
 let ws = null;
 let reconnectTimeout = null;
 
+const connection_info_block = document.querySelectorAll(
+  ".connection-info-block div"
+);
+const connection_state = connection_info_block[0].querySelector("span");
+
 function connectWebSocket() {
   const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
   const wsUrl = `ws://${window.location.host}/ws`;
@@ -10,8 +15,8 @@ function connectWebSocket() {
   ws = new WebSocket(wsUrl);
 
   ws.onopen = () => {
-    document.getElementById("status").textContent = "Подключено ✓";
-    document.getElementById("status").style.color = "green";
+    connection_state.textContent = "Подключено";
+    connection_state.style.color = "green";
   };
 
   ws.onmessage = (event) => {
@@ -23,8 +28,8 @@ function connectWebSocket() {
   };
 
   ws.onclose = () => {
-    document.getElementById("status").textContent = "Отключено ✗";
-    document.getElementById("status").style.color = "red";
+    connection_state.textContent = "Отключено ✗";
+    connection_state.style.color = "red";
     reconnect();
   };
 
@@ -37,7 +42,7 @@ function connectWebSocket() {
 function reconnect() {
   if (reconnectTimeout) clearTimeout(reconnectTimeout);
   reconnectTimeout = setTimeout(() => {
-    document.getElementById("status").textContent = "Переподключение...";
+    connection_state.textContent = "Переподключение...";
     connectWebSocket();
   }, 3000);
 }

@@ -1,0 +1,129 @@
+<nav class="navbar navbar-expand-lg bg-white topbar">
+  <div class="container-fluid px-3 px-md-4">
+    <!-- Кнопка открытия шторки -->
+    <button
+      class="btn btn-outline-primary me-2"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#sidebarRoutes"
+      aria-controls="sidebarRoutes"
+    >
+      <i class="bi bi-list"></i>
+      <!-- <span class="d-none d-sm-inline ms-1">Maršruti</span> -->
+    </button>
+
+    <!-- Логотип / название -->
+    <a class="navbar-brand fw-semibold" href="#">Marsruti.lv</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#topbarControls"
+      aria-controls="topbarControls"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Основные кнопки и фильтры -->
+    <div class="collapse navbar-collapse" id="topbarControls">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+        <!-- Режим отображения -->
+        <li class="nav-item dropdown me-lg-2">
+          <a
+            class="btn btn-outline-secondary dropdown-toggle w-100 w-lg-auto"
+            href="#"
+            id="viewDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Отображение
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="viewDropdown"
+          >
+            <li>
+              <a class="dropdown-item" href="#" data-view="osm">OSM karte</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-view="traffic"
+                >HERE traffic</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-view="satellite"
+                >HERE satellite</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#" data-view="hybrid"
+                >HERE hybrid</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <!-- Поиск остановки -->
+        <li class="nav-item me-lg-2 my-2 my-lg-0">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="bi bi-search"></i>
+            </span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Поиск остановки или маршрута"
+              id="stopSearch"
+            />
+          </div>
+        </li>
+
+        <!-- Тогглы транспорта -->
+        <li class="nav-item ms-lg-1">
+          <div
+            class="btn-group transports-show"
+            role="group"
+            aria-label="Transport layers"
+          >
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="filterBus"
+              checked
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="filterBus">
+              <i class="bi bi-bus-front"></i>
+            </label>
+
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="filterMinibus"
+              checked
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-success" for="filterMinibus">
+              <i class="bi bi-truck"></i>
+            </label>
+
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="filterTram"
+              checked
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-warning" for="filterTram">
+              <i class="bi bi-train-front"></i>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
