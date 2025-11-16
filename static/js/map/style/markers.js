@@ -53,20 +53,37 @@ function createCustomIcon(type, route, azimuth = 0) {
   });
 }
 
-const stationIcon = L.divIcon({
-  className: "custom-marker",
-  html: `<div style="background-color: #3388ff; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
-  iconSize: [26, 26],
-  iconAnchor: [13, 13],
-});
-
 // Создаем иконку для выбранного состояния (красная)
-const leftStationIcon = L.divIcon({
-  className: "custom-marker selected",
-  html: `<div style="background-color: #ff3333; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
-  iconSize: [26, 26],
-  iconAnchor: [13, 13],
-});
+function getStationIcon(name, size) {
+  let icon = null;
+  switch (name) {
+    case "stationIcon":
+      icon = L.divIcon({
+        className: "custom-marker",
+        html: `<div style="background-color: #3388ff; width: ${
+          20 * size
+        }px; height: ${
+          20 * size
+        }px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
+        iconSize: [26 * size, 26 * size],
+        iconAnchor: [13 * size, 13 * size],
+      });
+      break;
+    case "leftStationIcon":
+      icon = L.divIcon({
+        className: "custom-marker selected",
+        html: `<div style="background-color: #ff3333; width: ${
+          20 * size
+        }px; height: ${
+          20 * size
+        }px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`,
+        iconSize: [26 * size, 26 * size],
+        iconAnchor: [13 * size, 13 * size],
+      });
+      break;
+  }
+  return icon;
+}
 
-export { stationIcon, leftStationIcon };
+export { getStationIcon };
 export { createCustomIcon };

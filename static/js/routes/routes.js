@@ -90133,7 +90133,7 @@ const new_routes = {
   },
 };
 
-let stations = [
+const stations = [
   {
     coords: { lat: 56.61713536597153, lng: 21.040272116661075 },
     name: "Šķēde",
@@ -91888,4 +91888,4 @@ let stations = [
   },
 ];
 
-export { new_routes, routes, buses, minibuses };
+export { new_routes, routes, buses, minibuses, stations };

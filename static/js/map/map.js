@@ -3,7 +3,8 @@ import { createCustomIcon } from "./style/markers.js";
 import { allowed_transports } from "../transports/filter_transport.js";
 import { showPanel } from "../transports/show_labels.js";
 import { showMarkersRoute } from "./handle_marker_click.js";
-import { routes, buses, minibuses } from "../routes/routes.js";
+import { stations, routes, buses, minibuses } from "../routes/routes.js";
+import { getStationIcon } from "./style/markers.js";
 
 const map = L.map("map").setView([56.49, 21.02], 15);
 
@@ -23,6 +24,7 @@ const routeState = {
 };
 const totalState = {
   map_vehicles: [],
+  map_stations: [],
 };
 
 function vehicle_init(vehicle) {
@@ -129,8 +131,26 @@ function refreshTransports() {
     }
   }
 }
+
+function showStations(yesNo) {
+  console.log(stations);
+  if (totalState.map_stations.length === 0 && yesNo === true) {
+    for (const station of stations) {
+      const marker = L.marker(station.coords, {
+        icon: getStationIcon("stationIcon", 0.7),
+      }).addTo(map);
+      marker.bindPopup(`<b>${station.name}</b>`);
+      totalState.map_stations.push(marker);
+    }
+  } else if (totalState.map_stations.length !== 0 && yesNo === false) {
+    for (const station_marker of totalState.map_stations) {
+      map.removeLayer(station_marker);
+    }
+    totalState.map_stations.length = 0;
+  }
+}
 // -----------------------------------------------------------------------
 
 export { map, routeState, totalState };
 export { updateMap };
-export { refreshTransports };
+export { refreshTransports, showStations };

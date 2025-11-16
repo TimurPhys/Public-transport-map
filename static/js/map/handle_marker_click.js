@@ -1,7 +1,11 @@
-import { map } from "./map.js";
-import { stationIcon } from "./style/markers.js";
+import { map, showStations } from "./map.js";
+import { getStationIcon } from "./style/markers.js";
 import { new_routes } from "../routes/routes.js";
 import { getCorrectTrajectory } from "./correct_trajectory_choice.js";
+import {
+  checkboxes,
+  show_stations_checkbox,
+} from "../transports/filter_transport.js";
 
 function deletePolyline(routeState) {
   if (routeState.currentPolyline !== null) {
@@ -17,6 +21,13 @@ function clearMarkers(routeState) {
     }
     routeState.currentMarkers.length = 0;
   }
+}
+
+function disableCheckboxes(onOff) {
+  checkboxes.forEach((checkbox) => {
+    checkbox.disabled = onOff;
+  });
+  show_stations_checkbox.disabled = onOff;
 }
 
 function showOnlyChosenTransport(
@@ -40,6 +51,13 @@ function showOnlyChosenTransport(
       }
     }
   }
+  if (!showAll) {
+    showStations(false);
+    disableCheckboxes(true);
+  } else {
+    showStations(show_stations_checkbox.checked);
+    disableCheckboxes(false);
+  }
 }
 
 function showMarkersRoute(routeState, totalState) {
@@ -56,11 +74,12 @@ function showMarkersRoute(routeState, totalState) {
       lineJoin: "round",
     }
   ).addTo(map);
-  const stations = new_routes[route]["m1"]["stations"];
+  const stations =
+    new_routes[route][getCorrectTrajectory(routeState)]["stations"];
   clearMarkers(routeState);
   for (const station of stations) {
     const marker = L.marker(station.coords, {
-      icon: stationIcon,
+      icon: getStationIcon("stationIcon", 1),
     }).addTo(map);
     marker.bindPopup(`<b>${station.name}</b>`);
     routeState.currentMarkers.push(marker);

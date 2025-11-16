@@ -8,12 +8,16 @@ const connection_info_block = document.querySelectorAll(
 );
 const connection_state = connection_info_block[0].querySelector("span");
 
+const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+const wsUrl = `ws://${window.location.host}/ws`;
+
+ws = new WebSocket(wsUrl);
+
+// function parseTable(name, ) {
+
+// }
+
 function connectWebSocket() {
-  const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
-  const wsUrl = `ws://${window.location.host}/ws`;
-
-  ws = new WebSocket(wsUrl);
-
   ws.onopen = () => {
     connection_state.textContent = "Подключено";
     connection_state.style.color = "green";
@@ -28,7 +32,7 @@ function connectWebSocket() {
   };
 
   ws.onclose = () => {
-    connection_state.textContent = "Отключено ✗";
+    connection_state.textContent = "Отключено";
     connection_state.style.color = "red";
     reconnect();
   };
@@ -43,6 +47,7 @@ function reconnect() {
   if (reconnectTimeout) clearTimeout(reconnectTimeout);
   reconnectTimeout = setTimeout(() => {
     connection_state.textContent = "Переподключение...";
+    connection_state.style.color = "yellow";
     connectWebSocket();
   }, 3000);
 }

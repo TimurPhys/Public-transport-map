@@ -1,4 +1,4 @@
-import { refreshTransports } from "../map/map.js";
+import { refreshTransports, showStations } from "../map/map.js";
 
 let allowed_transports = ["Трамвай", "Автобус", "Маршрутка"];
 
@@ -37,4 +37,10 @@ checkboxes.forEach((checkbox) => {
   });
 });
 
-export { allowed_transports };
+const show_stations_checkbox = document.querySelector(".show-stations input");
+
+show_stations_checkbox.addEventListener("change", (e) => {
+  showStations(show_stations_checkbox.checked);
+});
+
+export { allowed_transports, show_stations_checkbox, checkboxes };

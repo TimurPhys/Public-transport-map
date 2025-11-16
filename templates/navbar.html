@@ -6,10 +6,8 @@
       type="button"
       data-bs-toggle="offcanvas"
       data-bs-target="#sidebarRoutes"
-      aria-controls="sidebarRoutes"
     >
       <i class="bi bi-list"></i>
-      <!-- <span class="d-none d-sm-inline ms-1">Maršruti</span> -->
     </button>
 
     <!-- Логотип / название -->
@@ -20,30 +18,42 @@
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#topbarControls"
-      aria-controls="topbarControls"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Основные кнопки и фильтры -->
     <div class="collapse navbar-collapse" id="topbarControls">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+      <ul
+        class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center flex-column flex-lg-row w-100"
+      >
+        <!-- Поиск остановки -->
+        <li
+          class="nav-item me-lg-2 my-2 my-lg-0 w-100 w-lg-auto order-1 route-search"
+        >
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Поиск остановки или маршрута"
+              id="stopSearch"
+            />
+          </div>
+        </li>
+
         <!-- Режим отображения -->
-        <li class="nav-item dropdown me-lg-2">
+        <li class="nav-item dropdown me-lg-2 w-100 w-lg-auto order-2">
           <a
-            class="btn btn-outline-secondary dropdown-toggle w-100 w-lg-auto"
+            class="btn btn-outline-secondary dropdown-toggle w-100"
             href="#"
             id="viewDropdown"
-            role="button"
             data-bs-toggle="dropdown"
-            aria-expanded="false"
           >
             Отображение
           </a>
           <ul
-            class="dropdown-menu dropdown-menu-end"
+            class="dropdown-menu dropdown-menu-end w-100"
             aria-labelledby="viewDropdown"
           >
             <li>
@@ -67,59 +77,59 @@
           </ul>
         </li>
 
-        <!-- Поиск остановки -->
-        <li class="nav-item me-lg-2 my-2 my-lg-0">
-          <div class="input-group">
-            <span class="input-group-text">
-              <i class="bi bi-search"></i>
-            </span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Поиск остановки или маршрута"
-              id="stopSearch"
-            />
-          </div>
-        </li>
-
         <!-- Тогглы транспорта -->
-        <li class="nav-item ms-lg-1">
-          <div
-            class="btn-group transports-show"
-            role="group"
-            aria-label="Transport layers"
-          >
-            <input
-              type="checkbox"
-              class="btn-check"
-              id="filterBus"
-              checked
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="filterBus">
-              <i class="bi bi-bus-front"></i>
-            </label>
+        <li class="nav-item ms-lg-1 w-100 w-lg-auto order-3">
+          <div class="btn-group transports-show w-100" role="group">
+            <input type="checkbox" class="btn-check" id="filterBus" checked />
+            <label class="btn btn-outline-primary" for="filterBus"
+              ><i class="bi bi-bus-front"></i
+            ></label>
 
             <input
               type="checkbox"
               class="btn-check"
               id="filterMinibus"
               checked
-              autocomplete="off"
             />
-            <label class="btn btn-outline-success" for="filterMinibus">
-              <i class="bi bi-truck"></i>
-            </label>
+            <label class="btn btn-outline-success" for="filterMinibus"
+              ><i class="bi bi-truck"></i
+            ></label>
 
-            <input
-              type="checkbox"
-              class="btn-check"
-              id="filterTram"
-              checked
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-warning" for="filterTram">
-              <i class="bi bi-train-front"></i>
+            <input type="checkbox" class="btn-check" id="filterTram" checked />
+            <label class="btn btn-outline-warning" for="filterTram"
+              ><i class="bi bi-train-front"></i
+            ></label>
+          </div>
+        </li>
+
+        <!-- Кнопка с точкой -->
+        <li
+          class="nav-item ms-lg-1 w-100 w-lg-auto order-4"
+          style="margin-right: 10px"
+        >
+          <div
+            class="btn-group show-stations w-100 justify-content-center"
+            role="group"
+          >
+            <input type="checkbox" class="btn-check" id="filterStation" />
+            <label
+              class="btn btn-outline-primary"
+              for="filterStation"
+              style="width: 42px; height: 38px; position: relative"
+            >
+              <div
+                style="
+                  background-color: #3388ff;
+                  width: 18px;
+                  height: 18px;
+                  border-radius: 50%;
+                  border: 3px solid white;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-49%, -50%);
+                "
+              ></div>
             </label>
           </div>
         </li>

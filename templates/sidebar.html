@@ -1,3 +1,17 @@
+<style>
+  /* Ширина sidebar по умолчанию */
+  .offcanvas-start {
+    width: 40% !important;
+  }
+
+  /* На телефонах пусть занимает всю ширину */
+  @media (max-width: 1000px) {
+    .offcanvas-start {
+      width: 100% !important;
+    }
+  }
+</style>
+
 <div
   class="offcanvas offcanvas-start"
   tabindex="-1"
@@ -33,7 +47,7 @@
           type="button"
           role="tab"
         >
-          Autobusi
+          Автобусы
         </button>
       </li>
       <li class="nav-item" role="presentation">
@@ -45,7 +59,7 @@
           type="button"
           role="tab"
         >
-          Minibusi
+          Маршрутки
         </button>
       </li>
       <li class="nav-item" role="presentation">
@@ -57,7 +71,7 @@
           type="button"
           role="tab"
         >
-          Tramvaji
+          Трамваи
         </button>
       </li>
     </ul>

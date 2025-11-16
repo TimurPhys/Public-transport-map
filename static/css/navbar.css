@@ -1,0 +1,78 @@
+@media (max-width: 999px) {
+  .navbar-nav {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 6px; /* расстояние между элементами */
+  }
+
+  .navbar-nav .nav-item {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+  }
+  #topbarControls .navbar-nav {
+    gap: 0.5rem;
+  }
+
+  /* Поиск всегда первый */
+  .nav-item.order-1 {
+    order: 1 !important;
+  }
+
+  /* Отображение всегда второй */
+  .nav-item.order-2 {
+    order: 2 !important;
+  }
+
+  /* Транспорт всегда третий */
+  .nav-item.order-3 {
+    order: 3 !important;
+  }
+
+  /* Кнопка с точкой всегда четвертая */
+  .nav-item.order-4 {
+    order: 4 !important;
+  }
+
+  /* Убираем отступы на мобильных */
+  .nav-item.ms-lg-1,
+  .nav-item.me-lg-2 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Делаем кнопки транспорта одинаковой ширины */
+  .transports-show .btn {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* Центрируем кнопку с точкой */
+  .show-stations {
+    justify-content: center !important;
+  }
+}
+
+/* Плавные переходы */
+#topbarControls .navbar-nav {
+  transition: all 0.3s ease;
+}
+
+/* Улучшенное отображение на десктопе */
+@media (min-width: 990px) {
+  #topbarControls .navbar-nav {
+    flex-wrap: nowrap;
+  }
+  .navbar-nav {
+    max-width: 1200px; /* или нужная тебе ширина */
+    justify-content: flex-end;
+  }
+
+  .nav-item.route-search {
+    max-width: 600px;
+  }
+
+  .nav-item.dropdown {
+    max-width: 160px;
+  }
+}
