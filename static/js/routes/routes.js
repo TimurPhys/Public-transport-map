@@ -14930,7 +14930,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -17746,7 +17746,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -20924,7 +20924,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -23084,7 +23084,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -26123,7 +26123,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -29951,7 +29951,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -33026,7 +33026,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -35867,7 +35867,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -38377,7 +38377,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -49843,7 +49843,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -51793,7 +51793,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -54620,7 +54620,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -56794,7 +56794,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -58954,7 +58954,7 @@ const new_routes = {
           trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
         },
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48158483286921,
             lng: 21.02720439434052,
@@ -60512,7 +60512,7 @@ const new_routes = {
       ],
       stations: [
         {
-          name: "M. Ķempes iela",
+          name: "Mirdzas Ķempes iela",
           coords: {
             lat: 56.48196117487996,
             lng: 21.026024222373962,
@@ -91663,7 +91663,7 @@ const stations = [
     trans_attend: ["3", "4", "6", "9", "10", "6A", "9A"],
   },
   {
-    name: "M. Ķempes iela",
+    name: "Mirdzas Ķempes iela",
     coords: {
       lat: 56.48196117487996,
       lng: 21.026024222373962,
@@ -91671,7 +91671,7 @@ const stations = [
     trans_attend: ["3", "4", "6", "9", "10", "2s", "6A", "9A"],
   },
   {
-    name: "M. Ķempes iela",
+    name: "Mirdzas Ķempes iela",
     coords: {
       lat: 56.48158483286921,
       lng: 21.02720439434052,

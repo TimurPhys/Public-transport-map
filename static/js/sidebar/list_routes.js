@@ -57,11 +57,3 @@ for (const route_name of sorted_route_names) {
 
   list.appendChild(btn);
 }
-
-const route_items = document.querySelectorAll("button.route-item");
-route_items.forEach((route_item) => {
-  route_item.addEventListener("click", (e) => {
-    const route_name = route_item.querySelector("span.badge").textContent;
-    console.log(route_name);
-  });
-});
