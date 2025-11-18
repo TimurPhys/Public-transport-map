@@ -14,6 +14,7 @@ async def data_poller(latest_data, connected_clients):
             latest_data.clear()
             latest_data.extend(new_data)
 
+
             if new_data and connected_clients:
                 message = json.dumps({
                     'type': 'update',
@@ -23,6 +24,17 @@ async def data_poller(latest_data, connected_clients):
 
                 tasks = [client.send_text(message) for client in connected_clients]
                 await asyncio.gather(*tasks, return_exceptions=True) # Собираем все задачи, т.е. отпраялем сообщение каждому клиенту, gather делает именно это, а мы ждем когда он завершится
+
+            if len(new_data) == 0 and connected_clients:
+                message = json.dumps({
+                    'type': 'data_error',
+                    'data': "Couldn't parse data from website, probably website currently not working!",
+                    'timestamp': time.time()
+                })
+
+                tasks = [client.send_text(message) for client in connected_clients]
+                await asyncio.gather(*tasks, return_exceptions=True)
+
 
             logger.info(f"Данные обновлены: {len(new_data)} транспортов")
         

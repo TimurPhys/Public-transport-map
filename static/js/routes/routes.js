@@ -87955,4 +87955,4 @@ const stations = [
   },
 ];
 
-export { new_routes, routes, buses, minibuses, stations };
+export { new_routes, buses, minibuses, stations };

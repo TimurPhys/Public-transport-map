@@ -1,0 +1,32 @@
+.time-table {
+  width: auto;
+  /* table-layout: fixed; */
+  /* border-collapse: collapse !important; */
+}
+
+.time-table th,
+.time-table td {
+  padding: 2px 6px !important; /* уменьшенные отступы */
+  font-size: 14px; /* более строгий вид */
+  height: 22px; /* компактная высота строки */
+  line-height: 1.1; /* плотный текст */
+}
+
+.time-table th {
+  text-align: center;
+  font-weight: 600;
+}
+
+.time-table td:first-child {
+  /* width: 35px; колонка "часы" */
+  text-align: right;
+}
+
+.time-table td:last-child {
+  /* min-width: 120px; колонка "минуты" */
+}
+
+.time-table thead th {
+  background-color: #f1f1f1; /* как в старой таблице */
+  white-space: nowrap;
+}

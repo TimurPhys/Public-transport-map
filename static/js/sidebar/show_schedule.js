@@ -1,4 +1,9 @@
 import { time_tables } from "../../json/parse_json.js";
+import {
+  setHandlerOnButtons,
+  setHandlersOnLinks,
+  setHandlerOnSelect,
+} from "./handlers.js";
 
 const secondOffcanvasDiv = document.getElementById("secondOffcanvas");
 // const firstOffcanvasDiv = document.getElementById("sidebarRoutes");
@@ -21,50 +26,90 @@ function openSecondOffcanvas() {
 }
 // openSecondOffcanvas();
 
-function setHandlerOnButtons(row_div, direction, route_name, station_buttons) {
-  if (station_buttons.length !== 0) {
-    station_buttons.forEach((station_button) => {
-      station_button.addEventListener("click", (e) => {
-        station_buttons.forEach((btn) => {
-          btn.className = "list-group-item list-group-item-action";
-        });
-        station_button.className =
-          "list-group-item list-group-item-action active";
-
-        const station_name = e.target.textContent.trim();
-        showStationTimetable(row_div, direction, route_name, station_name);
-      });
-    });
+function showStationTimetable(
+  row_div,
+  direction,
+  route_name,
+  station_name,
+  station_buttons
+) {
+  let tables_html = "";
+  const tables =
+    time_tables[route_name][direction]["time_tables"][station_name];
+  let weekDay = "";
+  let maxHoursAmount = null;
+  let largestTable = null;
+  if (tables.length > 1) {
+    maxHoursAmount = Math.max(
+      Object.keys(tables[0]).length,
+      Object.keys(tables[1]).length
+    );
+    for (const table of tables) {
+      if (Object.keys(table).length === maxHoursAmount) {
+        largestTable = table;
+      }
+    }
+  } else {
+    largestTable = tables[0];
   }
-}
-
-function showStationTimetable(row_div, direction, route_name, station_name) {
-  const table = document.createElement("table");
-  table.className = "table table-bordered mb-4 time-table";
-  table.style = "width: auto";
-  let rows = "";
-  for (const hour of Object.keys(
-    time_tables[route_name][direction][station_name]
-  )) {
-    const minutes =
-      time_tables[route_name][direction][station_name][hour].join(" ");
-    rows += `
-          <tr>
-                        <td style="font-weight: 600">${hour}</td>
-                        <td style="min-width: 170px">${minutes}</td>
-                      </tr>
-          `;
+  for (let i = 0; i < tables.length; i++) {
+    if (i == 0) {
+      weekDay = "Рабочие дни";
+    } else if (i == 1) {
+      weekDay = "Выходные дни";
+    }
+    const table = document.createElement("table");
+    table.className = "table table-bordered mb-4 time-table custom-table";
+    let rows = "";
+    for (const hour of Object.keys(largestTable)) {
+      const minutes = tables[i][hour];
+      if (minutes) {
+        let minutes_a = "";
+        for (const minute of minutes) {
+          const minute_a = document.createElement("a");
+          minute_a.className =
+            "link-opacity-100-hover link-underline link-underline-opacity-0 me-2";
+          const route_name_from_table = minute
+            .split("-")[1]
+            .trim()
+            .toLowerCase();
+          minute_a.textContent = minute.split("-")[0];
+          if (route_name_from_table === route_name.toLowerCase()) {
+            minute_a.classList.add("link-dark");
+          } else {
+            minute_a.classList.add("link-primary");
+          }
+          minute_a.id = `route_${route_name_from_table}`;
+          minute_a.href = "#";
+          minutes_a += minute_a.outerHTML;
+        }
+        rows += `
+            <tr>
+                            <td style="font-weight: 600">${hour}</td>
+                            <td>${minutes_a}</td>
+                        </tr>
+            `;
+      } else {
+        rows += `
+            <tr>
+                            <td style="font-weight: 900">-</td>
+                            <td></td>
+                        </tr>
+            `;
+      }
+    }
+    table.innerHTML = `<thead>
+                        <tr>
+                            <th colspan="2" style="font-weight: 600">${weekDay}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        ${rows}
+                        </tbody>`;
+    tables_html += table.outerHTML;
   }
-  table.innerHTML = `<thead>
-                      <tr>
-                        <th colspan="2" style="font-weight: 600">Рабочие дни</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    ${rows}
-                    </tbody>`;
 
-  const route_desctiption_html = `<div class="col-8">
+  const route_description_html = `<div class="col-8">
         <div
           class="tab-content p-3"
           id="nav-tabContent"
@@ -83,7 +128,7 @@ function showStationTimetable(row_div, direction, route_name, station_name) {
             </div>
 
             <div class="container d-flex justify-content-around">
-             ${table.outerHTML}
+             ${tables_html}
             </div>
             <div class="card mb-3">
               <div class="card-header">
@@ -104,7 +149,10 @@ function showStationTimetable(row_div, direction, route_name, station_name) {
   if (document.querySelector("table.time-table")) {
     row_div.removeChild(row_div.lastChild);
   }
-  row_div.insertAdjacentHTML("beforeend", route_desctiption_html);
+
+  row_div.insertAdjacentHTML("beforeend", route_description_html);
+
+  setHandlersOnLinks(route_name, direction, station_buttons);
 }
 
 function createSelect(my_route_name, my_direction) {
@@ -154,17 +202,6 @@ function createSelect(my_route_name, my_direction) {
   createSchedule(my_route_name, my_direction, offcanvas_body_div);
 }
 
-function setHandlerOnSelect(
-  select_direction,
-  my_route_name,
-  offcanvas_body_div
-) {
-  select_direction.addEventListener("change", (e) => {
-    const new_direction = e.target.value.trim();
-    createSchedule(my_route_name, new_direction, offcanvas_body_div);
-  });
-}
-
 function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
   const old_row_div = offcanvas_body_div.querySelector("div.row");
   if (old_row_div) {
@@ -177,7 +214,7 @@ function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
   let i = 0;
   let state = "";
   for (const station_name of Object.keys(
-    time_tables[my_route_name][my_direction]
+    time_tables[my_route_name][my_direction]["time_tables"]
   )) {
     if (i === 0) {
       state = "active";
@@ -190,8 +227,7 @@ function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
             aria-current="true"
             style="height: auto; font-size: 15px"
           >
-            ${station_name}
-          </button>`;
+            <strong class="me-2"></strong>${station_name}</button>`;
     buttonsListHtml += button;
     i += 1;
   }
@@ -212,8 +248,9 @@ function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
     row_div,
     my_direction,
     my_route_name,
-    station_buttons[0].textContent.trim()
+    station_buttons[0].textContent.trim(),
+    station_buttons
   );
-
-  //   offcanvas_body_div.insertAdjacentHTML("beforeend", list);
 }
+
+export { showStationTimetable, createSchedule };

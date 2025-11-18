@@ -3,7 +3,7 @@ import { createCustomIcon } from "./style/markers.js";
 import { allowed_transports } from "../transports/filter_transport.js";
 import { showPanel } from "../transports/show_labels.js";
 import { showMarkersRoute } from "./handle_marker_click.js";
-import { stations, routes, buses, minibuses } from "../routes/routes.js";
+import { stations, buses, minibuses } from "../routes/routes.js";
 import { getStationIcon } from "./style/markers.js";
 
 const map = L.map("map").setView([56.49, 21.02], 15);
