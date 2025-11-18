@@ -1,18 +1,15 @@
 import { time_tables } from "../../json/parse_json.js";
 
 const secondOffcanvasDiv = document.getElementById("secondOffcanvas");
-const firstOffcanvasDiv = document.getElementById("sidebarRoutes");
+// const firstOffcanvasDiv = document.getElementById("sidebarRoutes");
 const route_items = document.querySelectorAll("button.route-item");
 
 route_items.forEach((route_item) => {
   route_item.addEventListener("click", (e) => {
     const route_name = route_item.querySelector("span.badge").textContent;
     openSecondOffcanvas();
-    console.log(route_name);
     const direction = route_item.querySelector("div .fw-semibold").textContent;
-    console.log(direction);
-    // createSchedule(route_name, direction);
-    createSelect(route_name);
+    createSelect(route_name, direction);
   });
 });
 
@@ -35,7 +32,6 @@ function setHandlerOnButtons(row_div, direction, route_name, station_buttons) {
           "list-group-item list-group-item-action active";
 
         const station_name = e.target.textContent.trim();
-        console.log(station_name);
         showStationTimetable(row_div, direction, route_name, station_name);
       });
     });
@@ -111,7 +107,7 @@ function showStationTimetable(row_div, direction, route_name, station_name) {
   row_div.insertAdjacentHTML("beforeend", route_desctiption_html);
 }
 
-function createSelect(my_route_name) {
+function createSelect(my_route_name, my_direction) {
   secondOffcanvasDiv.innerHTML = "";
   const header = `<div class="offcanvas-header border-bottom">
     <h5 class="offcanvas-title">Расписание маршрута</h5>
@@ -126,7 +122,7 @@ function createSelect(my_route_name) {
   offcanvas_body_div.className = "offcanvas-body py-1";
 
   const select_direction = document.createElement("select");
-  select_direction.className = "form-select form-select";
+  select_direction.className = "form-select direction-select";
   select_direction.ariaLabel = ".form-select";
 
   for (const direction of Object.keys(time_tables[my_route_name])) {
@@ -150,17 +146,30 @@ function createSelect(my_route_name) {
   secondOffcanvasDiv.insertAdjacentHTML("afterbegin", header);
   secondOffcanvasDiv.appendChild(offcanvas_body_div);
 
-  setHandlerOnSelect(select_direction);
+  const added_select_direction = document.querySelector(
+    "select.direction-select"
+  );
+  added_select_direction.value = my_direction;
+  setHandlerOnSelect(added_select_direction, my_route_name, offcanvas_body_div);
+  createSchedule(my_route_name, my_direction, offcanvas_body_div);
 }
 
-function setHandlerOnSelect(select_direction) {
-  console.log(select_direction);
+function setHandlerOnSelect(
+  select_direction,
+  my_route_name,
+  offcanvas_body_div
+) {
   select_direction.addEventListener("change", (e) => {
-    console.log(e);
+    const new_direction = e.target.value.trim();
+    createSchedule(my_route_name, new_direction, offcanvas_body_div);
   });
 }
 
-function createSchedule(my_route_name, my_direction) {
+function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
+  const old_row_div = offcanvas_body_div.querySelector("div.row");
+  if (old_row_div) {
+    offcanvas_body_div.removeChild(old_row_div);
+  }
   const row_div = document.createElement("div");
   row_div.className = "row";
 
