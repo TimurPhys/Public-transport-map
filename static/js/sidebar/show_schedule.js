@@ -226,6 +226,7 @@ function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
             class="list-group-item list-group-item-action ${state} station-button"
             aria-current="true"
             style="height: auto; font-size: 15px"
+            data-station-name=${station_name.replaceAll(" ", "_")}
           >
             <strong class="me-2"></strong>${station_name}</button>`;
     buttonsListHtml += button;
@@ -253,4 +254,4 @@ function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
   );
 }
 
-export { showStationTimetable, createSchedule };
+export { showStationTimetable, createSchedule, createSelect };

@@ -47,7 +47,7 @@ function reconnect() {
   if (reconnectTimeout) clearTimeout(reconnectTimeout);
   reconnectTimeout = setTimeout(() => {
     connection_state.textContent = "Переподключение...";
-    connection_state.style.color = "yellow";
+    connection_state.style.color = "orange";
     connectWebSocket();
   }, 3000);
 }

@@ -87956,3 +87956,52 @@ const stations = [
 ];
 
 export { new_routes, buses, minibuses, stations };
+
+// const minute_link_index = Array.from(minutes_links)
+//   .filter((minute_link_there) => {
+//     return (
+//       minute_link_there.id.split("_")[1].toLowerCase() ===
+//       route_name.toLowerCase()
+//     );
+//   })
+//   .indexOf(minute_link);
+// const minute_link_value = minute_link.textContent.trim();
+// console.log("Индекс: ");
+// console.log(minute_link_index);
+// console.log(minute_link_value);
+
+// if (minute_link.id == `route_${route_name.toLowerCase()}`) {
+//   let new_stop_times = [];
+//   for (const station of Object.keys(
+//     time_tables[route_name][direction]["time_tables"]
+//   )) {
+//     let all_minutes = [];
+//     let current_hour = null;
+//     for (
+//       let i = 0;
+//       i <
+//       time_tables[route_name][direction]["time_tables"][station].length;
+//       i++
+//     ) {
+//       const table =
+//         time_tables[route_name][direction]["time_tables"][station][i];
+//       for (const hour of Object.keys(table)) {
+//         const edited_array = table[hour]
+//           .filter(
+//             (value) => value.split("-")[1] === route_name.toLowerCase()
+//           )
+//           .map((value) => value.split("-")[0]);
+//         all_minutes.push(...edited_array);
+
+//         if (edited_array.length - 1 > minute_link_index) {
+//           current_hour = hour;
+//           break;
+//         }
+//       }
+//     }
+//     console.log(`Массив минут: ${all_minutes}`);
+//     const current_time = `hour:${all_minutes[minute_link_index]}`;
+//     new_stop_times.push(current_time);
+//   }
+//   console.log(new_stop_times);
+// }
