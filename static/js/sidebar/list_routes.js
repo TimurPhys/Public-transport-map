@@ -8,6 +8,43 @@ const routeLists = {
 
 Object.values(routeLists).forEach((list) => (list.innerHTML = ""));
 
+const transportTabs = document.querySelectorAll('[data-bs-toggle="pill"]');
+transportTabs.forEach((transportTab) => {
+  transportTab.addEventListener("click", () => {
+    routeFilterInput.value = "";
+    const event = new Event("input");
+    routeFilterInput.dispatchEvent(event);
+  });
+});
+
+const routeFilterInput = document.querySelector("#routeFilterInput");
+routeFilterInput.addEventListener("input", (e) => {
+  const query = e.target.value.toLowerCase();
+  console.log(query);
+
+  const transportType = Array.from(
+    document.querySelectorAll('[data-bs-toggle="pill"]')
+  )
+    .filter((value) => value.classList.contains("active"))[0]
+    .getAttribute("data-bs-target")
+    .split("-")[1];
+
+  const items = document
+    .querySelector(`div#pills-${transportType}`)
+    .querySelectorAll(".route-item");
+  console.log(items);
+
+  items.forEach((item) => {
+    const text = item.getAttribute("data-route-id").toLowerCase().trim();
+
+    if (text.includes(query) || query === "") {
+      item.classList.remove("d-none");
+    } else {
+      item.classList.add("d-none");
+    }
+  });
+});
+
 const sorted_route_names = Object.keys(new_routes)
   .map((str) => {
     const numbersMatch = str.match(/\d+/g);
