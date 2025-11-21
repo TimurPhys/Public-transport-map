@@ -4,6 +4,13 @@ import {
   setHandlersOnLinks,
   setHandlerOnSelect,
 } from "./handlers.js";
+import { routeState, totalState } from "../map/map.js";
+import {
+  showMarkersRoute,
+  deletePolyline,
+  clearMarkers,
+  showOnlyChosenTransport,
+} from "../map/handle_marker_click.js";
 
 const secondOffcanvasDiv = document.getElementById("secondOffcanvas");
 // const firstOffcanvasDiv = document.getElementById("sidebarRoutes");
@@ -12,11 +19,36 @@ const route_items = document.querySelectorAll("button.route-item");
 route_items.forEach((route_item) => {
   route_item.addEventListener("click", (e) => {
     const route_name = route_item.querySelector("span.badge").textContent;
-    openSecondOffcanvas();
     const direction = route_item.querySelector("div .fw-semibold").textContent;
+    openSecondOffcanvas();
     createSelect(route_name, direction);
+    showCurrentRouteOnMap(route_name, direction);
   });
 });
+
+function showCurrentRouteOnMap(route_name, direction) {
+  routeState.currentRoute = route_name;
+  showMarkersRoute(routeState, totalState, direction, "route_name");
+  const close_route_button = document
+    .querySelector("#secondOffcanvas")
+    .querySelector("button.btn-close");
+
+  close_route_button.addEventListener("click", () => {
+    removeCurrentRouteFromMap(routeState);
+  });
+}
+
+function removeCurrentRouteFromMap(routeState) {
+  console.log("Маршрут закрыт");
+  deletePolyline(routeState);
+  clearMarkers(routeState);
+  showOnlyChosenTransport(
+    routeState,
+    totalState.map_vehicles,
+    "route_name",
+    true
+  );
+}
 
 function openSecondOffcanvas() {
   setTimeout(() => {
@@ -254,4 +286,10 @@ function createSchedule(my_route_name, my_direction, offcanvas_body_div) {
   );
 }
 
-export { showStationTimetable, createSchedule, createSelect };
+export {
+  showStationTimetable,
+  createSchedule,
+  createSelect,
+  showCurrentRouteOnMap,
+  removeCurrentRouteFromMap,
+};

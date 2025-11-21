@@ -20,7 +20,6 @@ transportTabs.forEach((transportTab) => {
 const routeFilterInput = document.querySelector("#routeFilterInput");
 routeFilterInput.addEventListener("input", (e) => {
   const query = e.target.value.toLowerCase();
-  console.log(query);
 
   const transportType = Array.from(
     document.querySelectorAll('[data-bs-toggle="pill"]')
@@ -32,7 +31,6 @@ routeFilterInput.addEventListener("input", (e) => {
   const items = document
     .querySelector(`div#pills-${transportType}`)
     .querySelectorAll(".route-item");
-  console.log(items);
 
   items.forEach((item) => {
     const text = item.getAttribute("data-route-id").toLowerCase().trim();

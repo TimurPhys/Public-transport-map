@@ -42,7 +42,12 @@ if (close_button !== null) {
   close_button.addEventListener("click", () => {
     deletePolyline(routeState);
     clearMarkers(routeState);
-    showOnlyChosenTransport(routeState, totalState.map_vehicles, true);
+    showOnlyChosenTransport(
+      routeState,
+      totalState.map_vehicles,
+      "number",
+      true
+    );
     card.style.opacity = "0";
     setTimeout(() => (card.style.display = "none"), 500); // убрать из потока после анимации
   });

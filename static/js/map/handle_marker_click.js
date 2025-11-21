@@ -33,20 +33,29 @@ function disableCheckboxes(onOff) {
 function showOnlyChosenTransport(
   routeState,
   all_vehicles = [],
+  filter_after_what = "number",
   showAll = false
 ) {
-  const chosenTransportNumber = routeState.currentNumber;
-  const chosenTransportMarker = all_vehicles.find(
-    (vehicle) => vehicle.number === chosenTransportNumber
-  )["marker"];
+  let chosenTransportsMarkers = null;
+  if (filter_after_what === "number") {
+    const chosenTransportNumber = routeState.currentNumber;
+    chosenTransportsMarkers = all_vehicles
+      .filter((vehicle) => vehicle.number === chosenTransportNumber)
+      .map((value) => value["marker"]);
+  } else if (filter_after_what === "route_name") {
+    const chosenTransportNumber = routeState.currentRoute;
+    chosenTransportsMarkers = all_vehicles
+      .filter((vehicle) => vehicle.route === chosenTransportNumber)
+      .map((value) => value["marker"]);
+  }
   const all_markers = all_vehicles.map((vehicle) => vehicle.marker);
   for (const marker of all_markers) {
     if (!showAll) {
-      if (marker !== chosenTransportMarker) {
+      if (!chosenTransportsMarkers.includes(marker)) {
         map.removeLayer(marker);
       }
     } else {
-      if (marker !== chosenTransportMarker) {
+      if (!chosenTransportsMarkers.includes(marker)) {
         marker.addTo(map);
       }
     }
@@ -60,13 +69,30 @@ function showOnlyChosenTransport(
   }
 }
 
-function showMarkersRoute(routeState, totalState) {
+function showMarkersRoute(
+  routeState,
+  totalState,
+  direction = getCorrectTrajectory(routeState),
+  filter_after_what = "number"
+) {
   deletePolyline(routeState);
-  showOnlyChosenTransport(routeState, totalState.map_vehicles);
-
+  showOnlyChosenTransport(
+    routeState,
+    totalState.map_vehicles,
+    filter_after_what
+  );
   const route = routeState.currentRoute;
+  console.log(route);
+
+  let direction_option = null;
+  if (filter_after_what === "number") {
+    direction_option = direction;
+  } else if (filter_after_what === "route_name") {
+    direction_option = getCorrectRouteOption(routeState, direction);
+  }
+
   routeState.currentPolyline = L.polyline(
-    new_routes[route][getCorrectTrajectory(routeState)]["trajectory"],
+    new_routes[route][direction_option]["trajectory"],
     {
       color: "red",
       weight: 3,
@@ -74,8 +100,33 @@ function showMarkersRoute(routeState, totalState) {
       lineJoin: "round",
     }
   ).addTo(map);
-  const stations =
-    new_routes[route][getCorrectTrajectory(routeState)]["stations"];
+  map.fitBounds(routeState.currentPolyline.getBounds());
+  attachNewMarkers(routeState, direction_option);
+}
+
+function getCorrectRouteOption(routeState, direction) {
+  const route = routeState.currentRoute;
+  const firstStation = direction.split(" - ")[0];
+  const lastStation = direction.split(" - ")[1];
+
+  let correct_route_option = null;
+  for (const route_option in new_routes[route]) {
+    const stations = new_routes[route][route_option]["stations"];
+    const stations_length = stations.length;
+    if (
+      stations[0]["name"] === firstStation &&
+      stations[stations_length - 1]["name"] === lastStation
+    ) {
+      correct_route_option = route_option;
+      break;
+    }
+  }
+  return correct_route_option;
+}
+
+function attachNewMarkers(routeState, route_option) {
+  const route = routeState.currentRoute;
+  const stations = new_routes[route][route_option]["stations"];
   clearMarkers(routeState);
   for (const station of stations) {
     const marker = L.marker(station.coords, {

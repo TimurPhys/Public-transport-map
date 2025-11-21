@@ -190,7 +190,6 @@ function getStopTimes(
             ? j
             : j - station_time_table_max_hour - 1
         ];
-
       if (all_minutes) {
         all_minutes = all_minutes
           .filter(

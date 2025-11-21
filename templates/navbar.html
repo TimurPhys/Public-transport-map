@@ -13,14 +13,25 @@
     <!-- Логотип / название -->
     <a class="navbar-brand fw-semibold" href="#">Marsruti.lv</a>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#topbarControls"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="d-flex">
+      <!-- <li class="nav-item ms-lg-1 w-100 w-lg-auto order-5"> -->
+      <div
+        class="btn-group show-stations w-100 justify-content-center d-flex me-3"
+        role="group"
+      >
+        <button class="btn btn-info">Закрыть маршрут</button>
+      </div>
+      <!-- </li> -->
+
+      <button
+        class="navbar-toggler d-flex"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#topbarControls"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
 
     <!-- Основные кнопки и фильтры -->
     <div class="collapse navbar-collapse" id="topbarControls">

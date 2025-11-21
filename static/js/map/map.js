@@ -133,7 +133,6 @@ function refreshTransports() {
 }
 
 function showStations(yesNo) {
-  console.log(stations);
   if (totalState.map_stations.length === 0 && yesNo === true) {
     for (const station of stations) {
       const marker = L.marker(station.coords, {

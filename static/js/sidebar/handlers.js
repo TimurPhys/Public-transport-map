@@ -5,6 +5,7 @@ import {
 } from "./show_schedule.js";
 import { time_tables } from "../../json/parse_json.js";
 import { getStopTimes } from "./get_stop_times.js";
+import { showCurrentRouteOnMap } from "./show_schedule.js";
 
 function setHandlerOnButtons(row_div, direction, route_name, station_buttons) {
   if (station_buttons.length !== 0) {
@@ -58,33 +59,36 @@ function setHandlersOnLinks(route_name, direction, station_buttons) {
       const tables = table.closest("div").querySelectorAll("table");
       const table_index = Array.from(tables).indexOf(table);
 
-      const stop_times = getStopTimes(
-        cur_hour,
-        cur_minutes,
-        direction,
-        route_name,
-        table_index,
-        station_buttons,
-        active_button_index
-      );
-
-      let i = 0;
-      station_buttons.forEach((station_button) => {
-        const strong = station_button.querySelector("strong");
-        strong.textContent = stop_times[i];
-        i += 1;
-      });
-
       const other_route_name = minute_link.id.split("_")[1];
 
-      minutes_links.forEach((each_minute_link) => {
-        each_minute_link.style = "";
-      });
-      minute_link.style =
-        "font-weight: 700; color: blue; border: 1px solid blue; border-radius: 20%; padding: 1px"; // делаю выделение
+      if (other_route_name === route_name.toLowerCase()) {
+        // Если номер транспорта не поменялся
+        const stop_times = getStopTimes(
+          // Находим времена для нашего транспорта
+          cur_hour,
+          cur_minutes,
+          direction,
+          route_name,
+          table_index,
+          station_buttons,
+          active_button_index
+        );
 
-      if (other_route_name !== route_name.toLowerCase()) {
+        let i = 0;
+        station_buttons.forEach((station_button) => {
+          const strong = station_button.querySelector("strong"); // Вставляем времена
+          strong.textContent = stop_times[i];
+          i += 1;
+        });
+        minutes_links.forEach((each_minute_link) => {
+          each_minute_link.style = "";
+        });
+        minute_link.style =
+          "font-weight: 700; color: blue; border: 1px solid blue; border-radius: 20%; padding: 1px"; // Делаем выделение клетки
+      } else {
+        // Если номер транспорта изменился
         const other_route_directions = Object.keys(
+          // Находим направление для нового номера транспорта
           time_tables[
             !other_route_name.includes("s")
               ? other_route_name.toUpperCase()
@@ -104,6 +108,7 @@ function setHandlersOnLinks(route_name, direction, station_buttons) {
           }
         }
         createSelect(
+          // Делаем редирект на новую страницу
           !other_route_name.includes("s")
             ? other_route_name.toUpperCase()
             : other_route_name,
@@ -112,9 +117,9 @@ function setHandlersOnLinks(route_name, direction, station_buttons) {
         const my_station_button = document.querySelector(
           `[data-station-name="${active_station_name.replaceAll(" ", "_")}"]`
         );
-        my_station_button.click();
-        const newMinuteLink = findNewMinuteLink(cur_hour, cur_minutes);
-        newMinuteLink.click();
+        my_station_button.click(); // Кликаем на нашу до этого выбранную остановку
+        const newMinuteLink = findNewMinuteLink(cur_hour, cur_minutes); // Находим ту ссылку у которой значение совпадает
+        newMinuteLink.click(); // Нажимаем на эту ссылку, далее выполняется код в первом if
       }
     });
   });
@@ -148,6 +153,8 @@ function setHandlerOnSelect(
   select_direction.addEventListener("change", (e) => {
     const new_direction = e.target.value.trim();
     createSchedule(my_route_name, new_direction, offcanvas_body_div);
+    console.log(my_route_name, new_direction);
+    showCurrentRouteOnMap(my_route_name, new_direction);
   });
 }
 
