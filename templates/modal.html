@@ -1,15 +1,14 @@
 <!-- Vertically centered modal -->
 <div
   class="modal fade"
-  id="exampleModalToggle"
-  aria-hidden="true"
-  aria-labelledby="exampleModalToggleLabel"
+  id="settingModalToggle"
+  aria-labelledby="settingModalToggleLabel"
   tabindex="-1"
 >
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalToggleLabel">Настройки</h5>
+        <h5 class="modal-title" id="settingModalToggleLabel">Настройки</h5>
         <button
           type="button"
           class="btn-close"
@@ -18,7 +17,7 @@
         ></button>
       </div>
       <div class="modal-body">
-        <form action="">
+        <form action="" method="POST">
           <div class="form-group mb-2">
             <label for="languageSelect">Язык:</label>
             <select class="form-select" id="languageSelect">
@@ -40,11 +39,7 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button
-          class="btn btn-primary"
-          data-bs-target="#exampleModalToggle2"
-          data-bs-dismiss="modal"
-        >
+        <button class="btn btn-primary" type="submit" data-bs-dismiss="modal">
           Применить
         </button>
       </div>

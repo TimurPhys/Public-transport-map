@@ -14,17 +14,15 @@
     <a class="navbar-brand fw-semibold" href="#">Marsruti.lv</a>
 
     <div class="d-flex">
-      <!-- <li class="nav-item ms-lg-1 w-100 w-lg-auto order-5"> -->
       <div
-        class="btn-group show-stations w-100 justify-content-center d-flex me-3"
+        class="btn-group w-100 justify-content-center d-flex me-3 hide-route d-none"
         role="group"
       >
         <button class="btn btn-info">Закрыть маршрут</button>
       </div>
-      <!-- </li> -->
 
       <button
-        class="navbar-toggler d-flex"
+        class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#topbarControls"
@@ -56,43 +54,20 @@
         <!-- Режим отображения -->
         <li class="nav-item dropdown me-lg-2 w-100 w-lg-auto order-2">
           <a
-            class="btn btn-outline-secondary w-100"
-            href="#exampleModalToggle"
+            class="btn btn-outline-secondary w-100 settings"
+            href="#settingModalToggle"
             data-bs-toggle="modal"
             id="viewDropdown"
           >
             Настройки
           </a>
-          <ul
-            class="dropdown-menu dropdown-menu-end w-100"
-            aria-labelledby="viewDropdown"
-          >
-            <li>
-              <a class="dropdown-item" href="#" data-view="osm">OSM karte</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#" data-view="traffic"
-                >HERE traffic</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#" data-view="satellite"
-                >HERE satellite</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#" data-view="hybrid"
-                >HERE hybrid</a
-              >
-            </li>
-          </ul>
         </li>
 
         <!-- Тогглы транспорта -->
         <li class="nav-item ms-lg-1 w-100 w-lg-auto order-3">
           <div class="btn-group transports-show w-100" role="group">
             <input type="checkbox" class="btn-check" id="filterBus" checked />
-            <label class="btn btn-outline-primary" for="filterBus"
+            <label class="btn btn-outline-success filter-bus" for="filterBus"
               ><i class="bi bi-bus-front"></i
             ></label>
 
@@ -102,18 +77,20 @@
               id="filterMinibus"
               checked
             />
-            <label class="btn btn-outline-success" for="filterMinibus"
+            <label
+              class="btn btn-outline-primary filter-minibus"
+              for="filterMinibus"
               ><i class="bi bi-truck"></i
             ></label>
 
             <input type="checkbox" class="btn-check" id="filterTram" checked />
-            <label class="btn btn-outline-warning" for="filterTram"
+            <label class="btn btn-outline-warning filter-tram" for="filterTram"
               ><i class="bi bi-train-front"></i
             ></label>
           </div>
         </li>
 
-        <!-- Кнопка с точкой -->
+        <!-- Кнопка для показывания остановок -->
         <li
           class="nav-item ms-lg-1 w-100 w-lg-auto order-4"
           style="margin-right: 10px"

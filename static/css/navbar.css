@@ -76,3 +76,16 @@
     max-width: 160px;
   }
 }
+
+@media (min-width: 992px) {
+  div.hide-route.d-flex {
+    display: none !important;
+  }
+}
+
+/* 
+Цвет кнопок */
+
+/* li.nav-item label.filter-tram.btn-primary {
+  background-color: #f06f1f !important;
+} */

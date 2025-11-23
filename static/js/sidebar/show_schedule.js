@@ -26,16 +26,29 @@ route_items.forEach((route_item) => {
   });
 });
 
+// Работаю с картой и показываю траекторию маршрута
 function showCurrentRouteOnMap(route_name, direction) {
+  const hide_route_div = document.querySelector("div.hide-route");
   routeState.currentRoute = route_name;
+  hide_route_div.classList.remove("d-none");
   showMarkersRoute(routeState, totalState, direction, "route_name");
   const close_route_button = document
     .querySelector("#secondOffcanvas")
     .querySelector("button.btn-close");
 
-  close_route_button.addEventListener("click", () => {
-    removeCurrentRouteFromMap(routeState);
-  });
+  const hide_route_button = hide_route_div.querySelector("button");
+  if (hide_route_button.offsetParent === null) {
+    // Если кнопка не отображается
+    close_route_button.addEventListener("click", () => {
+      removeCurrentRouteFromMap(routeState);
+      hide_route_div.classList.add("d-none");
+    });
+  } else {
+    hide_route_button.addEventListener("click", () => {
+      removeCurrentRouteFromMap(routeState);
+      hide_route_div.classList.add("d-none");
+    });
+  }
 }
 
 function removeCurrentRouteFromMap(routeState) {

@@ -120,6 +120,13 @@ function setHandlersOnLinks(route_name, direction, station_buttons) {
         my_station_button.click(); // Кликаем на нашу до этого выбранную остановку
         const newMinuteLink = findNewMinuteLink(cur_hour, cur_minutes); // Находим ту ссылку у которой значение совпадает
         newMinuteLink.click(); // Нажимаем на эту ссылку, далее выполняется код в первом if
+
+        showCurrentRouteOnMap(
+          !other_route_name.includes("s")
+            ? other_route_name.toUpperCase()
+            : other_route_name,
+          direction_for_redirect
+        ); // Обновляю маршрут на карте
       }
     });
   });

@@ -24,6 +24,15 @@ function clearMarkers(routeState) {
 }
 
 function disableCheckboxes(onOff) {
+  const settings_button = document.querySelector("a.settings");
+  if (onOff) {
+    settings_button.classList.add("disabled");
+  } else {
+    if (settings_button.classList.contains("disabled")) {
+      settings_button.classList.remove("disabled");
+    }
+  }
+
   checkboxes.forEach((checkbox) => {
     checkbox.disabled = onOff;
   });
